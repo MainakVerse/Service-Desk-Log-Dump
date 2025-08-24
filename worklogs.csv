@@ -1,0 +1,1241 @@
+created_by,description,end_time,owner_name,recorded_time,request_id,start_time,time_spent,total_charge,worklog_id
+Bruce Cao,Investigation,"Aug 21, 2025 07:19 AM",Bruce Cao,"Aug 21, 2025 07:19 AM",1989000007295739,"Aug 21, 2025 06:34 AM",2700000,,1989000007294605
+Himanshu Gupta,data loaded successfully&nbsp;,"Aug 22, 2025 01:24 PM",Himanshu Gupta,"Aug 22, 2025 01:24 PM",1989000007302383,"Aug 21, 2025 12:24 PM",90000000,,1989000007310482
+Himanshu Gupta,pipeline updated&nbsp;,"Aug 15, 2025 07:33 AM",Himanshu Gupta,"Aug 15, 2025 07:34 AM",1989000007260297,"Aug 15, 2025 07:00 AM",1980000,,1989000007256961
+Himanshu Gupta,data loaded successfully&nbsp;,"Aug 22, 2025 01:26 PM",Himanshu Gupta,"Aug 22, 2025 01:27 PM",1989000007308580,"Aug 22, 2025 01:00 PM",1560000,,1989000007310526
+Himanshu Gupta,Frt load done in prod and dev,"Aug 15, 2025 01:00 PM",Himanshu Gupta,"Aug 15, 2025 01:35 PM",1989000007260616,"Aug 15, 2025 11:00 AM",7200000,,1989000007264241
+Mainak Chaudhuri,Checked with RDM issue and forwarded this to IT team.,"Aug 20, 2025 11:04 AM",Mainak Chaudhuri,"Aug 24, 2025 10:35 AM",1989000007271453,"Aug 20, 2025 10:34 AM",1800000,,1989000007321005
+Himanshu Gupta,access provided,"Aug 18, 2025 09:15 AM",Himanshu Gupta,"Aug 18, 2025 10:05 AM",1989000007268812,"Aug 18, 2025 09:05 AM",600000,,1989000007264915
+Bruce Cao,,"Aug 14, 2025 12:47 PM",Bruce Cao,"Aug 14, 2025 11:47 AM",1989000007255697,"Aug 14, 2025 11:47 AM",3600000,,1989000007251803
+Himanshu Gupta,pipeline updated,"Aug 15, 2025 07:32 AM",Himanshu Gupta,"Aug 15, 2025 07:33 AM",1989000007255697,"Aug 15, 2025 07:00 AM",1920000,,1989000007256915
+Kishor Bhagwat Shinde,started qfw job,"Aug 12, 2025 10:54 AM",Kishor Bhagwat Shinde,"Aug 12, 2025 10:54 AM",1989000007239001,"Aug 12, 2025 09:52 AM",3720000,,1989000007244151
+Bruce Cao,"Data reconciliation.
+Issue found, it is product master data issue relevent to recent dim change","Aug 11, 2025 08:05 AM",Bruce Cao,"Aug 11, 2025 08:06 AM",1989000007226514,"Aug 11, 2025 07:05 AM",3600000,,1989000007232175
+Bruce Cao,,"Aug 11, 2025 06:56 AM",Bruce Cao,"Aug 11, 2025 05:56 AM",1989000007226514,"Aug 11, 2025 05:56 AM",3600000,,1989000007233386
+Kishor Bhagwat Shinde,comparing new and old Product tables of OrderService model,"Aug 11, 2025 11:36 AM",Kishor Bhagwat Shinde,"Aug 11, 2025 11:36 AM",1989000007226514,"Aug 11, 2025 07:59 AM",13020000,,1989000007233757
+Kishor Bhagwat Shinde,Replied to Cameron,"Aug 14, 2025 07:51 AM",Kishor Bhagwat Shinde,"Aug 14, 2025 07:52 AM",1989000007226514,"Aug 14, 2025 07:41 AM",600000,,1989000007246805
+Mainak Chaudhuri,Find the source root is not being populated by any model. This is a direct snapshot from SAP.,"Aug 8, 2025 01:59 PM",Mainak Chaudhuri,"Aug 11, 2025 07:43 AM",1989000007212130,"Aug 8, 2025 01:30 PM",1740000,,1989000007234199
+Bruce Cao,,"Aug 12, 2025 07:18 AM",Bruce Cao,"Aug 12, 2025 07:48 AM",1989000007212130,"Aug 12, 2025 06:48 AM",1800000,,1989000007240057
+Mainak Chaudhuri,The error could not be reproduced.,"Aug 13, 2025 09:39 AM",Mainak Chaudhuri,"Aug 13, 2025 09:39 AM",1989000007212130,"Aug 13, 2025 09:20 AM",1140000,,1989000007251075
+Rahul Verma,"The issue was resolved, shared the new link.","Aug 12, 2025 10:54 AM",Rahul Verma,"Aug 12, 2025 10:55 AM",1989000007239571,"Aug 12, 2025 10:30 AM",1440000,,1989000007246038
+Bruce Cao,Power app code review,"Aug 20, 2025 07:32 AM",Bruce Cao,"Aug 20, 2025 07:03 AM",1989000007239571,"Aug 20, 2025 06:02 AM",5400000,,1989000007287211
+Bruce Cao,Power App code review and solutioning,"Aug 19, 2025 08:03 AM",Bruce Cao,"Aug 20, 2025 07:03 AM",1989000007239571,"Aug 19, 2025 07:03 AM",3600000,,1989000007287231
+Bruce Cao,Power App code review and solutioning,"Aug 18, 2025 09:03 AM",Bruce Cao,"Aug 20, 2025 07:03 AM",1989000007239571,"Aug 18, 2025 07:03 AM",7200000,,1989000007287249
+Rahul Verma,"Starting to look up the source for the variance
+PPV Forecast findings:
+The variance is coming for the PO No 4600000144
+The Fact.PurchasePriceVariance table draws its data from 3 tables, ODS.PurchaseOrder, ODS.PurchaseRequisition and Dim.PPVOverride(empty).
+The data for Feb26 and Jun26 is taken from ODS.PurchaseRequisition table while the rest of the data is taken from ODS.PurchaseOrder.
+The Cost variance = LatestCost + FreightCostOverride – Standard Cost","Aug 11, 2025 02:34 PM",Rahul Verma,"Aug 12, 2025 09:18 AM",1989000007226129,"Aug 11, 2025 08:14 AM",22800000,,1989000007243376
+Rahul Verma,Found that these 2 Document no are the cause of the variance,"Aug 12, 2025 01:10 PM",Rahul Verma,"Aug 12, 2025 02:10 PM",1989000007226129,"Aug 12, 2025 09:18 AM",13920000,,1989000007246110
+Rahul Verma,Checking how latestcost is calculated,"Aug 13, 2025 11:46 AM",Rahul Verma,"Aug 13, 2025 11:46 AM",1989000007226129,"Aug 13, 2025 09:46 AM",7200000,,1989000007246506
+Rahul Verma,On further investigation I found that the ForexConversionFactor is only being multiplied when the above values are NULL.&nbsp;CondAmtConvertedBase is essential for calculating Latest Cost according to this formula in the stored procedure “v.[PRQtyConvertedBase] * [CondAmtConvertedBase] /ScalePrcUnit * ForexConversionFactor as LatestSales”. The reason for these values to be Null seems to be “ORD.PurcDocCat = 'K'” condition in the stored procedure [dbo].[usp_Insert_ODS_Purchase_RequisitionAgreement] as it is only mapping values for &quot;K&quot; while most rows have &quot;F&quot; for this column.,"Aug 18, 2025 01:35 PM",Rahul Verma,"Aug 18, 2025 02:58 PM",1989000007226129,"Aug 18, 2025 08:18 AM",19020000,,1989000007261494
+Bruce Cao,solution review,"Aug 19, 2025 07:01 AM",Bruce Cao,"Aug 19, 2025 06:01 AM",1989000007226129,"Aug 19, 2025 06:01 AM",3600000,,1989000007279255
+Bruce Cao,,"Aug 19, 2025 08:48 AM",Bruce Cao,"Aug 20, 2025 06:48 AM",1989000007226129,"Aug 19, 2025 06:48 AM",7200000,,1989000007287087
+Bruce Cao,,"Aug 20, 2025 08:18 AM",Bruce Cao,"Aug 20, 2025 06:48 AM",1989000007226129,"Aug 20, 2025 06:48 AM",5400000,,1989000007287105
+Bruce Cao,,"Aug 7, 2025 11:57 AM",Bruce Cao,"Aug 7, 2025 11:57 AM",1989000007221049,"Aug 7, 2025 10:57 AM",3600000,,1989000007215027
+Bruce Cao,,"Aug 8, 2025 05:35 AM",Bruce Cao,"Aug 8, 2025 05:35 AM",1989000007221049,"Aug 8, 2025 04:35 AM",3600000,,1989000007215083
+Bruce Cao,,"Aug 7, 2025 12:00 PM",Bruce Cao,"Aug 7, 2025 12:00 PM",1989000007216456,"Aug 7, 2025 11:00 AM",3600000,,1989000007214835
+Himanshu Gupta,"For the PPV ticket, material no. &nbsp;1000443 and 1000447 are not present in the ODS layer. I reviewed the stored procedure but didn’t find any join or WHERE clause blocking them.
+ Material 1000430 exists in both SAPSTG and ODS layers, but since its PO value is 0, it's excluded from the final model.
+ Out of 8 materials, 5 are visible — only 1000443 and 1000447 are missing.","Aug 8, 2025 01:35 PM",Himanshu Gupta,"Aug 8, 2025 02:36 PM",1989000007216456,"Aug 8, 2025 11:35 AM",7200000,,1989000007224638
+Bruce Cao,"found the category filter is the problem
+go through the whole logic to provide a solution.","Aug 11, 2025 10:03 AM",Bruce Cao,"Aug 11, 2025 08:04 AM",1989000007216456,"Aug 11, 2025 08:03 AM",7200000,,1989000007232123
+Bruce Cao,investigation,"Aug 11, 2025 12:07 PM",Bruce Cao,"Aug 11, 2025 11:07 AM",1989000007216456,"Aug 11, 2025 11:07 AM",3600000,,1989000007232424
+Bruce Cao,solution review,"Aug 19, 2025 06:30 AM",Bruce Cao,"Aug 19, 2025 06:00 AM",1989000007216456,"Aug 19, 2025 06:00 AM",1800000,,1989000007279235
+Himanshu Gupta,dashboard refreshed&nbsp;,"Aug 15, 2025 07:42 AM",Himanshu Gupta,"Aug 15, 2025 07:42 AM",1989000007208344,"Aug 15, 2025 07:00 AM",2520000,,1989000007264019
+Himanshu Gupta,issue is fixed by showing the sales history model for previous year data&nbsp;,"Aug 6, 2025 12:32 PM",Himanshu Gupta,"Aug 8, 2025 02:33 PM",1989000007169344,"Aug 6, 2025 11:32 AM",3600000,,1989000007224596
+Bruce Cao,,"Jul 30, 2025 09:00 AM",Bruce Cao,"Jul 31, 2025 07:30 AM",1989000007161823,"Jul 30, 2025 07:30 AM",5400000,,1989000007158952
+Himanshu Gupta,QFW issue resolved,"Aug 1, 2025 11:09 AM",Himanshu Gupta,"Aug 1, 2025 11:10 AM",1989000007169642,"Aug 1, 2025 08:09 AM",10800000,,1989000007179129
+Rahul Verma,Backtracked to the source table and found that the CostCentre values to be empty.,"Aug 5, 2025 02:34 PM",Rahul Verma,"Aug 6, 2025 02:36 PM",1989000007195635,"Aug 5, 2025 09:04 AM",19800000,,1989000007206559
+Rahul Verma,"Solution
+for Cost Centre report:
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In
+stg.AccountBalanceLegacy view change the table Dim.MapLegacyAccount to
+Dim.MapLegacyCostCentreAccount.
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Map
+the CostCentre column from null to m.MapToSAPCostCentre.
+This should
+be able to bring the cost centre data in the view","Aug 6, 2025 02:36 PM",Rahul Verma,"Aug 6, 2025 02:37 PM",1989000007195635,"Aug 6, 2025 08:10 AM",23160000,,1989000007206579
+Bruce Cao,,"Aug 7, 2025 12:00 PM",Bruce Cao,"Aug 7, 2025 12:00 PM",1989000007195635,"Aug 7, 2025 11:00 AM",3600000,,1989000007214813
+Bruce Cao,investigation and validation&nbsp;,"Aug 8, 2025 06:55 AM",Bruce Cao,"Aug 8, 2025 06:55 AM",1989000007195635,"Aug 8, 2025 06:25 AM",1800000,,1989000007224261
+Himanshu Gupta,QFW job refreshed,"Jul 30, 2025 09:19 AM",Himanshu Gupta,"Jul 30, 2025 09:20 AM",1989000007165310,"Jul 30, 2025 09:00 AM",1140000,,1989000007158203
+Bruce Cao,Enhance MLO model for FY26 BUD,"Aug 4, 2025 03:15 PM",Bruce Cao,"Aug 5, 2025 07:15 AM",1989000007190368,"Aug 4, 2025 07:15 AM",28800000,,1989000007190642
+Bruce Cao,"Enhance logic to split manuf.service by rate driven by year and period.(for HS)
+Redesigned MLO measure to allow user select R&amp;O version.
+Repaired FY25 Actual","Aug 5, 2025 06:56 PM",Bruce Cao,"Aug 5, 2025 10:59 AM",1989000007190368,"Aug 5, 2025 10:56 AM",28800000,,1989000007190696
+Bruce Cao,Enhance MLO model for FY26 QFW,"Aug 1, 2025 06:59 PM",Bruce Cao,"Aug 5, 2025 11:00 AM",1989000007190368,"Aug 1, 2025 10:59 AM",28800000,,1989000007190728
+Bruce Cao,"MLO
+  validation - P12 FY25 actual is matching&nbsp;
+DSU
+  budget
+HS cost
+  centre - Fatma will update later this week
+budget
+  recovery
+freight
+MLO
+  document","Jul 23, 2025 08:01 PM",Bruce Cao,"Aug 5, 2025 11:01 AM",1989000007190368,"Jul 23, 2025 11:01 AM",32400000,,1989000007190748
+Bruce Cao,MLO FY26 fix,"Jul 24, 2025 03:01 PM",Bruce Cao,"Aug 5, 2025 11:02 AM",1989000007190368,"Jul 24, 2025 11:01 AM",14400000,,1989000007190768
+Bruce Cao,MLO - July snapshot,"Jul 28, 2025 08:02 PM",Bruce Cao,"Aug 5, 2025 11:03 AM",1989000007190368,"Jul 28, 2025 11:03 AM",32340000,,1989000007190788
+Bruce Cao,"MLO July Snapshot&nbsp;
+R&amp;O - manual update
+Fregiht -R&amp;O manual update","Jul 29, 2025 07:04 PM",Bruce Cao,"Aug 5, 2025 11:05 AM",1989000007190368,"Jul 29, 2025 11:04 AM",28800000,,1989000007190808
+Bruce Cao,MLO - JULY&nbsp;,"Jul 25, 2025 07:06 PM",Bruce Cao,"Aug 5, 2025 11:07 AM",1989000007190368,"Jul 25, 2025 11:06 AM",28800000,,1989000007190830
+Bruce Cao,"Enahnce cost centre percentage logic
+Repaired CC percentage logic in ACT to use snapshot","Aug 6, 2025 10:59 AM",Bruce Cao,"Aug 6, 2025 04:59 AM",1989000007190368,"Aug 6, 2025 04:59 AM",21600000,,1989000007206171
+Bruce Cao,"MLO Jan actual recon FRT not match-&nbsp;
+MLO overheadrecovery&nbsp;","Aug 7, 2025 03:58 PM",Bruce Cao,"Aug 7, 2025 12:00 PM",1989000007190368,"Aug 7, 2025 11:58 AM",14400000,,1989000007214791
+Bruce Cao,Freight QFW upload,"Aug 11, 2025 08:22 AM",Bruce Cao,"Aug 11, 2025 08:03 AM",1989000007190368,"Aug 11, 2025 08:02 AM",1200000,,1989000007232103
+Bruce Cao,Figured out root cause of July actual discrepency,"Aug 12, 2025 05:52 AM",Bruce Cao,"Aug 12, 2025 04:53 AM",1989000007190368,"Aug 12, 2025 04:52 AM",3600000,,1989000007232518
+Bruce Cao,"Data validateion
+Found FRT difference
+Hi Fatma,&nbsp;
+I found the outbound freight is not matching KE30, and seems it should be 2298891 as per the COPA rule
+there is 3350.74 difference which goes to &quot;Other Freight&quot; node in COPA, could you please help to validate.","Aug 8, 2025 07:49 AM",Bruce Cao,"Aug 11, 2025 04:50 AM",1989000007190368,"Aug 8, 2025 04:49 AM",10800000,,1989000007233114
+Bruce Cao,"Investigate FRT discrenpency&nbsp;
+plant allocation","Aug 12, 2025 12:23 PM",Bruce Cao,"Aug 13, 2025 06:23 AM",1989000007190368,"Aug 12, 2025 06:23 AM",21600000,,1989000007248478
+Bruce Cao,"1. R&amp;O manual repair to ice cream dessert high GSV
+2. identified issue of R&amp;O registor which still have period 1 record in AUG
+3.Fright QFW R&amp;O- new","Aug 13, 2025 02:38 PM",Bruce Cao,"Aug 13, 2025 12:39 PM",1989000007190368,"Aug 13, 2025 07:38 AM",25200000,,1989000007251199
+Bruce Cao,,"Aug 18, 2025 07:50 AM",Bruce Cao,"Aug 20, 2025 06:50 AM",1989000007190368,"Aug 18, 2025 06:50 AM",3600000,,1989000007288140
+Bruce Cao,,"Aug 21, 2025 09:33 AM",Bruce Cao,"Aug 21, 2025 09:33 AM",1989000007190368,"Aug 21, 2025 06:33 AM",10800000,,1989000007294685
+Bruce Cao,work with Premdip to reconcile OPS in MLO,"Aug 22, 2025 07:06 AM",Bruce Cao,"Aug 22, 2025 07:06 AM",1989000007190368,"Aug 22, 2025 06:06 AM",3600000,,1989000007309051
+Bruce Cao,Maully fix Aug Sales R&amp;O,"Aug 22, 2025 11:30 AM",Bruce Cao,"Aug 22, 2025 11:30 AM",1989000007190368,"Aug 22, 2025 07:30 AM",14400000,,1989000007309593
+Himanshu Gupta,job triggered,"Jul 29, 2025 01:37 PM",Himanshu Gupta,"Jul 29, 2025 01:37 PM",1989000007151708,"Jul 29, 2025 01:00 PM",2220000,,1989000007155519
+Bruce Cao,,"Jul 29, 2025 10:26 AM",Bruce Cao,"Jul 29, 2025 10:26 AM",1989000007128437,"Jul 29, 2025 09:26 AM",3600000,,1989000007132865
+Himanshu Gupta,Email Alert is created&nbsp;,"Jul 29, 2025 10:03 AM",Himanshu Gupta,"Jul 29, 2025 10:03 AM",1989000007128419,"Jul 29, 2025 08:03 AM",7200000,,1989000007131889
+Himanshu Gupta,files uploaded to sharepoint,"Jul 25, 2025 03:35 PM",Himanshu Gupta,"Jul 29, 2025 01:35 PM",1989000007138111,"Jul 25, 2025 01:35 PM",7200000,,1989000007155477
+Bruce Cao,,"Jul 24, 2025 12:52 PM",Bruce Cao,"Jul 24, 2025 12:52 PM",1989000007116886,"Jul 24, 2025 11:52 AM",3600000,,1989000007127021
+Mainak Chaudhuri,The FRT file has been successfully loaded into PROD. Data updated successfully from SAC to SAPSTG,"Jul 24, 2025 07:06 PM",Mainak Chaudhuri,"Jul 24, 2025 07:06 PM",1989000007128001,"Jul 24, 2025 03:09 PM",14220000,,1989000007132081
+Mainak Chaudhuri,FRT Load completed in Dev and Prod.,"Jul 23, 2025 08:54 AM",Mainak Chaudhuri,"Jul 24, 2025 08:55 AM",1989000007116228,"Jul 23, 2025 05:54 AM",10800000,,1989000007108641
+Himanshu Gupta,report connection updated,"Jul 23, 2025 10:58 AM",Himanshu Gupta,"Jul 24, 2025 07:59 AM",1989000007109336,"Jul 23, 2025 09:58 AM",3600000,,1989000007108509
+Himanshu Gupta,QFW is refreshed&nbsp;,"Jul 23, 2025 10:38 AM",Himanshu Gupta,"Jul 23, 2025 10:39 AM",1989000007109714,"Jul 23, 2025 10:00 AM",2280000,,1989000007108335
+Rahul Verma,,"Aug 19, 2025 09:10 AM",Rahul Verma,"Aug 20, 2025 07:11 AM",1989000007101184,"Aug 19, 2025 07:10 AM",7200000,,1989000007287315
+Rahul Verma,,"Jul 25, 2025 02:42 PM",Rahul Verma,"Jul 29, 2025 09:33 AM",1989000007094288,"Jul 25, 2025 08:33 AM",22140000,,1989000007131827
+Rahul Verma,Checking if the quantity in the database matches the quantity in the Excel file,"Jul 22, 2025 02:44 PM",Rahul Verma,"Jul 23, 2025 10:46 AM",1989000007094748,"Jul 22, 2025 12:16 PM",8880000,,1989000007110153
+Rahul Verma,"Matched data in Actual Sales, WeekSalesSAP, UniversalJournal etc.","Jul 23, 2025 02:36 PM",Rahul Verma,"Jul 23, 2025 03:02 PM",1989000007094748,"Jul 23, 2025 12:00 PM",9360000,,1989000007110211
+Bruce Cao,Data reconcilation,"Jul 30, 2025 07:32 AM",Bruce Cao,"Jul 31, 2025 07:33 AM",1989000007094392,"Jul 30, 2025 01:32 AM",21600000,,1989000007170008
+Rahul Verma,"Had a call with Bruce, understood the flow and possible resolution and created a flow diagram for it.","Jul 24, 2025 01:00 PM",Rahul Verma,"Jul 24, 2025 03:02 PM",1989000007094160,"Jul 24, 2025 10:02 AM",10680000,,1989000007132003
+Rahul Verma,"Reconciling the data between the new and legacy database to change the data for Snapshot date 20/07/202
+Regarding the production plan snapshot ticket:
+The suggested approach to handle it by taking the data from Bulla_BI_Prod_post_SAP and replacing it in the Bulla_BI_Prod for the date 2025-07-20 might not work as there is a data mismatch.
+The issue regarding the LoadDateTime in the table in Bulla_BI_Prod_post_SAP which is showing the current date as LoadDate even for previous Snapshot Dates is likely because we are truncating the entire table and then inserting the data again in Bulla_BI_Prod_post_SAP, whereas in Bulla_BI_Prod we are deleting data only matching that week’s snapshot date(not the entire data) every day and then inserting again only for that week.
+&nbsp;","Aug 1, 2025 02:53 PM",Rahul Verma,"Aug 4, 2025 07:53 AM",1989000007094160,"Aug 1, 2025 07:53 AM",25200000,,1989000007180927
+Bruce Cao,"&nbsp;
+Rahul Verma
+Bruce Cao Regarding the production plan snapshot ticket:    The suggested approach to handle it by taking the data from Bulla_BI_Prod_post_SAP and replacing it in the Bulla_BI_Prod for the date 2025-07-20 might not work as there is a data mismatch.The issue regarding the LoadDateTime in the table i…
+Hi Rahul&nbsp;Verma
+Please find the following SQL query I used this morning to validate the solution, I have made comment as well to help you understand, please go through it and try to understand.
+&nbsp;
+select * from BI_PROD_POST_SAP.fact.ProductionPlanItemSnapshot where SnapshotDate = '2025-07-21' --please understand why we use '2025-07-21' not '2025-07-20'
+ --found out the sp: [dbo].[usp_Insert_FactProductionPlanItemSnapshot] and got following source table, the goal is to check the load date of version '2025-07-21'
+ select * from BI_PROD_POST_SAP.ods.MRPSnapshotWeekly where SnapshotDate = '2025-07-14' --please understand why we use '2025-07-14' now, is there anything can be repaired in the SP to get real snapshot generation date?
+&nbsp;
+please further compare the following two query and confirm if it can be repaired
+select * from BI_PROD_POST_SAP.fact.ProductionPlanItemSnapshot where SnapshotDate = '2025-07-14'&nbsp;
+ select * from Bulla_BI_Prod.fact.ProductionPlanItemSnapshot where SnapshotDate = '2025-07-20'
+&nbsp;","Aug 6, 2025 06:44 AM",Bruce Cao,"Aug 6, 2025 05:44 AM",1989000007094160,"Aug 6, 2025 05:44 AM",3600000,,1989000007206223
+Bruce Cao,"ticket investigation.
+Coach Rahul","Jul 24, 2025 07:45 AM",Bruce Cao,"Aug 6, 2025 05:45 AM",1989000007094160,"Jul 24, 2025 05:45 AM",7200000,,1989000007206243
+Kishor Bhagwat Shinde,ticket investigation done. compared the old snapshot from BI_PROD_POST_SAP with blueshift data but it is not matching.,"Aug 18, 2025 06:45 PM",Kishor Bhagwat Shinde,"Aug 19, 2025 01:45 PM",1989000007094160,"Aug 18, 2025 01:45 PM",18000000,,1989000007277780
+Himanshu Gupta,frt load done&nbsp;,"Jul 18, 2025 05:57 PM",Himanshu Gupta,"Jul 22, 2025 06:58 AM",1989000007077792,"Jul 18, 2025 02:57 PM",10800000,,1989000007106159
+Mainak Chaudhuri,Checked the source system and concluded data is reconciling.,"Jul 28, 2025 10:35 AM",Mainak Chaudhuri,"Jul 28, 2025 10:53 AM",1989000007077400,"Jul 28, 2025 09:53 AM",2520000,,1989000007131629
+Mainak Chaudhuri,The issue has been resolved.,"Jul 18, 2025 11:50 AM",Mainak Chaudhuri,"Jul 28, 2025 07:59 AM",1989000007077340,"Jul 18, 2025 11:00 AM",3000000,,1989000007131449
+Mainak Chaudhuri,The filters have been updated and the data have been reconciled.,"Jul 18, 2025 08:00 AM",Mainak Chaudhuri,"Jul 18, 2025 07:59 AM",1989000007075284,"Jul 18, 2025 07:40 AM",1200000,,1989000007082362
+Mainak Chaudhuri,Figured out the issue in usage of filters.,"Jul 21, 2025 01:14 PM",Mainak Chaudhuri,"Jul 22, 2025 10:15 AM",1989000007075284,"Jul 21, 2025 12:14 PM",3600000,,1989000007100200
+Himanshu Gupta,issue is resolved by providing user adf access to run pipeline via power app,"Jul 17, 2025 10:37 AM",Himanshu Gupta,"Jul 18, 2025 06:38 AM",1989000007070395,"Jul 17, 2025 07:37 AM",10800000,,1989000007082178
+Himanshu Gupta,issue is resolved by providing user ADF access to run pipeline via power app,"Jul 17, 2025 09:58 AM",Himanshu Gupta,"Jul 18, 2025 07:59 AM",1989000007070355,"Jul 17, 2025 07:59 AM",7140000,,1989000007082382
+Himanshu Gupta,issue is resolved by providing user ADF access to run pipeline via power app,"Jul 17, 2025 09:58 AM",Himanshu Gupta,"Jul 18, 2025 07:58 AM",1989000007070166,"Jul 17, 2025 07:58 AM",7200000,,1989000007082324
+Himanshu Gupta,task and steps is documented.,"Jul 16, 2025 09:02 AM",Mainak Chaudhuri,"Jul 16, 2025 09:03 AM",1989000007065377,"Jul 16, 2025 08:02 AM",3600000,,1989000007064749
+Himanshu Gupta,issue is resolved by providing user ADF access to run pipeline via power app,"Jul 17, 2025 09:56 AM",Himanshu Gupta,"Jul 18, 2025 07:57 AM",1989000007070102,"Jul 17, 2025 07:56 AM",7200000,,1989000007082280
+Bruce Cao,Discussion with Fatma and Shannon to create accounts,"Aug 13, 2025 07:13 AM",Bruce Cao,"Aug 13, 2025 07:15 AM",1989000007070051,"Aug 13, 2025 06:14 AM",3540000,,1989000007248694
+Himanshu Gupta,RNO refresh is&nbsp; done,"Jul 15, 2025 10:07 AM",Himanshu Gupta,"Jul 15, 2025 10:08 AM",1989000007057919,"Jul 15, 2025 09:40 AM",1620000,,1989000007060255
+Himanshu Gupta,"Dashboard is now showing FY24 data , earlier only FY25 AND 26 was available&nbsp;","Jul 15, 2025 10:05 AM",Himanshu Gupta,"Jul 15, 2025 10:06 AM",1989000007057563,"Jul 15, 2025 09:05 AM",3600000,,1989000007060209
+Mainak Chaudhuri,Checked the working of APIs.,"Jul 25, 2025 09:46 AM",Mainak Chaudhuri,"Jul 25, 2025 09:46 AM",1989000007056075,"Jul 25, 2025 05:46 AM",14400000,,1989000007131135
+Bejoy Sivadas,,"Jul 14, 2025 12:17 PM",Bejoy Sivadas,"Jul 14, 2025 12:47 PM",1989000007047587,"Jul 14, 2025 12:07 PM",600000,,1989000007056459
+Kishor Bhagwat Shinde,Fixed the SDM tables,"Jul 24, 2025 11:22 AM",Kishor Bhagwat Shinde,"Jul 28, 2025 07:22 AM",1989000007024979,"Jul 24, 2025 07:22 AM",14400000,,1989000007131365
+Rahul Verma,,"Jul 25, 2025 09:32 AM",Rahul Verma,"Jul 25, 2025 09:32 AM",1989000007024979,"Jul 25, 2025 04:32 AM",18000000,,1989000007132191
+Himanshu Gupta,,"Jul 10, 2025 10:15 AM",Himanshu Gupta,"Jul 16, 2025 09:16 AM",1989000007024355,"Jul 10, 2025 09:15 AM",3600000,,1989000007064813
+Himanshu Gupta,report connection changed and working fine&nbsp;,"Jul 11, 2025 11:00 AM",Himanshu Gupta,"Jul 11, 2025 11:46 AM",1989000007031158,"Jul 11, 2025 10:45 AM",900000,,1989000007023809
+Mainak Chaudhuri,Completed.,"Jul 14, 2025 07:44 AM",Mainak Chaudhuri,"Jul 14, 2025 07:44 AM",1989000007005089,"Jul 14, 2025 07:44 AM",7980,,1989000007054811
+Himanshu Gupta,report connection changed,"Jul 7, 2025 10:26 AM",Himanshu Gupta,"Jul 7, 2025 12:57 PM",1989000007000287,"Jul 7, 2025 10:15 AM",660000,,1989000007003285
+Bejoy Sivadas,Checked&nbsp; &nbsp;all the connection on the&nbsp; BI report and confirmed its&nbsp; set to new cloud source&nbsp; &nbsp;,"Jul 7, 2025 06:21 AM",Bejoy Sivadas,"Jul 7, 2025 06:22 AM",1989000006990461,"Jul 7, 2025 06:11 AM",600000,,1989000006993378
+Himanshu Gupta,Report connection updated for user,"Jul 7, 2025 06:50 AM",Himanshu Gupta,"Jul 7, 2025 12:58 PM",1989000006990461,"Jul 7, 2025 06:45 AM",300000,,1989000007003327
+Himanshu Gupta,report is uploaded to sharepoint&nbsp;,"Jul 7, 2025 06:40 AM",Bruce Cao,"Jul 8, 2025 07:55 AM",1989000006990331,"Jul 7, 2025 06:30 AM",600000,,1989000007010007
+Mainak Chaudhuri,Changed the file dates and all recurring timelines to running fiscal year.,"Jul 4, 2025 09:54 AM",Mainak Chaudhuri,"Jul 11, 2025 09:55 AM",1989000006982068,"Jul 4, 2025 09:43 AM",660000,,1989000007030123
+Himanshu Gupta,report connection is updated and working fine,"Jul 7, 2025 09:40 AM",Himanshu Gupta,"Jul 8, 2025 07:33 AM",1989000006974717,"Jul 7, 2025 08:32 AM",4080000,,1989000007005941
+Himanshu Gupta,Email rule&nbsp; set up steps shared with user and identified who can access report and who can not because&nbsp; of power bi license&nbsp;,"Jul 9, 2025 11:00 AM",Himanshu Gupta,"Jul 11, 2025 10:17 AM",1989000006974585,"Jul 9, 2025 09:15 AM",6300000,,1989000007023499
+Himanshu Gupta,change is made and it is working fine,"Jul 4, 2025 09:06 AM",Himanshu Gupta,"Jul 4, 2025 09:06 AM",1989000006974337,"Jul 4, 2025 08:30 AM",2160000,,1989000006983290
+Rahul Verma,Worked on developing the report,"Jul 11, 2025 03:46 PM",Rahul Verma,"Jul 11, 2025 03:46 PM",1989000006962160,"Jul 11, 2025 08:46 AM",25200000,,1989000007040003
+Rahul Verma,Replacing the previous source with new source file and working on time series visuals and filters.,"Jul 16, 2025 02:03 PM",Rahul Verma,"Jul 16, 2025 02:04 PM",1989000006962160,"Jul 16, 2025 09:03 AM",18000000,,1989000007071493
+Rahul Verma,Changed the data and developed the dashboard in ServiceDesk_Dashboard_allDept and published it on Bulla BI - Power BI Development workspace.,"Jul 17, 2025 11:21 AM",Rahul Verma,"Jul 17, 2025 02:30 PM",1989000006962160,"Jul 17, 2025 07:35 AM",13560000,,1989000007080007
+Himanshu Gupta,Report is working fine after changing connection&nbsp;,"Jul 11, 2025 11:00 AM",Himanshu Gupta,"Jul 11, 2025 11:32 AM",1989000006972116,"Jul 11, 2025 10:31 AM",1740000,,1989000007023737
+Himanshu Gupta,user report connection changed and working fine&nbsp;,"Jul 2, 2025 07:55 AM",Himanshu Gupta,"Jul 3, 2025 06:56 AM",1989000006957871,"Jul 2, 2025 06:55 AM",3600000,,1989000006962570
+Himanshu Gupta,Schedule OPS pipeline with FRT pipeline and added 5 additional refresh triggers so that the data gets updated timely.,"Jul 7, 2025 01:30 PM",Himanshu Gupta,"Jul 10, 2025 10:58 AM",1989000006957441,"Jul 7, 2025 09:56 AM",12840000,,1989000007020762
+Mainak Chaudhuri,"- Updated the dates for Universal Journal
+- Posted the updated query for the shift.
+- Updated dashboards.
+- Updated folders in Share point.","Jul 4, 2025 11:54 AM",Mainak Chaudhuri,"Jul 8, 2025 11:36 AM",1989000006957330,"Jul 4, 2025 11:05 AM",2940000,,1989000007012455
+Himanshu Gupta,document ppt is provided by abhisekh,"Jul 15, 2025 09:55 AM",Himanshu Gupta,"Jul 16, 2025 08:56 AM",1989000006950838,"Jul 15, 2025 08:56 AM",3540000,,1989000007064585
+Bejoy Sivadas,,"Jul 4, 2025 09:27 AM",Bejoy Sivadas,"Jul 4, 2025 09:27 AM",1989000006957177,"Jul 4, 2025 09:17 AM",600000,,1989000006983672
+Himanshu Gupta,access provided,"Jul 4, 2025 09:27 AM",Himanshu Gupta,"Jul 4, 2025 03:12 PM",1989000006957177,"Jul 4, 2025 09:25 AM",120000,,1989000006993051
+Himanshu Gupta,report upload link shared,"Jul 3, 2025 12:25 PM",Himanshu Gupta,"Jul 3, 2025 06:59 AM",1989000006957103,"Jul 1, 2025 12:15 PM",173400000,,1989000006962614
+Rahul Verma,"The following tasks were performed for today:
+1. Found the source tables and procedure.
+2. Identify the required columns
+3.&nbsp;Run queries to see which table contributed how much quantity
+4. The figure 4928 is coming from the Actual sales table which doesn't contain any duplicate values.
+5. Noticed that all quantities are either 0 or in the multiples of 112 which might be some kind of standard measure for a box or packet.","Jul 1, 2025 02:05 PM",Rahul Verma,"Jul 1, 2025 02:13 PM",1989000006954445,"Jul 1, 2025 10:05 AM",14400000,,1989000006958650
+Rahul Verma,Developed the ppt.,"Jul 2, 2025 01:16 PM",Rahul Verma,"Jul 2, 2025 02:17 PM",1989000006954445,"Jul 2, 2025 11:16 AM",7200000,,1989000006962366
+Rahul Verma,Backtracking the data flow from the report to source.,"Jul 3, 2025 03:40 PM",Rahul Verma,"Jul 3, 2025 03:06 PM",1989000006954445,"Jul 3, 2025 01:05 PM",9300000,,1989000006978121
+Rahul Verma,"1. Backtracked the data further until the source and check the value in each step of the flow.
+2. Updated the ppt.","Jul 9, 2025 01:28 PM",Rahul Verma,"Jul 16, 2025 09:30 AM",1989000006954445,"Jul 9, 2025 09:12 AM",15360000,,1989000007064899
+Rahul Verma,Added the model to power bi desktop and going through the model structure.,"Jul 14, 2025 02:44 PM",Rahul Verma,"Jul 14, 2025 02:46 PM",1989000006954559,"Jul 14, 2025 12:44 PM",7200000,,1989000007046866
+Himanshu Gupta,sap reports uploaded to BI portal,"Jul 1, 2025 08:50 AM",Himanshu Gupta,"Jul 3, 2025 08:16 AM",1989000006954357,"Jul 1, 2025 08:16 AM",2040000,,1989000006962720
+Mainak Chaudhuri,"- Identified the issue with the Internal Order Pipeline.
+- Fixed the issue of the pipeline.
+- Reconciliated the data.
+- Updated the reports.","Jul 3, 2025 04:25 PM",Mainak Chaudhuri,"Jul 3, 2025 04:25 PM",1989000006954255,"Jul 3, 2025 07:25 AM",32400000,,1989000006978149
+Himanshu Gupta,user issue resolved by updating the correct connection string in report&nbsp;,"Jul 3, 2025 01:41 PM",Himanshu Gupta,"Jul 3, 2025 08:13 AM",1989000006946991,"Jul 1, 2025 12:12 PM",178140000,,1989000006962674
+Himanshu Gupta,,"Jul 11, 2025 10:57 AM",Himanshu Gupta,"Jul 16, 2025 08:57 AM",1989000006921219,"Jul 11, 2025 08:57 AM",7200000,,1989000007064643
+Himanshu Gupta,,"Jul 1, 2025 06:45 AM",Bruce Cao,"Jul 3, 2025 01:49 PM",1989000006946977,"Jul 1, 2025 05:48 AM",3420000,,1989000006977075
+Himanshu Gupta,FRT loaded to DEV and Prod&nbsp;,"Jun 30, 2025 01:30 PM",Himanshu Gupta,"Jun 30, 2025 02:03 PM",1989000006921397,"Jun 27, 2025 11:02 AM",268080000,,1989000006951263
+Himanshu Gupta,Data provided to user,"Jun 27, 2025 10:15 AM",Bruce Cao,"Jul 3, 2025 01:46 PM",1989000006921653,"Jun 27, 2025 10:05 AM",600000,,1989000006977033
+Himanshu Gupta,FRT load is done and validated in Dev and in Prod file is also&nbsp; loaded&nbsp;,"Jun 26, 2025 11:45 AM",Himanshu Gupta,"Jun 27, 2025 07:00 AM",1989000006897612,"Jun 26, 2025 09:50 AM",6900000,,1989000006920279
+Himanshu Gupta,report is refreshed and working fine&nbsp;,"Jun 26, 2025 07:20 AM",Himanshu Gupta,"Jun 26, 2025 08:46 AM",1989000006897150,"Jun 26, 2025 07:01 AM",1140000,,1989000006910647
+Mainak Chaudhuri,"- Found the source of All RDM Measures.
+
+-&nbsp;Visual Studio&nbsp; -&gt;&nbsp; Connected to AAS Server&nbsp; -&gt; Revenue_Detail_Model table&nbsp; -&gt;
+ 
+Tabular Model Explorer -&gt; All RDM Measures (project name) -&gt; Measures.","Jun 25, 2025 10:35 AM",Mainak Chaudhuri,"Jun 25, 2025 11:34 AM",1989000006895984,"Jun 25, 2025 10:30 AM",300000,,1989000006896029
+Mainak Chaudhuri,"- Exported the model.bim file for RDM using VS Code.
+- Converted into JSON.
+- Removed the leading and trailing model metrics and descriptions.
+- Created a dump of all measures using this Python code:
+
+import json 
+import pandas as pd
+from pathlib import Path
+
+# Path to the model.bim file
+bim_file_path = Path(&quot;/mnt/data/model.bim&quot;)
+
+# Load the model.bim JSON content
+with open(bim_file_path, &quot;r&quot;, encoding=&quot;utf-8&quot;) as file:
+&nbsp;&nbsp;&nbsp; bim_data = json.load(file)
+
+# Extract measures from all tables
+measures_list = []
+for table in bim_data.get(&quot;model&quot;, {}).get(&quot;tables&quot;, []):
+&nbsp;&nbsp;&nbsp; for measure in table.get(&quot;measures&quot;, []):
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; expression = measure.get(&quot;expression&quot;)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Join list of strings into a single string, if necessary
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if isinstance(expression, list):
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; expression = &quot;&quot;.join(expression)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; measures_list.append({
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &quot;Measure Name&quot;: measure.get(&quot;name&quot;),
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &quot;Formula&quot;: expression
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; })
+
+# Convert to DataFrame
+df_measures = pd.DataFrame(measures_list)
+
+# Save as Excel file
+output_path = &quot;/mnt/data/SSAS_Measures_List.xlsx&quot;
+df_measures.to_excel(output_path, index=False)
+
+print(f&quot;Excel file saved to: {output_path}&quot;)","Jun 25, 2025 09:30 PM",Mainak Chaudhuri,"Jun 25, 2025 09:23 PM",1989000006895984,"Jun 25, 2025 06:30 PM",10800000,,1989000006896601
+Himanshu Gupta,"Melbi6 gateway was offline, after turning it on issue resolved.","Jun 23, 2025 08:02 AM",Himanshu Gupta,"Jun 23, 2025 11:04 AM",1989000006874077,"Jun 23, 2025 07:02 AM",3600000,,1989000006877749
+Himanshu Gupta,Data is reconciled between melbi4 and azure,"Jun 18, 2025 03:00 PM",Himanshu Gupta,"Jun 23, 2025 08:14 AM",1989000006841927,"Jun 18, 2025 12:13 PM",10020000,,1989000006873729
+Himanshu Gupta,report connection issue fixed from old to new link,"Jun 20, 2025 08:30 AM",Himanshu Gupta,"Jun 23, 2025 08:16 AM",1989000006841927,"Jun 20, 2025 08:15 AM",900000,,1989000006873759
+Kishor Bhagwat Shinde,tried to connect WinSCP using the provided private key,"Jun 30, 2025 08:40 AM",Kishor Bhagwat Shinde,"Jul 1, 2025 07:10 AM",1989000006890168,"Jun 30, 2025 07:10 AM",5400000,,1989000006950577
+Himanshu Gupta,Sales Dashboard Access Provided to Melissa and Emma,"Jun 23, 2025 10:47 AM",Himanshu Gupta,"Jun 24, 2025 07:59 AM",1989000006874223,"Jun 23, 2025 10:40 AM",420000,,1989000006882556
+Himanshu Gupta,"Mex identified the issue related to not specifying the port, and have made a fix on their end.
+jobs are working fine ​","Jun 20, 2025 09:50 AM",Himanshu Gupta,"Jun 20, 2025 11:51 AM",1989000006838892,"Jun 20, 2025 07:50 AM",7200000,,1989000006866706
+Himanshu Gupta,,"Jul 4, 2025 08:19 AM",Kishor Bhagwat Shinde,"Jul 4, 2025 03:09 PM",1989000006858573,"Jul 4, 2025 07:30 AM",2940000,,1989000006993005
+Bruce Cao,Analysis,"Jun 25, 2025 06:00 AM",Bruce Cao,"Jul 1, 2025 05:30 AM",1989000006890536,"Jun 25, 2025 05:30 AM",1800000,,1989000006950538
+Mainak Chaudhuri,"- Traced the source of the columns.
+- Located the issues in the SSAS models and tracked for&nbsp;","Jun 16, 2025 01:30 PM",Mainak Chaudhuri,"Jun 16, 2025 02:45 PM",1989000006819014,"Jun 16, 2025 10:30 AM",10800000,,1989000006830767
+Mainak Chaudhuri,"- Data has been reconciled.
+- Models were updated in Melbi5\tabular, Az-prod and Az-dev.
+- Discrepancies were due to wrong formula.","Jun 18, 2025 01:34 PM",Mainak Chaudhuri,"Jun 18, 2025 02:36 PM",1989000006819014,"Jun 18, 2025 10:34 AM",10800000,,1989000006837683
+Himanshu Gupta,task done,"Jun 27, 2025 11:18 AM",Himanshu Gupta,"Jun 27, 2025 11:19 AM",1989000006803440,"Jun 27, 2025 11:01 AM",1020000,,1989000006924203
+Himanshu Gupta,FRT files loaded to DEV and PROD also data is validated.,"Jun 9, 2025 11:30 AM",Himanshu Gupta,"Jun 10, 2025 08:16 AM",1989000006778471,"Jun 9, 2025 10:15 AM",4500000,,1989000006793335
+Himanshu Gupta,Report Permission granted to user.,"Jun 5, 2025 07:25 AM",Himanshu Gupta,"Jun 5, 2025 08:09 AM",1989000006771077,"Jun 5, 2025 07:15 AM",600000,,1989000006763935
+Himanshu Gupta,root cause analysis done and created a document to describe the issue and what to do next.,"Jun 26, 2025 03:15 PM",Himanshu Gupta,"Jun 27, 2025 07:03 AM",1989000006771725,"Jun 26, 2025 01:02 PM",7980000,,1989000006920309
+Himanshu Gupta,error Is resolved.,"Jun 6, 2025 01:30 PM",Abhishek Chakraborty,"Jun 16, 2025 10:48 PM",1989000006771915,"Jun 6, 2025 12:30 PM",3600000,,1989000006833981
+Himanshu Gupta,,"Jun 2, 2025 12:15 PM",Himanshu Gupta,"Jun 4, 2025 10:37 AM",1989000006744605,"Jun 2, 2025 11:36 AM",2340000,,1989000006758791
+Bruce Cao,,"Jun 5, 2025 04:43 AM",Bruce Cao,"Jun 5, 2025 04:44 AM",1989000006759835,"Jun 5, 2025 03:43 AM",3600000,,1989000006766855
+Mainak Chaudhuri,"- Went through the API documentation.
+- Visited this link:&nbsp;https://accounts.zoho.com/signin?servicename=AaaServer&amp;context=&amp;serviceurl=https%3A%2F%2Fapi-console.zoho.com%2F
+- Require credentials to generate the grant token.","Jun 3, 2025 10:05 AM",Mainak Chaudhuri,"Jun 4, 2025 06:47 AM",1989000006746253,"Jun 3, 2025 09:45 AM",1200000,,1989000006763161
+Mainak Chaudhuri,"- Generated data flow diagram for the complete data pipeline to be built using the SDP API.
+- Fetched the grant token to generate access token.
+- Created a POC code in Python to schedule fetch using CRON jobs with dummy data.","Jun 4, 2025 12:00 PM",Mainak Chaudhuri,"Jun 4, 2025 12:37 PM",1989000006746253,"Jun 4, 2025 09:00 AM",10800000,,1989000006763237
+Mainak Chaudhuri,"- Generated a fresh refresh token.
+- Generated the access token.
+- Checked the connection with data flow using Python code.","Jun 9, 2025 04:44 AM",Mainak Chaudhuri,"Jun 23, 2025 04:46 AM",1989000006746253,"Jun 9, 2025 04:44 AM",0,,1989000006872152
+Himanshu Gupta,P&amp;C dashboard is fixed and data is matching as per expectations&nbsp;,"Jun 4, 2025 02:09 PM",Himanshu Gupta,"Jun 5, 2025 09:10 AM",1989000006759428,"Jun 4, 2025 01:09 PM",3600000,,1989000006772165
+Himanshu Gupta,,"Jun 2, 2025 02:25 PM",Himanshu Gupta,"Jun 5, 2025 06:51 AM",1989000006744383,"Jun 2, 2025 02:15 PM",600000,,1989000006763769
+Himanshu Gupta,,"Jun 2, 2025 02:25 PM",Himanshu Gupta,"Jun 5, 2025 06:53 AM",1989000006744239,"Jun 2, 2025 02:15 PM",600000,,1989000006763813
+Himanshu Gupta,,"Jun 2, 2025 01:20 PM",Himanshu Gupta,"Jun 5, 2025 06:55 AM",1989000006744083,"Jun 2, 2025 01:10 PM",600000,,1989000006763857
+Himanshu Gupta,job refreshed successfully and data is visible in report&nbsp;,"Jun 2, 2025 09:36 AM",Himanshu Gupta,"Jun 3, 2025 10:38 AM",1989000006727705,"Jun 2, 2025 08:26 AM",4200000,,1989000006757019
+Bruce Cao,trouble shooting,"Jun 2, 2025 06:49 AM",Bruce Cao,"Jul 1, 2025 05:49 AM",1989000006727705,"Jun 2, 2025 05:49 AM",3600000,,1989000006955004
+Himanshu Gupta,all retrofitting done&nbsp;,"May 30, 2025 10:47 AM",Himanshu Gupta,"Jun 20, 2025 11:47 AM",1989000006717251,"May 29, 2025 11:47 AM",82800000,,1989000006866660
+Himanshu Gupta,"FY27 data is coming now, I have made FY2027 to share the same &quot;marked&quot; version of FY26 COGS.","May 28, 2025 10:07 AM",Bruce Cao,"Jun 5, 2025 09:08 AM",1989000006705239,"May 28, 2025 09:00 AM",4020000,,1989000006772131
+Himanshu Gupta,Issue is resolved,"May 29, 2025 12:05 PM",Himanshu Gupta,"May 30, 2025 11:06 AM",1989000006717237,"May 29, 2025 11:05 AM",3600000,,1989000006725935
+Bruce Cao,,"May 23, 2025 11:01 AM",Bruce Cao,"May 23, 2025 11:01 AM",1989000006682701,"May 23, 2025 10:01 AM",3600000,,1989000006685168
+Himanshu Gupta,"Verified the filter on Material Status and confirmed that status 08 was not initially included. After adding 08 to the filter, the data became visible.","May 29, 2025 05:50 PM",Abhishek Chakraborty,"May 30, 2025 10:28 AM",1989000006682146,"May 29, 2025 05:00 PM",3000000,,1989000006725793
+Kishor Bhagwat Shinde,Had a discussion with Emily to replicate the report in PowerBI dashboard&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,"Jul 3, 2025 03:18 AM",Kishor Bhagwat Shinde,"Jul 4, 2025 08:50 AM",1989000006983122,"Jul 3, 2025 02:48 AM",1800000,,1989000006977303
+Rahul Verma,Developed the paginated report and added the filters.,"Jul 4, 2025 10:19 PM",Rahul Verma,"Jul 4, 2025 04:20 PM",1989000006983122,"Jul 4, 2025 04:19 PM",21600000,,1989000006989049
+Kishor Bhagwat Shinde,Created a PowerBI report​,"Jul 8, 2025 04:40 AM",Kishor Bhagwat Shinde,"Jul 9, 2025 12:40 AM",1989000006983122,"Jul 8, 2025 12:40 AM",14400000,,1989000007003963
+Rahul Verma,Developed a table on Power BI Desktop with similar structrure.,"Jul 10, 2025 01:40 PM",Rahul Verma,"Jul 10, 2025 01:41 PM",1989000006983122,"Jul 10, 2025 10:40 AM",10800000,,1989000007025593
+Kishor Bhagwat Shinde,made some changes in powerbi dashboard&nbsp;,"Jul 21, 2025 12:24 PM",Kishor Bhagwat Shinde,"Jul 24, 2025 08:25 AM",1989000006983122,"Jul 21, 2025 08:24 AM",14400000,,1989000007115903
+Himanshu Gupta,paginated reports connection and gateway changed,"May 22, 2025 11:25 AM",Himanshu Gupta,"May 23, 2025 02:26 PM",1989000006664667,"May 22, 2025 09:25 AM",7200000,,1989000006686307
+Himanshu Gupta,Followed up with user regarding user issue resolved or not.,"Jun 5, 2025 08:50 AM",Himanshu Gupta,"Jun 5, 2025 09:05 AM",1989000006669741,"Jun 5, 2025 08:45 AM",300000,,1989000006772111
+Himanshu Gupta,Dashboard repointing is done in bulla dashboard workspace,"May 27, 2025 12:48 PM",Himanshu Gupta,"May 27, 2025 12:49 PM",1989000006663921,"May 27, 2025 08:48 AM",14400000,,1989000006701981
+Himanshu Gupta,"Issue is resolved, resolution is provided to user.","May 19, 2025 09:00 AM",Himanshu Gupta,"May 19, 2025 09:13 AM",1989000006641350,"May 19, 2025 08:30 AM",1800000,,1989000006643988
+Himanshu Gupta,Resolution provided,"May 21, 2025 09:01 AM",Abhishek Chakraborty,"May 22, 2025 06:58 AM",1989000006641564,"May 21, 2025 08:00 AM",3660000,,1989000006664463
+Himanshu Gupta,Budget v20 file uploaded and validated&nbsp;,"May 14, 2025 02:11 PM",Himanshu Gupta,"May 14, 2025 10:51 AM",1989000006617849,"May 14, 2025 01:50 PM",1260000,,1989000006621182
+Himanshu Gupta,cost component report refreshed,"May 15, 2025 01:26 PM",Himanshu Gupta,"May 16, 2025 09:27 AM",1989000006623490,"May 15, 2025 12:02 PM",5040000,,1989000006634936
+Himanshu Gupta,Budget v21 file uploaded and validated&nbsp;,"May 15, 2025 02:30 PM",Himanshu Gupta,"May 15, 2025 10:21 AM",1989000006623865,"May 15, 2025 02:01 PM",1740000,,1989000006629083
+Himanshu Gupta,both sheets reviewed,"May 23, 2025 10:30 AM",Himanshu Gupta,"May 26, 2025 09:31 AM",1989000006605315,"May 23, 2025 09:31 AM",3540000,,1989000006693757
+Himanshu Gupta,resolved,"May 15, 2025 10:22 AM",Himanshu Gupta,"May 15, 2025 10:22 AM",1989000006608630,"May 14, 2025 10:22 AM",86400000,,1989000006629129
+Himanshu Gupta,"We have identified that material&nbsp;5001431&nbsp;has duplicate production version&nbsp;'0001'&nbsp;in both&nbsp;plant 3000&nbsp;and&nbsp;plant 3300.
+According to the current logic agreed with business, BI selects the&nbsp;plant&nbsp;and&nbsp;Work Centre&nbsp;from production version&nbsp;'0001'&nbsp;as the preferred site and line.","May 21, 2025 01:13 PM",Bruce Cao,"Jun 5, 2025 09:02 AM",1989000006594203,"May 21, 2025 12:02 PM",4260000,,1989000006772079
+Himanshu Gupta,Followed up on Adli new files&nbsp;,"May 8, 2025 09:20 AM",Himanshu Gupta,"Jun 5, 2025 09:11 AM",1989000006587336,"May 8, 2025 09:11 AM",540000,,1989000006772187
+Himanshu Gupta,Followed up with User but no luck with new Aldi corrected files,"May 21, 2025 08:20 AM",Himanshu Gupta,"Jun 5, 2025 09:13 AM",1989000006587336,"May 21, 2025 08:12 AM",480000,,1989000006772205
+Himanshu Gupta,budget V19 uploaded.,"May 6, 2025 01:17 PM",Himanshu Gupta,"May 6, 2025 01:18 PM",1989000006568612,"May 6, 2025 12:17 PM",3600000,,1989000006570223
+Himanshu Gupta,"SLED report is working fine, and data is refreshed.","May 12, 2025 01:11 PM",Abhishek Chakraborty,"Jun 16, 2025 06:12 AM",1989000006578376,"May 12, 2025 12:11 PM",3600000,,1989000006827231
+Abhishek Chakraborty,Check ed and Discussed with business,"May 5, 2025 10:39 AM",Abhishek Chakraborty,"May 5, 2025 10:40 AM",1989000006553467,"May 5, 2025 09:39 AM",3600000,,1989000006564070
+Himanshu Gupta,budget file&nbsp; v18 uploded,"May 5, 2025 03:30 PM",Himanshu Gupta,"May 5, 2025 03:31 PM",1989000006553563,"May 5, 2025 12:30 PM",10800000,,1989000006565271
+Himanshu Gupta,,"Jul 3, 2025 08:20 AM",Himanshu Gupta,"Jul 3, 2025 01:20 PM",1989000006528159,"Jul 2, 2025 02:20 PM",64800000,,1989000006973228
+Himanshu Gupta,Budget v17 uploaded&nbsp;,"Apr 28, 2025 09:30 AM",Himanshu Gupta,"Apr 28, 2025 12:53 PM",1989000006508596,"Apr 28, 2025 09:01 AM",1740000,,1989000006511285
+Himanshu Gupta,"worled on&nbsp; ticket's 2nd questions to know te logic behind how we fetch data for lag versions and different calculated fields such as&nbsp; MAPE2, ERROR, BIAS2","Apr 29, 2025 03:14 PM",Himanshu Gupta,"Apr 29, 2025 04:17 PM",1989000006508518,"Apr 29, 2025 08:16 AM",25080000,,1989000006524003
+Himanshu Gupta,completed the Analysis as per the question 1&nbsp;,"May 2, 2025 02:00 PM",Himanshu Gupta,"May 5, 2025 07:01 AM",1989000006508518,"May 2, 2025 09:00 AM",18000000,,1989000006563060
+Mainak Chaudhuri,"Generated a data flow diagram for the complete data flow process from source table. Updating the conditions of joins, data segregation and data input.","Apr 29, 2025 02:44 PM",Mainak Chaudhuri,"Apr 29, 2025 03:13 PM",1989000006508001,"Apr 29, 2025 07:10 AM",27240000,,1989000006523001
+Mainak Chaudhuri,Generated the complete data flow diagram for the ticket and represented all the essential conditions and joins.,"Apr 30, 2025 02:17 PM",Mainak Chaudhuri,"Apr 30, 2025 02:18 PM",1989000006508001,"Apr 30, 2025 07:05 AM",25920000,,1989000006534737
+Mainak Chaudhuri,"Calculated the CMT measures, understood the workflow and a generated a complete data flow diagram for the ticket.","May 1, 2025 03:00 PM",Mainak Chaudhuri,"May 1, 2025 03:01 PM",1989000006508001,"May 1, 2025 07:00 AM",28800000,,1989000006547966
+Himanshu Gupta,"Aldi weekly file uploaded, and issue is resolved.","Apr 27, 2025 08:35 AM",Himanshu Gupta,"Apr 29, 2025 09:37 AM",1989000006500155,"Apr 24, 2025 09:35 AM",255600000,,1989000006517979
+Himanshu Gupta,will open again when needed&nbsp;,"Apr 25, 2025 09:08 AM",Himanshu Gupta,"May 2, 2025 08:10 AM",1989000006496409,"Apr 25, 2025 08:08 AM",3600000,,1989000006548220
+Bruce Cao,review,"Aug 22, 2025 12:04 PM",Bruce Cao,"Aug 22, 2025 11:35 AM",1989000006500039,"Aug 22, 2025 11:34 AM",1800000,,1989000007309613
+Himanshu Gupta,Frt file uploaded and validated,"Apr 25, 2025 12:43 PM",Himanshu Gupta,"Apr 30, 2025 07:45 AM",1989000006500418,"Apr 25, 2025 11:43 AM",3600000,,1989000006528027
+Bejoy Sivadas,"Correct, ARIA did replace Riskware.
+No data was migrated however.
+The application cannot be revived, it's long gone and we don't have the license to use it anyway.
+&nbsp;
+The SQL database can be interrogated by the BI team if needed (such as a legal","Apr 16, 2025 02:27 PM",Bejoy Sivadas,"Apr 16, 2025 02:30 PM",1989000006492995,"Apr 16, 2025 01:57 PM",1800000,,1989000006437319
+Bejoy Sivadas,,"Apr 17, 2025 10:44 AM",Bejoy Sivadas,"Apr 17, 2025 10:48 AM",1989000006492995,"Apr 17, 2025 10:14 AM",1800000,,1989000006449644
+Himanshu Gupta,Dashboard is refreshed,"Apr 25, 2025 09:15 AM",Himanshu Gupta,"May 2, 2025 08:15 AM",1989000006489329,"Apr 24, 2025 09:15 AM",86400000,,1989000006548304
+Himanshu Gupta,Issue not related to UAT test cases. Reconciliation of old reports shows no discrepancies. &nbsp;Recommend comparing old vs. new reports in future for UAT testing to identify discrepancies.,"Apr 24, 2025 10:07 AM",Himanshu Gupta,"May 5, 2025 08:08 AM",1989000006489271,"Apr 24, 2025 09:07 AM",3600000,,1989000006563274
+Himanshu Gupta,cost component data refreshed.,"Apr 17, 2025 01:00 PM",Himanshu Gupta,"May 6, 2025 12:37 PM",1989000006451798,"Apr 17, 2025 11:35 AM",5100000,,1989000006570139
+Himanshu Gupta,data is available,"May 20, 2025 08:46 AM",Himanshu Gupta,"May 27, 2025 12:47 PM",1989000006485009,"May 19, 2025 09:46 AM",82800000,,1989000006701929
+Himanshu Gupta,v16 uploaded,"Apr 16, 2025 12:34 PM",Himanshu Gupta,"Apr 16, 2025 01:35 PM",1989000006434258,"Apr 16, 2025 11:55 AM",2340000,,1989000006438108
+Himanshu Gupta,v15 uploaded,"Apr 16, 2025 10:36 AM",Himanshu Gupta,"Apr 16, 2025 01:36 PM",1989000006434111,"Apr 16, 2025 10:08 AM",1680000,,1989000006438124
+Himanshu Gupta,v14 upload is done&nbsp;,"Apr 16, 2025 10:20 AM",Himanshu Gupta,"Apr 16, 2025 01:21 PM",1989000006425857,"Apr 16, 2025 08:20 AM",7200000,,1989000006438010
+Himanshu Gupta,Acknowledge mail,"Apr 15, 2025 08:00 AM",Himanshu Gupta,"Apr 16, 2025 01:28 PM",1989000006417263,"Apr 15, 2025 07:26 AM",2040000,,1989000006438060
+Himanshu Gupta,Power BI access is provided to user&nbsp;,"Apr 22, 2025 10:00 AM",Himanshu Gupta,"May 5, 2025 10:46 AM",1989000006417787,"Apr 22, 2025 09:30 AM",1800000,,1989000006563448
+Himanshu Gupta,resolved,"Apr 14, 2025 08:47 PM",Himanshu Gupta,"Apr 15, 2025 11:48 AM",1989000006417134,"Apr 14, 2025 04:47 PM",14400000,,1989000006415902
+Himanshu Gupta,Budget v13 file uploaded&nbsp;,"Apr 15, 2025 10:49 AM",Himanshu Gupta,"Apr 15, 2025 11:50 AM",1989000006409599,"Apr 15, 2025 09:49 AM",3600000,,1989000006415938
+Himanshu Gupta,Budget v11 file uploaded,"Apr 14, 2025 08:57 AM",Himanshu Gupta,"Apr 14, 2025 08:58 AM",1989000006409599,"Apr 14, 2025 07:57 AM",3600000,,1989000006416047
+Himanshu Gupta,Budget V10 uploaded,"Apr 10, 2025 02:40 PM",Himanshu Gupta,"Apr 11, 2025 06:41 AM",1989000006392754,"Apr 10, 2025 01:40 PM",3600000,,1989000006398035
+Bruce Cao,,"Apr 10, 2025 05:28 AM",Bruce Cao,"Apr 10, 2025 04:58 AM",1989000006382747,"Apr 10, 2025 04:58 AM",1800000,,1989000006388183
+Bruce Cao,investigation,"Aug 18, 2025 10:37 AM",Bruce Cao,"Aug 20, 2025 10:38 AM",1989000006382533,"Aug 18, 2025 08:37 AM",7200000,,1989000007287677
+Bruce Cao,development,"Aug 20, 2025 03:38 PM",Bruce Cao,"Aug 20, 2025 10:38 AM",1989000006382533,"Aug 20, 2025 10:38 AM",18000000,,1989000007287695
+Himanshu Gupta,Budget files uploaded,"Apr 9, 2025 09:30 AM",Himanshu Gupta,"Apr 9, 2025 12:44 PM",1989000006382390,"Apr 9, 2025 08:10 AM",4800000,,1989000006387943
+Himanshu Gupta,Alert is created in ADF for pipeline failure / success/ long running,"Jun 4, 2025 11:31 AM",Himanshu Gupta,"Jun 5, 2025 08:32 AM",1989000006380234,"Jun 3, 2025 10:31 AM",90000000,,1989000006772009
+Himanshu Gupta,issue is resolved,"Apr 10, 2025 06:42 AM",Himanshu Gupta,"Apr 14, 2025 06:42 AM",1989000006366342,"Apr 8, 2025 08:42 AM",165600000,,1989000006410679
+Himanshu Gupta,Access provided and user able to perform tasks,"Apr 9, 2025 08:18 AM",Himanshu Gupta,"Apr 11, 2025 08:18 AM",1989000006350760,"Apr 7, 2025 08:18 AM",172800000,,1989000006398127
+Himanshu Gupta,Budget file Uploaded,"Apr 8, 2025 12:46 PM",Himanshu Gupta,"Apr 9, 2025 06:47 AM",1989000006372045,"Apr 8, 2025 11:46 AM",3600000,,1989000006380160
+Himanshu Gupta,update provided on ticket,"Apr 7, 2025 11:50 AM",Abhishek Chakraborty,"May 13, 2025 09:26 AM",1989000006350600,"Apr 7, 2025 11:01 AM",2940000,,1989000006605369
+Himanshu Gupta,Issue is fixed and confirmed by user,"Apr 28, 2025 03:27 PM",Abhishek Chakraborty,"May 13, 2025 09:28 AM",1989000006350600,"Apr 28, 2025 11:27 AM",14400000,,1989000006605387
+Bruce Cao,,"Apr 7, 2025 07:05 AM",Bruce Cao,"Apr 7, 2025 06:19 AM",1989000006350570,"Apr 7, 2025 06:15 AM",3000000,,1989000006353203
+Himanshu Gupta,"&nbsp;Performed data refresh, and the latest data is&nbsp; now visible in the report.","Apr 7, 2025 11:04 AM",Himanshu Gupta,"Apr 24, 2025 01:05 PM",1989000006350570,"Apr 7, 2025 10:04 AM",3600000,,1989000006497211
+Bruce Cao,,"Apr 7, 2025 06:09 AM",Bruce Cao,"Apr 7, 2025 05:21 AM",1989000006350467,"Apr 7, 2025 05:19 AM",3000000,,1989000006353127
+Himanshu Gupta,Aldi weekly files Issue is Resolved.,"Apr 10, 2025 09:13 AM",Himanshu Gupta,"Apr 15, 2025 09:14 AM",1989000006338400,"Apr 3, 2025 08:13 AM",608400000,,1989000006415612
+Mainak Chaudhuri,"The resolution has been provided, and the PO is now visible in the report.&nbsp;","Apr 7, 2025 01:00 PM",Mainak Chaudhuri,"May 5, 2025 11:17 AM",1989000006308452,"Apr 7, 2025 11:01 AM",7140000,,1989000006558717
+Himanshu Gupta,resolved,"Apr 1, 2025 09:49 AM",Himanshu Gupta,"Apr 11, 2025 08:50 AM",1989000006308618,"Apr 1, 2025 08:50 AM",3540000,,1989000006398205
+Himanshu Gupta,Files uploaded&nbsp;,"Mar 28, 2025 09:03 PM",Himanshu Gupta,"Apr 1, 2025 08:04 AM",1989000006278464,"Mar 28, 2025 10:38 AM",37500000,,1989000006312790
+Himanshu Gupta,Report is refreshing fine,"Mar 31, 2025 11:33 AM",Himanshu Gupta,"Apr 4, 2025 08:34 AM",1989000006303353,"Mar 31, 2025 10:34 AM",3540000,,1989000006341336
+Himanshu Gupta,cost component report is updated and validated&nbsp;,"Mar 28, 2025 10:04 AM",Himanshu Gupta,"Apr 4, 2025 10:05 AM",1989000006269702,"Mar 27, 2025 10:04 AM",86400000,,1989000006341450
+Himanshu Gupta,Budget files updated volumes is uploaded and verified,"Apr 2, 2025 08:37 AM",Himanshu Gupta,"Apr 4, 2025 08:39 AM",1989000006253306,"Mar 24, 2025 08:37 AM",777600000,,1989000006341376
+Abhishek Chakraborty,Fixed,"Mar 25, 2025 09:11 PM",Abhishek Chakraborty,"Apr 8, 2025 01:12 PM",1989000006241980,"Mar 25, 2025 01:11 PM",28800000,,1989000006377007
+Bejoy Sivadas,-- assigned&nbsp; &nbsp;,"Mar 23, 2025 03:02 PM",Bejoy Sivadas,"Mar 23, 2025 03:02 PM",1989000006241489,"Mar 23, 2025 02:52 PM",600000,,1989000006239622
+Bejoy Sivadas,-- assigned to Bruce to&nbsp; &nbsp;assign to BI tech&nbsp; &nbsp;on the&nbsp; BI team&nbsp; &nbsp;,"Mar 18, 2025 02:26 AM",Bejoy Sivadas,"Mar 18, 2025 02:27 AM",1989000006215467,"Mar 18, 2025 02:16 AM",600000,,1989000006220230
+Bejoy Sivadas,-- assigned to Bruce&nbsp; &nbsp;,"Mar 18, 2025 02:44 AM",Bejoy Sivadas,"Mar 18, 2025 02:44 AM",1989000006215101,"Mar 18, 2025 02:34 AM",600000,,1989000006220458
+Himanshu Gupta,report flag updated and validated by user,"Mar 18, 2025 11:27 AM",Himanshu Gupta,"Mar 21, 2025 11:27 AM",1989000006215101,"Mar 17, 2025 11:27 AM",86400000,,1989000006247377
+Abhishek Chakraborty,Worked on Fix,"Mar 17, 2025 05:33 PM",Abhishek Chakraborty,"Mar 18, 2025 05:33 PM",1989000006195197,"Mar 17, 2025 07:33 AM",36000000,,1989000006222539
+Abhishek Chakraborty,Worked on fix,"Mar 18, 2025 05:34 PM",Abhishek Chakraborty,"Mar 18, 2025 05:34 PM",1989000006195197,"Mar 18, 2025 07:34 AM",36000000,,1989000006224486
+Bejoy Sivadas,-- assigned,"Mar 7, 2025 02:30 AM",Bejoy Sivadas,"Mar 7, 2025 02:20 AM",1989000006135738,"Mar 7, 2025 02:20 AM",600000,,1989000006144821
+Bejoy Sivadas,-- assigned to BI team&nbsp;&nbsp;,"Mar 18, 2025 02:47 AM",Bejoy Sivadas,"Mar 18, 2025 02:47 AM",1989000006215065,"Mar 18, 2025 02:37 AM",600000,,1989000006220559
+Himanshu Gupta,Masterdata is corrected in SAP,"Apr 16, 2025 10:51 AM",Bruce Cao,"Apr 25, 2025 06:57 AM",1989000006215065,"Apr 16, 2025 09:56 AM",3300000,,1989000006497251
+Bejoy Sivadas,,"Mar 11, 2025 03:47 AM",Bejoy Sivadas,"Mar 11, 2025 03:47 AM",1989000006170159,"Mar 11, 2025 03:32 AM",900000,,1989000006171814
+Himanshu Gupta,After many follow up user not replied.,"May 2, 2025 10:59 AM",Himanshu Gupta,"May 5, 2025 08:00 AM",1989000006186083,"May 2, 2025 09:59 AM",3600000,,1989000006563218
+Bruce Cao,,"May 6, 2025 12:29 PM",Bruce Cao,"May 6, 2025 12:29 PM",1989000006135070,"May 6, 2025 06:29 AM",21600000,,1989000006565845
+Bruce Cao,,"Mar 10, 2025 04:03 PM",Bruce Cao,"May 21, 2025 05:03 PM",1989000006111495,"Mar 10, 2025 08:03 AM",28800000,,1989000006664257
+Bruce Cao,,"Mar 11, 2025 06:02 AM",Bruce Cao,"Jul 1, 2025 06:03 AM",1989000006111495,"Mar 11, 2025 05:02 AM",3600000,,1989000006955304
+Bruce Cao,,"Feb 26, 2025 10:01 AM",Bruce Cao,"Feb 27, 2025 08:01 AM",1989000006088390,"Feb 26, 2025 08:01 AM",7200000,,1989000006092334
+Himanshu Gupta,Operational guide changes made as per azure environment&nbsp;,"Mar 17, 2025 12:06 PM",Himanshu Gupta,"Mar 25, 2025 12:08 PM",1989000006093618,"Feb 27, 2025 10:07 AM",1562340000,,1989000006262393
+Himanshu Gupta,FY26 sales budget uploaded and validated.,"Feb 25, 2025 09:49 AM",Himanshu Gupta,"Mar 3, 2025 07:51 AM",1989000006059093,"Feb 24, 2025 07:50 AM",93540000,,1989000006120993
+Himanshu Gupta,,"Mar 13, 2025 11:51 AM",Himanshu Gupta,"Mar 31, 2025 09:52 AM",1989000006189199,"Mar 13, 2025 09:51 AM",7200000,,1989000006304217
+Himanshu Gupta,Report error is resolved&nbsp;,"Mar 13, 2025 08:05 AM",Himanshu Gupta,"Mar 18, 2025 10:06 AM",1989000006078031,"Feb 26, 2025 03:05 PM",1270800000,,1989000006224330
+Himanshu Gupta,,"Mar 3, 2025 07:44 AM",Himanshu Gupta,"Mar 3, 2025 07:45 AM",1989000006029855,"Feb 21, 2025 10:44 AM",853200000,,1989000006120844
+Bejoy Sivadas,-- asigned&nbsp; to BI team&nbsp; &nbsp;,"Feb 24, 2025 09:06 AM",Bejoy Sivadas,"Feb 24, 2025 09:06 AM",1989000006059177,"Feb 24, 2025 08:56 AM",600000,,1989000006061716
+Bejoy Sivadas,-- assigned,"Mar 2, 2025 03:37 PM",Bejoy Sivadas,"Mar 2, 2025 03:37 PM",1989000006026021,"Mar 2, 2025 03:27 PM",600000,,1989000006114348
+Bejoy Sivadas,-- assigned to Bi team&nbsp; &nbsp;,"Feb 19, 2025 12:05 PM",Bejoy Sivadas,"Feb 19, 2025 12:06 PM",1989000006018881,"Feb 19, 2025 11:55 AM",600000,,1989000006022982
+Bejoy Sivadas,-- assigned to BI tech&nbsp; &nbsp;&nbsp;,"Mar 7, 2025 02:23 AM",Bejoy Sivadas,"Mar 7, 2025 02:24 AM",1989000006018881,"Mar 7, 2025 02:13 AM",600000,,1989000006144925
+Himanshu Gupta,PO FIlter method is provided,"Feb 19, 2025 12:18 PM",Bruce Cao,"Feb 21, 2025 12:19 PM",1989000006018855,"Feb 19, 2025 11:18 AM",3600000,,1989000006030658
+Bejoy Sivadas,-- assigned to Bi team&nbsp;&nbsp;,"Feb 18, 2025 11:29 AM",Bejoy Sivadas,"Feb 18, 2025 11:29 AM",1989000006010290,"Feb 18, 2025 11:19 AM",600000,,1989000006013817
+Mainak Chaudhuri,"- Checked against the Availability OEE% for different months (June to November) as mentioned in the ticket for Connor Street and Forest Street values.
+- Figured out discrepancies in all the monthly values for Availability%.
+- Calculated the means for the given period from OEE dashboard charts and metrics and concluded the difference.
+- Going through the OEE_Scorecard stored procedure in MELBI1 trying to understand the root cause.- Conclusion: On data reconcilation of OEE measures till now, we can figure out a mismatch with proposed values.","May 21, 2025 11:00 AM",Mainak Chaudhuri,"May 21, 2025 11:01 AM",1989000006010290,"May 21, 2025 10:15 AM",2700000,,1989000006673001
+Mainak Chaudhuri,"- Backtracking of OEE_Order, OEE_Scorecard against values of MBR Scorecard Sheet.
+- Applied monthly filters on the OEE dashboard.
+- Calculated deviation for Availability OEE % and computed the new mean value.
+- Checking with CalendarDate and OEE Target
+- Conclusion: The formula defined (Availability % x Performance % x Quality %) is incorrect as each % multiplied will be higher above the target measure. The closest match of Monthly targets are with Availability% value.","May 22, 2025 09:30 AM",Mainak Chaudhuri,"May 22, 2025 10:59 AM",1989000006010290,"May 22, 2025 07:30 AM",7200000,,1989000006673649
+Mainak Chaudhuri,Found the table with missing data. Tracing to its source.,"Jul 25, 2025 01:30 PM",Mainak Chaudhuri,"Jul 27, 2025 07:44 AM",1989000006010290,"Jul 25, 2025 01:00 PM",1800000,,1989000007138780
+Mainak Chaudhuri,KPIs are not mapping.,"Aug 12, 2025 09:00 AM",Mainak Chaudhuri,"Aug 13, 2025 07:19 AM",1989000006010290,"Aug 12, 2025 08:00 AM",3600000,,1989000007244861
+Shrey Patel,"-Assigned to BI team
+-Emailed Adrian ","Jul 5, 2023 08:29 AM",Shrey Patel,"Jul 5, 2023 08:29 AM",1989000005951257,"Jul 5, 2023 08:24 AM",300000,,1989000000542385
+Bejoy Sivadas,-- assigned to BI team&nbsp; &nbsp;,"Feb 12, 2025 11:14 AM",Bejoy Sivadas,"Feb 12, 2025 11:14 AM",1989000005951257,"Feb 12, 2025 11:04 AM",600000,,1989000005972286
+Abhishek Chakraborty,Development and testing,"Apr 8, 2025 10:00 AM",Abhishek Chakraborty,"Jun 10, 2025 10:00 AM",1989000005951257,"Apr 1, 2025 10:00 AM",604800000,,1989000006793595
+Bruce Cao,,"Aug 18, 2025 03:00 PM",Bruce Cao,"Aug 18, 2025 11:00 AM",1989000005951257,"Aug 18, 2025 11:00 AM",14400000,,1989000007264959
+Himanshu Gupta,QFW job Refreshed successfully.,"Feb 13, 2025 03:27 PM",Himanshu Gupta,"Feb 14, 2025 07:29 AM",1989000005977841,"Feb 13, 2025 01:28 PM",7140000,,1989000005984339
+Bejoy Sivadas,-- assigned to bi TEAM,"Feb 26, 2025 12:34 PM",Bejoy Sivadas,"Feb 26, 2025 12:34 PM",1989000005926850,"Feb 26, 2025 12:24 PM",600000,,1989000006083785
+Bruce Cao,deployment,"Mar 11, 2025 05:59 AM",Bruce Cao,"Mar 11, 2025 05:00 AM",1989000005926850,"Mar 11, 2025 04:59 AM",3600000,,1989000006173289
+Bruce Cao,development,"Feb 24, 2025 01:00 PM",Bruce Cao,"Mar 11, 2025 05:00 AM",1989000005926850,"Feb 24, 2025 05:00 AM",28800000,,1989000006173303
+Bruce Cao,development,"Feb 19, 2024 01:00 PM",Bruce Cao,"Mar 11, 2025 05:01 AM",1989000005926850,"Feb 19, 2024 05:00 AM",28800000,,1989000006173317
+Bruce Cao,development,"Feb 10, 2025 01:01 PM",Bruce Cao,"Mar 11, 2025 05:01 AM",1989000005926850,"Feb 10, 2025 05:01 AM",28800000,,1989000006173331
+Bruce Cao,solution discussion,"Feb 11, 2025 03:41 AM",Bruce Cao,"Feb 12, 2025 03:41 AM",1989000005956148,"Feb 11, 2025 02:41 AM",3600000,,1989000005955517
+Bruce Cao,"call with user.
+investigating","Feb 10, 2025 05:41 AM",Bruce Cao,"Feb 12, 2025 03:41 AM",1989000005956148,"Feb 10, 2025 03:41 AM",7200000,,1989000005955533
+Himanshu Gupta,,"Mar 18, 2025 12:23 PM",Himanshu Gupta,"Mar 21, 2025 11:24 AM",1989000005914168,"Feb 5, 2025 09:23 AM",3553200000,,1989000006247339
+Bejoy Sivadas,-- assigned to business team&nbsp; &nbsp;,"Feb 12, 2025 10:59 AM",Bejoy Sivadas,"Feb 12, 2025 10:59 AM",1989000005969110,"Feb 12, 2025 10:49 AM",600000,,1989000005972010
+Himanshu Gupta,Successfully delivered the P&amp;C dashboard.,"Feb 12, 2025 11:38 AM",Himanshu Gupta,"Feb 12, 2025 11:42 AM",1989000005969110,"Feb 12, 2025 10:30 AM",4080000,,1989000005972716
+Joe Anderson,Assigned to Mark as I believe he's already working or worked on this.,"Feb 17, 2025 09:06 AM",Joe Anderson,"Feb 17, 2025 09:06 AM",1989000005904958,"Feb 17, 2025 09:06 AM",0,,1989000006005086
+Kishor Bhagwat Shinde,changes made in aria dashboard,"Mar 6, 2025 11:45 AM",Kishor Bhagwat Shinde,"Mar 7, 2025 07:45 AM",1989000005904958,"Mar 6, 2025 07:45 AM",14400000,,1989000006153617
+Kishor Bhagwat Shinde,checked the feasibility for filters,"Mar 24, 2025 10:24 AM",Kishor Bhagwat Shinde,"Mar 28, 2025 07:25 AM",1989000005904958,"Mar 24, 2025 07:24 AM",10800000,,1989000006281598
+Kishor Bhagwat Shinde,Production deployment,"Apr 21, 2025 09:51 AM",Kishor Bhagwat Shinde,"Apr 23, 2025 08:22 AM",1989000005904958,"Apr 21, 2025 08:21 AM",5400000,,1989000006480829
+Himanshu Gupta,Report file path provided to user.,"Feb 5, 2025 08:55 AM",Himanshu Gupta,"Feb 5, 2025 07:57 AM",1989000005904730,"Feb 5, 2025 07:56 AM",3540000,,1989000005897763
+Himanshu Gupta,Ops_sched1 job refresh successfully done.,"Feb 5, 2025 08:10 AM",Himanshu Gupta,"Feb 6, 2025 07:11 AM",1989000005904205,"Feb 5, 2025 06:10 AM",7200000,,1989000005915763
+Himanshu Gupta,Consumer Feedback job is working fine.,"Feb 24, 2025 08:21 AM",Himanshu Gupta,"Feb 25, 2025 01:22 PM",1989000005904040,"Feb 4, 2025 08:00 AM",1729260000,,1989000006071085
+Himanshu Gupta,,"Feb 3, 2025 12:33 PM",Bruce Cao,"Feb 14, 2025 09:04 AM",1989000005873343,"Jan 30, 2025 04:03 PM",333000000,,1989000005984503
+Bruce Cao,,"Feb 4, 2025 05:28 AM",Bruce Cao,"Feb 4, 2025 05:28 AM",1989000005896382,"Feb 4, 2025 04:58 AM",1800000,,1989000005897059
+Himanshu Gupta,,"Feb 4, 2025 04:55 AM",Himanshu Gupta,"Feb 7, 2025 08:18 AM",1989000005896916,"Feb 4, 2025 03:30 AM",5100000,,1989000005933703
+Bruce Cao,,"Feb 5, 2025 09:02 AM",Bruce Cao,"Feb 10, 2025 08:03 AM",1989000005896965,"Feb 5, 2025 08:02 AM",3600000,,1989000005949206
+Bruce Cao,,"Feb 3, 2025 07:54 AM",Bruce Cao,"Feb 3, 2025 07:54 AM",1989000005873545,"Feb 3, 2025 07:44 AM",600000,,1989000005876331
+Himanshu Gupta,New SKU'S were added and visible in the Aldi weekly report.,"Feb 6, 2025 08:46 AM",Himanshu Gupta,"Feb 7, 2025 08:50 AM",1989000005863286,"Jan 31, 2025 06:01 PM",485100000,,1989000005933753
+Himanshu Gupta,"QFW Report refresh has been completed, and the app issue has also been fixed.","Jan 31, 2025 09:25 AM",Himanshu Gupta,"Feb 4, 2025 10:26 AM",1989000005859574,"Jan 31, 2025 08:25 AM",3600000,,1989000005899937
+Bruce Cao,,"Jan 21, 2025 08:11 AM",Bruce Cao,"Jan 21, 2025 06:11 AM",1989000005779276,"Jan 21, 2025 06:11 AM",7200000,,1989000005781574
+Bruce Cao,Data validation,"Jan 22, 2025 06:08 AM",Bruce Cao,"Jan 22, 2025 05:58 AM",1989000005779276,"Jan 22, 2025 05:38 AM",1800000,,1989000005786018
+Bruce Cao,,"Jan 17, 2025 06:25 AM",Bruce Cao,"Jan 17, 2025 06:25 AM",1989000005732715,"Jan 17, 2025 06:15 AM",600000,,1989000005734119
+Himanshu Gupta,All the Aldi files are processed till last week. The SKU update is also done.,"Jan 21, 2025 08:25 AM",Himanshu Gupta,"Jan 23, 2025 08:26 AM",1989000005718769,"Jan 16, 2025 02:02 PM",95100000,,1989000005795621
+Jayasudha Anand,,"Jan 9, 2025 05:15 PM",Jayasudha Anand,"Jan 10, 2025 01:16 PM",1989000005681011,"Jan 9, 2025 01:15 PM",14400000,,1989000005681059
+Jayasudha Anand,,"Jan 10, 2025 03:16 PM",Jayasudha Anand,"Jan 10, 2025 01:16 PM",1989000005681011,"Jan 10, 2025 01:16 PM",7200000,,1989000005681073
+Himanshu Gupta,Resolution has been Provided to user.,"Jan 20, 2025 07:53 AM",Himanshu Gupta,"Feb 5, 2025 07:54 AM",1989000005665471,"Jan 10, 2025 07:53 AM",864000000,,1989000005897686
+Bruce Cao,,"Jan 9, 2025 06:43 AM",Bruce Cao,"Jan 9, 2025 05:43 AM",1989000005644901,"Jan 9, 2025 04:43 AM",7200000,,1989000005656234
+Bruce Cao,,"Jan 9, 2025 04:07 AM",Bruce Cao,"Jan 9, 2025 04:08 AM",1989000005650131,"Jan 9, 2025 03:07 AM",3600000,,1989000005656099
+Bruce Cao,,"Jan 7, 2025 10:52 AM",Bruce Cao,"Jan 7, 2025 10:52 AM",1989000005644823,"Jan 7, 2025 10:37 AM",900000,,1989000005639983
+Bruce Cao,,"Jan 3, 2025 07:53 AM",Bruce Cao,"Jan 3, 2025 07:53 AM",1989000005624097,"Jan 3, 2025 07:23 AM",1800000,,1989000005626143
+Himanshu Gupta,"This mail serves as a follow-up regarding the automation of the Coles and ALDI forecast reports, as outlined in the BI-FY25-Planned initiative.","Jan 16, 2025 09:35 AM",Himanshu Gupta,"Jan 16, 2025 09:39 AM",1989000005615775,"Jan 16, 2025 08:35 AM",3600000,,1989000005721136
+Balan Stephan,Fixed the time,"Jan 2, 2025 08:08 AM",Balan Stephan,"Jan 2, 2025 08:08 AM",1989000005573641,"Jan 2, 2025 07:08 AM",3600000,,1989000005617837
+Bruce Cao,,"Jan 2, 2025 04:33 AM",Bruce Cao,"Jan 2, 2025 04:33 AM",1989000005615085,"Jan 2, 2025 02:33 AM",7200000,,1989000005614221
+Bruce Cao,,"Dec 18, 2024 09:16 AM",Bruce Cao,"Dec 18, 2024 09:16 AM",1989000005573331,"Dec 18, 2024 08:16 AM",3600000,,1989000005579238
+Himanshu Gupta,"The forward order cutoff time (2:11 AM) and the PRO snapshot timestamp do not align, causing orders processed after the cutoff to appear in the next day's report. Adjustments to the scheduling may be needed to better support business needs.","Dec 18, 2024 11:00 AM",Himanshu Gupta,"Jan 13, 2025 06:59 AM",1989000005573587,"Dec 18, 2024 09:44 AM",4560000,,1989000005691849
+Balan Stephan,Successfully loaded,"Dec 23, 2024 03:58 PM",Balan Stephan,"Dec 27, 2024 06:59 AM",1989000005574891,"Dec 23, 2024 03:00 PM",3480000,,1989000005603049
+Bruce Cao,,"Dec 16, 2024 05:47 AM",Bruce Cao,"Dec 16, 2024 05:47 AM",1989000005549649,"Dec 16, 2024 05:32 AM",900000,,1989000005568993
+Bejoy Sivadas,-- assigned to BI team&nbsp; &nbsp;,"Feb 10, 2025 08:07 AM",Bejoy Sivadas,"Feb 10, 2025 08:07 AM",1989000005549331,"Feb 10, 2025 07:57 AM",600000,,1989000005949294
+Kishor Bhagwat Shinde,Changes made in UAT dashboard,"Feb 6, 2025 12:37 PM",Kishor Bhagwat Shinde,"Feb 20, 2025 07:38 AM",1989000005549331,"Feb 6, 2025 07:37 AM",18000000,,1989000006028103
+Kishor Bhagwat Shinde,Followup,"Feb 20, 2025 08:38 AM",Kishor Bhagwat Shinde,"Feb 20, 2025 07:38 AM",1989000005549331,"Feb 20, 2025 07:38 AM",3600000,,1989000006028119
+Kishor Bhagwat Shinde,made the requested changes in dashboard,"Mar 24, 2025 12:22 PM",Kishor Bhagwat Shinde,"Mar 28, 2025 07:23 AM",1989000005549331,"Mar 24, 2025 07:22 AM",18000000,,1989000006281566
+Kishor Bhagwat Shinde,created excel based reports for OEE and Downtime,"Mar 26, 2025 09:23 AM",Kishor Bhagwat Shinde,"Mar 28, 2025 07:23 AM",1989000005549331,"Mar 26, 2025 07:23 AM",7200000,,1989000006281580
+Kishor Bhagwat Shinde,followup,"Apr 1, 2025 07:39 AM",Kishor Bhagwat Shinde,"Apr 2, 2025 07:10 AM",1989000005549331,"Apr 1, 2025 07:09 AM",1800000,,1989000006327582
+Kishor Bhagwat Shinde,Production deployment,"Apr 22, 2025 11:00 AM",Kishor Bhagwat Shinde,"Apr 23, 2025 08:00 AM",1989000005549331,"Apr 22, 2025 08:00 AM",10800000,,1989000006480731
+Kishor Bhagwat Shinde,Guided user to use production file,"Apr 24, 2025 09:16 AM",Kishor Bhagwat Shinde,"Apr 25, 2025 08:16 AM",1989000005549331,"Apr 24, 2025 08:16 AM",3600000,,1989000006497307
+Himanshu Gupta,Issue is Resolved,"Jan 23, 2025 09:06 AM",Himanshu Gupta,"May 23, 2025 09:06 AM",1989000005525375,"Dec 9, 2024 09:06 AM",3888000000,,1989000006686205
+Bruce Cao,,"Dec 3, 2024 03:47 AM",Bruce Cao,"Dec 3, 2024 03:47 AM",1989000005474381,"Dec 3, 2024 02:47 AM",3600000,,1989000005476511
+Bruce Cao,,"Dec 3, 2024 04:38 AM",Bruce Cao,"Dec 3, 2024 04:38 AM",1989000005474591,"Dec 3, 2024 03:38 AM",3600000,,1989000005476771
+Shiva Shishodiya,,"Dec 6, 2024 09:17 AM",Shiva Shishodiya,"Dec 6, 2024 08:48 AM",1989000005463633,"Dec 6, 2024 08:47 AM",1800000,,1989000005499423
+Himanshu Gupta,"Upon reviewing the data, we have verified that the values are visible in both the ACT FRT and CMT FRT tables for all customers.","Dec 2, 2024 12:59 PM",Himanshu Gupta,"Dec 16, 2024 07:00 AM",1989000005463447,"Dec 2, 2024 10:59 AM",7200000,,1989000005569157
+Himanshu Gupta,Refreshed the report and validated that the data is displaying as expected,"Nov 29, 2024 10:30 AM",BI Team,"Dec 18, 2024 09:01 AM",1989000005434515,"Nov 29, 2024 09:00 AM",5400000,,1989000005569843
+Himanshu Gupta,"For FY2014 to FY2017, the SDM report is the accurate source of data.
+Starting from FY2019 onwards, the RDM report is the correct source as it was introduced in that year.
+There is no FY2018, as Bulla changed its fiscal year definition during that per","Dec 18, 2024 10:48 AM",Himanshu Gupta,"Dec 22, 2024 08:05 AM",1989000005446281,"Dec 18, 2024 10:04 AM",2640000,,1989000005595051
+Himanshu Gupta,Report file refreshing correctly.,"Dec 6, 2024 09:40 AM",Himanshu Gupta,"Dec 16, 2024 07:04 AM",1989000005417577,"Dec 6, 2024 09:02 AM",2280000,,1989000005569205
+Bruce Cao,,"Nov 26, 2024 08:34 AM",Bruce Cao,"Nov 26, 2024 07:34 AM",1989000005417385,"Nov 26, 2024 07:34 AM",3600000,,1989000005418548
+Shiva Shishodiya,Current Month FRT files Loaded and Confirmed by Tim,"Nov 22, 2024 02:07 PM",Shiva Shishodiya,"Nov 25, 2024 07:08 AM",1989000005402633,"Nov 22, 2024 01:07 PM",3600000,,1989000005413739
+Bruce Cao,,"Nov 15, 2024 05:38 AM",Bruce Cao,"Nov 15, 2024 05:23 AM",1989000005363245,"Nov 15, 2024 05:23 AM",900000,,1989000005365592
+Bruce Cao,,"Nov 19, 2024 07:43 AM",Bruce Cao,"Nov 19, 2024 07:23 AM",1989000005351307,"Nov 19, 2024 07:23 AM",1200000,,1989000005381700
+Himanshu Gupta,"&nbsp;After refreshing the data, the report's values have updated correctly, and the issue was resolved","Nov 13, 2024 10:08 AM",Himanshu Gupta,"Nov 19, 2024 07:10 AM",1989000005323008,"Nov 13, 2024 09:09 AM",3540000,,1989000005377483
+Bejoy Sivadas,assigned,"Nov 4, 2024 09:12 AM",Bejoy Sivadas,"Nov 4, 2024 09:12 AM",1989000005272639,"Nov 4, 2024 09:02 AM",600000,,1989000005273547
+Abhishek Chakraborty,Review and Test COnsumer COmplaints,"Nov 19, 2024 12:07 PM",Abhishek Chakraborty,"Dec 9, 2024 08:08 AM",1989000005282968,"Nov 19, 2024 08:07 AM",14400000,,1989000005524792
+Abhishek Chakraborty,Consumer Complaints Review and Testing,"Nov 18, 2024 12:08 PM",Abhishek Chakraborty,"Dec 9, 2024 08:09 AM",1989000005282968,"Nov 18, 2024 08:08 AM",14400000,,1989000005524806
+Bruce Cao,,"Nov 6, 2024 07:37 AM",Bruce Cao,"Nov 6, 2024 07:37 AM",1989000005227448,"Nov 6, 2024 06:37 AM",3600000,,1989000005284732
+Bruce Cao,,"Nov 4, 2024 09:59 AM",Bruce Cao,"Nov 4, 2024 08:59 AM",1989000005272615,"Nov 4, 2024 08:59 AM",3600000,,1989000005280278
+Bruce Cao,,"Nov 6, 2024 06:48 AM",Bruce Cao,"Nov 6, 2024 07:19 AM",1989000005265520,"Nov 6, 2024 06:18 AM",1800000,,1989000005284544
+Abhishek Chakraborty,Modifying to P6 as this needs a change,"Nov 12, 2024 09:26 AM",Abhishek Chakraborty,"Nov 12, 2024 08:26 AM",1989000005257550,"Nov 12, 2024 08:26 AM",3600000,,1989000005322657
+Bruce Cao,,"Nov 6, 2024 07:40 AM",Bruce Cao,"Nov 6, 2024 07:40 AM",1989000005227250,"Nov 6, 2024 07:10 AM",1800000,,1989000005284774
+Shiva Shishodiya,FRT files load&nbsp;,"Oct 25, 2024 03:43 PM",Shiva Shishodiya,"Oct 25, 2024 03:43 PM",1989000005209181,"Oct 25, 2024 01:43 PM",7200000,,1989000005219011
+Abhishek Chakraborty,Worked on ticket,"Oct 28, 2024 12:05 PM",Abhishek Chakraborty,"Oct 30, 2024 10:05 AM",1989000005227144,"Oct 28, 2024 10:05 AM",7200000,,1989000005239706
+Abhishek Chakraborty,Worked on the issue,"Oct 8, 2024 12:08 PM",Abhishek Chakraborty,"Oct 25, 2024 03:09 PM",1989000005198597,"Oct 8, 2024 07:09 AM",17940000,,1989000005216007
+Himanshu Gupta,Azure environment setup done&nbsp;,"Feb 20, 2025 08:19 AM",Kishor Bhagwat Shinde,"May 21, 2025 08:20 AM",1989000005189177,"Oct 23, 2024 08:19 AM",10368000000,,1989000006663685
+Kishor Bhagwat Shinde,Job sequence rescheduling&nbsp;,"Oct 21, 2024 09:59 AM",Kishor Bhagwat Shinde,"Oct 23, 2024 07:59 AM",1989000005165186,"Oct 21, 2024 07:59 AM",7200000,,1989000005191027
+Kishor Bhagwat Shinde,checked the job status,"Nov 4, 2024 02:00 PM",Kishor Bhagwat Shinde,"Nov 4, 2024 03:01 PM",1989000005165186,"Nov 4, 2024 01:00 PM",3600000,,1989000005273840
+Kishor Bhagwat Shinde,Monitoring the job,"Oct 21, 2024 06:35 AM",Kishor Bhagwat Shinde,"Oct 21, 2024 08:35 AM",1989000005165098,"Oct 21, 2024 05:35 AM",3600000,,1989000005163665
+Himanshu Gupta,PCM version is added in the Report,"Apr 15, 2025 09:34 AM",Himanshu Gupta,"Jun 12, 2025 11:36 AM",1989000005150267,"Apr 14, 2025 12:34 PM",75600000,,1989000006814375
+Bruce Cao,,"Oct 18, 2024 04:37 AM",Bruce Cao,"Oct 18, 2024 04:38 AM",1989000005158263,"Oct 18, 2024 04:17 AM",1200000,,1989000005159457
+Himanshu Gupta,"We have reviewed the workbook and confirmed that the data is refreshing correctly on our end. However, we recommend user to double-check the date format/Filter to ensure that other dates are displaying correctly","Nov 12, 2024 03:00 PM",Himanshu Gupta,"Nov 25, 2024 12:32 PM",1989000005165999,"Nov 12, 2024 02:00 PM",3600000,,1989000005414855
+Shiva Shishodiya,Waste KPI F23 delivered to User,"Oct 22, 2024 01:33 PM",Abhishek Chakraborty,"Oct 22, 2024 01:34 PM",1989000005082015,"Oct 22, 2024 12:33 PM",3600000,,1989000005179107
+Bruce Cao,,"Nov 6, 2024 07:52 AM",Bruce Cao,"Nov 6, 2024 07:22 AM",1989000005124463,"Nov 6, 2024 07:22 AM",1800000,,1989000005284590
+Bejoy Sivadas,--assigned,"Oct 9, 2024 04:02 AM",Bejoy Sivadas,"Oct 9, 2024 04:02 AM",1989000005076061,"Oct 9, 2024 03:52 AM",600000,,1989000005086440
+Abhishek Chakraborty,Investigated this issue and raised to Mark,"Oct 16, 2024 01:31 PM",Abhishek Chakraborty,"Oct 21, 2024 07:32 AM",1989000005065451,"Oct 16, 2024 09:31 AM",14400000,,1989000005163483
+Bejoy Sivadas,-- assigned&nbsp;,"Oct 3, 2024 08:18 AM",Bejoy Sivadas,"Oct 3, 2024 08:19 AM",1989000005037481,"Oct 3, 2024 08:08 AM",600000,,1989000005038663
+Abhishek Chakraborty,Developed the Material Class,"Oct 28, 2024 03:18 PM",Abhishek Chakraborty,"Oct 28, 2024 03:18 PM",1989000005037481,"Oct 28, 2024 07:18 AM",28800000,,1989000005225640
+Abhishek Chakraborty,Change moved to Production,"Apr 10, 2025 10:05 PM",Abhishek Chakraborty,"Apr 10, 2025 10:05 PM",1989000005037481,"Apr 10, 2025 10:05 PM",7543,,1989000006395035
+Himanshu Gupta,"Because 7830 EA is less than 1 PAL, so it is 0 PAL after the conversion, and the “Suppress Zeros” option is turned on in user report, so the whole 0 Row is hidden.
+user can untick the suppress options, the record will show up again, but with 0 Pallet","Oct 4, 2024 10:50 AM",Himanshu Gupta,"Dec 20, 2024 09:52 AM",1989000005045507,"Oct 4, 2024 09:51 AM",3540000,,1989000005593254
+Shiva Shishodiya,"We can not run the RDM job on Ad-hoc basis, so any such requests must be first approved by Pratyaya.
+SO Closing this ticket.","Oct 3, 2024 07:18 AM",Shiva Shishodiya,"Oct 3, 2024 07:15 AM",1989000005028800,"Oct 3, 2024 07:13 AM",300000,,1989000005031572
+Abhishek Chakraborty,Develop and Move tranport,"Oct 14, 2024 10:38 AM",Abhishek Chakraborty,"Oct 21, 2024 07:38 AM",1989000005028151,"Oct 14, 2024 07:38 AM",10800000,,1989000005163571
+Bejoy Sivadas,assigned to Bi team&nbsp; &nbsp;,"Oct 2, 2024 04:46 AM",Bejoy Sivadas,"Oct 2, 2024 04:46 AM",1989000005019771,"Oct 2, 2024 04:36 AM",600000,,1989000005030347
+Himanshu Gupta,,"Oct 2, 2024 01:40 PM",Bruce Cao,"Jun 4, 2025 10:41 AM",1989000005037131,"Oct 2, 2024 01:00 PM",2400000,,1989000006758947
+Shiva Shishodiya,,"Sep 26, 2024 02:01 PM",Shiva Shishodiya,"Sep 26, 2024 02:01 PM",1989000005000541,"Sep 26, 2024 01:01 PM",3600000,,1989000005001693
+Bejoy Sivadas,"@ Bruce, could you please help to user to add to the report&nbsp; &nbsp;","Oct 2, 2024 04:14 AM",Bejoy Sivadas,"Oct 2, 2024 04:14 AM",1989000005019023,"Oct 2, 2024 04:04 AM",600000,,1989000005030086
+Shiva Shishodiya,,"Oct 8, 2024 09:34 AM",Shiva Shishodiya,"Oct 8, 2024 09:34 AM",1989000005019023,"Oct 8, 2024 09:04 AM",1800000,,1989000005075009
+Bruce Cao,,"Sep 25, 2024 12:05 PM",Bruce Cao,"Sep 25, 2024 12:05 PM",1989000004995075,"Sep 25, 2024 11:05 AM",3600000,,1989000004992487
+Abhishek Chakraborty,Worked on QAS and PRD data reload,"Sep 30, 2024 06:17 PM",Abhishek Chakraborty,"Oct 1, 2024 10:18 AM",1989000004995075,"Sep 30, 2024 10:17 AM",28800000,,1989000005022524
+Abhishek Chakraborty,Checked QAS testing of reload/Validation of data,"Sep 26, 2024 06:18 PM",Abhishek Chakraborty,"Oct 1, 2024 10:18 AM",1989000004995075,"Sep 26, 2024 10:18 AM",28800000,,1989000005022538
+Abhishek Chakraborty,Investigation of the issue&gt; Finding root cause,"Sep 25, 2024 06:19 PM",Abhishek Chakraborty,"Oct 1, 2024 10:19 AM",1989000004995075,"Sep 25, 2024 10:19 AM",28800000,,1989000005022566
+Bruce Cao,,"Sep 25, 2024 07:35 AM",Bruce Cao,"Sep 25, 2024 07:35 AM",1989000004977905,"Sep 25, 2024 05:35 AM",7200000,,1989000004991961
+Bejoy Sivadas,assigned,"Sep 25, 2024 08:58 AM",Bejoy Sivadas,"Sep 25, 2024 08:59 AM",1989000004977905,"Sep 25, 2024 08:48 AM",600000,,1989000004994095
+Bruce Cao,,"Aug 19, 2025 12:37 PM",Bruce Cao,"Aug 19, 2025 11:07 AM",1989000004977905,"Aug 19, 2025 10:07 AM",9000000,,1989000007279399
+Bruce Cao,,"Sep 23, 2024 05:41 AM",Bruce Cao,"Sep 23, 2024 05:42 AM",1989000004965435,"Sep 23, 2024 03:41 AM",7200000,,1989000004970076
+Balan Stephan,The issue is resolved,"Sep 26, 2024 11:13 AM",Balan Stephan,"Oct 3, 2024 12:04 AM",1989000004969491,"Sep 26, 2024 11:03 AM",600000,,1989000005033597
+Bejoy Sivadas,-- assigned,"Sep 19, 2024 12:08 PM",Bejoy Sivadas,"Sep 19, 2024 12:08 PM",1989000004948139,"Sep 19, 2024 11:58 AM",600000,,1989000004951089
+Bruce Cao,,"Sep 26, 2024 09:16 AM",Bruce Cao,"Sep 26, 2024 09:16 AM",1989000004948139,"Sep 26, 2024 08:16 AM",3600000,,1989000004999415
+Bruce Cao,discussion with user,"Sep 26, 2024 11:40 AM",Bruce Cao,"Sep 26, 2024 11:40 AM",1989000004948139,"Sep 26, 2024 10:40 AM",3600000,,1989000004999622
+Bruce Cao,Analysis and investigation,"Sep 12, 2024 09:24 AM",Bruce Cao,"Sep 13, 2024 07:24 AM",1989000004896803,"Sep 12, 2024 07:24 AM",7200000,,1989000004898948
+Bejoy Sivadas,-- triaged and assigned&nbsp;,"Sep 12, 2024 12:31 PM",Bejoy Sivadas,"Sep 12, 2024 12:31 PM",1989000004896803,"Sep 12, 2024 12:21 PM",600000,,1989000004901094
+Bruce Cao,Meeting and requirmenet analysis,"Aug 8, 2025 08:51 AM",Bruce Cao,"Aug 11, 2025 04:52 AM",1989000004896803,"Aug 8, 2025 04:51 AM",14400000,,1989000007233134
+Bruce Cao,Review,"Aug 22, 2025 12:05 PM",Bruce Cao,"Aug 22, 2025 11:35 AM",1989000004896803,"Aug 22, 2025 11:35 AM",1800000,,1989000007309633
+Bruce Cao,,"Sep 18, 2024 06:51 AM",Bruce Cao,"Sep 23, 2024 06:31 AM",1989000004940871,"Sep 18, 2024 06:31 AM",1200000,,1989000004966334
+Bruce Cao,,"Sep 25, 2024 12:16 PM",Bruce Cao,"Sep 25, 2024 12:16 PM",1989000004940871,"Sep 25, 2024 11:16 AM",3600000,,1989000004992521
+Bruce Cao,Requirement analysis and proposed a solution,"Sep 12, 2024 09:25 AM",Bruce Cao,"Sep 13, 2024 07:25 AM",1989000004896725,"Sep 12, 2024 07:25 AM",7200000,,1989000004898966
+Bruce Cao,,"Sep 16, 2024 09:16 AM",Bruce Cao,"Sep 17, 2024 06:16 AM",1989000004896725,"Sep 16, 2024 06:16 AM",10800000,,1989000004925687
+Balan Stephan,"1) Open the&nbsp;Master Data_Material_Lite and select Material class Tab
+
+
+
+2) Click Characteristic Name and select Make to Order only
+
+
+
+
+3) Now you can find Material which have &quot;MAKE_TO_ORDER&quot;","Sep 20, 2024 03:00 PM",Balan Stephan,"Sep 26, 2024 08:07 AM",1989000004896289,"Sep 20, 2024 11:00 AM",14400000,,1989000005001405
+Bruce Cao,data upload and validation,"Sep 6, 2024 08:01 AM",Bruce Cao,"Sep 6, 2024 07:01 AM",1989000004853295,"Sep 6, 2024 07:01 AM",3600000,,1989000004854579
+Bejoy Sivadas,"-- assigned,&nbsp; &nbsp;","Sep 9, 2024 12:49 PM",Bejoy Sivadas,"Sep 9, 2024 12:49 PM",1989000004874679,"Sep 9, 2024 12:39 PM",600000,,1989000004880334
+Abhishek Chakraborty,Identified the changes,"Sep 12, 2024 03:13 PM",Abhishek Chakraborty,"Sep 18, 2024 07:14 AM",1989000004874679,"Sep 12, 2024 07:13 AM",28800000,,1989000004944085
+Abhishek Chakraborty,Made the changes and tested,"Sep 13, 2024 03:14 PM",Abhishek Chakraborty,"Sep 18, 2024 07:14 AM",1989000004874679,"Sep 13, 2024 07:14 AM",28800000,,1989000004944101
+Abhishek Chakraborty,Deployed the change,"Sep 16, 2024 11:14 AM",Abhishek Chakraborty,"Sep 18, 2024 07:14 AM",1989000004874679,"Sep 16, 2024 07:14 AM",14400000,,1989000004944117
+Abhishek Chakraborty,&nbsp; Initial investigation and communication with Ashleigh/Protecht,"Sep 11, 2024 02:41 PM",Abhishek Chakraborty,"Oct 1, 2024 10:41 AM",1989000004874679,"Sep 11, 2024 10:41 AM",14400000,,1989000005022814
+Abhishek Chakraborty,Investigated and spoke with Jenelle and Jenelle approved to close. Advised to use excel for the customised views.,"Sep 3, 2024 10:22 AM",Abhishek Chakraborty,"Sep 13, 2024 07:24 AM",1989000004827835,"Sep 3, 2024 07:22 AM",10800000,,1989000004904505
+Shiva Shishodiya,,"Aug 29, 2024 12:22 PM",Shiva Shishodiya,"Sep 10, 2024 12:23 PM",1989000004788625,"Aug 29, 2024 11:22 AM",3600000,,1989000004887027
+Bruce Cao,,"Aug 26, 2024 10:09 AM",Bruce Cao,"Aug 26, 2024 09:09 AM",1989000004755655,"Aug 26, 2024 09:09 AM",3600000,,1989000004763022
+Bruce Cao,"backup, refresh, validation","Aug 27, 2024 05:31 AM",Bruce Cao,"Aug 27, 2024 04:42 AM",1989000004755655,"Aug 27, 2024 04:41 AM",3000000,,1989000004765049
+Shiva Shishodiya,"Usage export processed in BI ,&nbsp; automated via job and Intitial draft created for same","Aug 22, 2024 08:22 AM",Shiva Shishodiya,"Aug 26, 2024 08:23 AM",1989000004752324,"Aug 22, 2024 04:22 AM",14400000,,1989000004759465
+Shiva Shishodiya,Version V2 for usage report PBI created with some extra chart and analysis,"Aug 23, 2024 08:24 AM",Shiva Shishodiya,"Aug 26, 2024 08:25 AM",1989000004752324,"Aug 23, 2024 06:24 AM",7200000,,1989000004759481
+Shiva Shishodiya,,"Aug 27, 2024 12:12 PM",Shiva Shishodiya,"Aug 27, 2024 10:15 AM",1989000004752324,"Aug 27, 2024 08:12 AM",14400000,,1989000004764371
+Shiva Shishodiya,Version v3,"Aug 28, 2024 02:57 PM",Shiva Shishodiya,"Aug 29, 2024 05:57 AM",1989000004752324,"Aug 28, 2024 08:57 AM",21600000,,1989000004787204
+Shiva Shishodiya,worked on V4 version,"Aug 29, 2024 02:34 PM",Shiva Shishodiya,"Aug 30, 2024 07:35 AM",1989000004752324,"Aug 29, 2024 12:34 PM",7200000,,1989000004790783
+Shiva Shishodiya,,"Aug 30, 2024 02:11 PM",Shiva Shishodiya,"Sep 2, 2024 05:11 PM",1989000004752324,"Aug 30, 2024 12:11 PM",7200000,,1989000004820003
+Bruce Cao,,"Aug 29, 2024 07:19 AM",Bruce Cao,"Aug 29, 2024 07:19 AM",1989000004788117,"Aug 29, 2024 06:49 AM",1800000,,1989000004786499
+Bruce Cao,,"Sep 2, 2024 09:08 PM",Bruce Cao,"Sep 2, 2024 01:08 PM",1989000004788117,"Sep 2, 2024 01:08 PM",28800000,,1989000004817331
+Bruce Cao,Meeting and change,"Sep 6, 2024 07:36 AM",Bruce Cao,"Sep 6, 2024 06:06 AM",1989000004788117,"Sep 6, 2024 06:06 AM",5400000,,1989000004855347
+Shiva Shishodiya,,"Aug 27, 2024 10:44 AM",Abhishek Chakraborty,"Aug 30, 2024 10:45 AM",1989000004755495,"Aug 27, 2024 09:44 AM",3600000,,1989000004790977
+Shiva Shishodiya,FRT Load For AUG Month,"Aug 23, 2024 07:32 PM",Shiva Shishodiya,"Aug 23, 2024 06:33 PM",1989000004752280,"Aug 23, 2024 04:32 PM",10800000,,1989000004752892
+Abhishek Chakraborty,Performed Testing for AVD,"Aug 20, 2024 02:42 PM",Abhishek Chakraborty,"Aug 23, 2024 07:43 AM",1989000004744583,"Aug 20, 2024 10:43 AM",14340000,,1989000004747641
+Abhishek Chakraborty,Performed AVD Testing and shared feedback,"Aug 22, 2024 12:43 PM",Abhishek Chakraborty,"Aug 23, 2024 07:44 AM",1989000004744583,"Aug 22, 2024 10:43 AM",7200000,,1989000004747657
+Balan Stephan,"Hi Bruce&nbsp;Cao, I have identified an issue in the CalendarMMYYYY field. In the stored procedure [dbo].[usp_ODS_Calendar], the calculation is based on the &quot;Day&quot; instead of the &quot;Month.&quot; Please see the attached screenshot for more","Aug 21, 2024 11:00 AM",Balan Stephan,"Aug 23, 2024 07:54 AM",1989000004746601,"Aug 21, 2024 07:00 AM",14400000,,1989000004746621
+Bruce Cao,"Power Bi Delta research, test different senario
+&nbsp;","Aug 23, 2024 05:15 AM",Bruce Cao,"Aug 26, 2024 05:16 AM",1989000004747449,"Aug 23, 2024 12:15 AM",18000000,,1989000004759257
+Bruce Cao,,"Aug 23, 2024 05:46 AM",Bruce Cao,"Aug 23, 2024 05:32 AM",1989000004744367,"Aug 23, 2024 05:31 AM",900000,,1989000004746147
+Shiva Shishodiya,"User was getting error to refresh Report which is using RDM data Model.
+&nbsp;The error was, one of sheet in their report is looking for [ZZ AVATAR Line 1] in Preferred_productionLine Field whereas this is not currently available in data model, inste","Aug 21, 2024 02:33 PM",Shiva Shishodiya,"Aug 21, 2024 01:37 PM",1989000004728673,"Aug 21, 2024 11:33 AM",10800000,,1989000004734639
+Abhishek Chakraborty,Call with Shiva to troubleshoot the issue,"Aug 21, 2024 11:41 AM",Abhishek Chakraborty,"Aug 23, 2024 07:42 AM",1989000004728673,"Aug 21, 2024 10:41 AM",3600000,,1989000004747623
+Shiva Shishodiya,,"Aug 8, 2024 09:57 AM",Shiva Shishodiya,"Sep 1, 2024 05:58 PM",1989000004593855,"Aug 8, 2024 07:57 AM",7200000,,1989000004805011
+Abhishek Chakraborty,Worked to change the dashboard,"Aug 22, 2024 11:30 PM",Abhishek Chakraborty,"Aug 22, 2024 11:30 PM",1989000004657781,"Aug 22, 2024 10:30 PM",3600000,,1989000004748069
+Shiva Shishodiya,Investigated the root cause and submitted it.,"Aug 22, 2024 04:51 AM",Shiva Shishodiya,"Aug 23, 2024 04:53 AM",1989000004657781,"Aug 22, 2024 03:51 AM",3600000,,1989000004748500
+Bruce Cao,,"Aug 8, 2024 05:45 AM",Bruce Cao,"Aug 8, 2024 04:45 AM",1989000004587111,"Aug 8, 2024 02:45 AM",10800000,,1989000004589416
+Bejoy Sivadas,-- Assigned to&nbsp; &nbsp;Brue&nbsp; Cao,"Aug 8, 2024 04:30 AM",Bejoy Sivadas,"Aug 8, 2024 04:30 AM",1989000004587111,"Aug 8, 2024 04:20 AM",600000,,1989000004592214
+Kishor Bhagwat Shinde,Investigated the issue. Removed the extra records from Current FY table,"Aug 7, 2024 12:00 PM",Kishor Bhagwat Shinde,"Aug 8, 2024 07:14 AM",1989000004587111,"Aug 7, 2024 09:00 AM",10800000,,1989000004592845
+Abhishek Chakraborty,Troubleshooted the issue and fixed,"Aug 7, 2024 12:20 PM",Abhishek Chakraborty,"Aug 9, 2024 07:21 AM",1989000004587111,"Aug 7, 2024 10:20 AM",7200000,,1989000004601317
+Abhishek Chakraborty,Worked to respond emails,"Sep 18, 2024 07:40 AM",Abhishek Chakraborty,"Sep 18, 2024 07:11 AM",1989000004587111,"Sep 18, 2024 07:10 AM",1800000,,1989000004944039
+Bruce Cao,"Models need to be changed/impacted
+Coverage profile ODS
+Material coverage model
+Stock projection Model
+Inventory Model
+Cross plant view function
+SNP dashboard
+CSL report
+MLOR (not live)","Aug 14, 2024 08:29 AM",Bruce Cao,"Aug 15, 2024 06:30 AM",1989000004657275,"Aug 14, 2024 06:29 AM",7200000,,1989000004661127
+Bruce Cao,"Logic check for Coverage Profile,
+it is for 3000 only,&nbsp; can be enhance for other plant, but can' t be used as cross plant","Sep 9, 2024 07:51 AM",Bruce Cao,"Sep 11, 2024 04:52 AM",1989000004657275,"Sep 9, 2024 04:51 AM",10800000,,1989000004886410
+Bruce Cao,,"Sep 11, 2024 01:09 PM",Bruce Cao,"Sep 11, 2024 12:09 PM",1989000004657275,"Sep 11, 2024 11:09 AM",7200000,,1989000004886782
+Bruce Cao,,"Sep 13, 2024 01:13 PM",Bruce Cao,"Sep 16, 2024 07:13 AM",1989000004657275,"Sep 13, 2024 07:13 AM",21600000,,1989000004913563
+Bruce Cao,3 PL data test,"Sep 18, 2024 05:26 PM",Bruce Cao,"Sep 18, 2024 11:26 AM",1989000004657275,"Sep 18, 2024 11:26 AM",21600000,,1989000004941203
+Bruce Cao,,"Sep 19, 2024 01:51 PM",Bruce Cao,"Sep 23, 2024 05:51 AM",1989000004657275,"Sep 19, 2024 05:51 AM",28800000,,1989000004966262
+Bruce Cao,,"Sep 20, 2024 07:52 AM",Bruce Cao,"Sep 23, 2024 05:52 AM",1989000004657275,"Sep 20, 2024 05:52 AM",7200000,,1989000004966290
+Bruce Cao,,"Sep 23, 2024 05:30 PM",Bruce Cao,"Aug 6, 2025 09:30 AM",1989000004657275,"Sep 23, 2024 09:30 AM",28800000,,1989000007206323
+Bruce Cao,,"Sep 24, 2024 05:30 PM",Bruce Cao,"Aug 6, 2025 09:31 AM",1989000004657275,"Sep 24, 2024 09:30 AM",28800000,,1989000007206343
+Bejoy Sivadas,Assigned&nbsp;,"Aug 8, 2024 04:06 AM",Bejoy Sivadas,"Aug 8, 2024 04:07 AM",1989000004579951,"Aug 8, 2024 03:56 AM",600000,,1989000004586967
+Abhishek Chakraborty,"Handled Issue, added new sub categories","Sep 6, 2024 11:18 AM",Abhishek Chakraborty,"Sep 17, 2024 07:19 AM",1989000004579951,"Sep 6, 2024 07:18 AM",14400000,,1989000004925859
+Bruce Cao,,"Aug 7, 2024 08:37 AM",Bruce Cao,"Aug 7, 2024 06:37 AM",1989000004579837,"Aug 7, 2024 04:37 AM",14400000,,1989000004584413
+Bruce Cao,,"Aug 2, 2024 11:07 AM",Bruce Cao,"Aug 2, 2024 10:07 AM",1989000004551549,"Aug 2, 2024 09:37 AM",5400000,,1989000004553208
+Bruce Cao,,"Aug 2, 2024 08:20 AM",Bruce Cao,"Aug 2, 2024 08:20 AM",1989000004528369,"Aug 2, 2024 07:40 AM",2400000,,1989000004548405
+Kishor Bhagwat Shinde,Made the changes in SSAS model to unhide the measure&nbsp; and updated existing report,"Aug 2, 2024 02:55 PM",Kishor Bhagwat Shinde,"Aug 9, 2024 11:26 AM",1989000004528369,"Aug 2, 2024 11:25 AM",12600000,,1989000004607007
+Kishor Bhagwat Shinde,Discussion with Ray,"Aug 12, 2024 08:00 AM",Kishor Bhagwat Shinde,"Aug 12, 2024 07:51 AM",1989000004528369,"Aug 12, 2024 07:00 AM",3600000,,1989000004620505
+Bruce Cao,requirmeent analysis &amp; meeting,"Aug 20, 2024 09:54 AM",Bruce Cao,"Aug 20, 2024 09:24 AM",1989000004528369,"Aug 20, 2024 08:24 AM",5400000,,1989000004720355
+Bruce Cao,Internal Solution Discussion,"Aug 21, 2024 08:49 AM",Bruce Cao,"Aug 21, 2024 08:09 AM",1989000004528369,"Aug 21, 2024 08:09 AM",2400000,,1989000004727919
+Kishor Bhagwat Shinde,Working on new solution to change the table relationship,"Aug 20, 2024 10:55 AM",Kishor Bhagwat Shinde,"Aug 21, 2024 07:25 AM",1989000004528369,"Aug 20, 2024 07:25 AM",12600000,,1989000004729991
+Kishor Bhagwat Shinde,,"Aug 30, 2024 02:00 PM",Kishor Bhagwat Shinde,"Sep 2, 2024 07:10 AM",1989000004528369,"Aug 30, 2024 01:00 PM",3600000,,1989000004805351
+Kishor Bhagwat Shinde,Made the changes in report file,"Sep 3, 2024 09:14 AM",Kishor Bhagwat Shinde,"Sep 4, 2024 07:14 AM",1989000004528369,"Sep 3, 2024 07:14 AM",7200000,,1989000004830607
+Kishor Bhagwat Shinde,Creating deployment steps for PROD,"Sep 16, 2024 08:45 AM",Kishor Bhagwat Shinde,"Sep 17, 2024 07:16 AM",1989000004528369,"Sep 16, 2024 07:15 AM",5400000,,1989000004925799
+Kishor Bhagwat Shinde,Cab approval process,"Sep 23, 2024 10:00 AM",Kishor Bhagwat Shinde,"Sep 24, 2024 12:02 AM",1989000004528369,"Sep 23, 2024 09:00 AM",3600000,,1989000004969261
+Bruce Cao,work on Adrian's Ticket,"Sep 24, 2024 07:22 AM",Bruce Cao,"Sep 24, 2024 06:23 AM",1989000004528369,"Sep 24, 2024 06:22 AM",3600000,,1989000004975396
+Kishor Bhagwat Shinde,Worked on update and closing the ticket&nbsp;,"Oct 9, 2024 08:26 AM",Kishor Bhagwat Shinde,"Oct 11, 2024 07:26 AM",1989000004528369,"Oct 9, 2024 07:26 AM",3600000,,1989000005114179
+Bruce Cao,,"Jul 30, 2024 12:36 PM",Bruce Cao,"Jul 30, 2024 12:06 PM",1989000004521227,"Jul 30, 2024 09:06 AM",12600000,,1989000004529122
+Shiva Shishodiya,GAp Analysis report intial version,"Aug 13, 2024 02:39 PM",Shiva Shishodiya,"Aug 15, 2024 02:40 AM",1989000004521227,"Aug 13, 2024 10:39 AM",14400000,,1989000004658019
+Bruce Cao,comunication,"Aug 22, 2024 06:56 AM",Bruce Cao,"Aug 22, 2024 07:02 AM",1989000004521227,"Aug 22, 2024 06:41 AM",900000,,1989000004732827
+Shiva Shishodiya,Report Updated as per Bruce's Instructions,"Aug 14, 2024 09:26 AM",Shiva Shishodiya,"Aug 27, 2024 09:27 AM",1989000004521227,"Aug 14, 2024 05:26 AM",14400000,,1989000004764241
+Shiva Shishodiya,Data Mapping / as it is FLow / To be flow,"Aug 23, 2024 01:27 PM",Shiva Shishodiya,"Aug 27, 2024 09:28 AM",1989000004521227,"Aug 23, 2024 07:27 AM",21600000,,1989000004764257
+Shiva Shishodiya,More Details and Instructions included in As it FLow / Mapping as per Abhishek's Feedback,"Aug 26, 2024 01:28 PM",Shiva Shishodiya,"Aug 27, 2024 09:29 AM",1989000004521227,"Aug 26, 2024 09:28 AM",14400000,,1989000004764273
+Shiva Shishodiya,Updated GAP Analysis Report&nbsp; V1 Sent&nbsp; to Masterdata Team,"Aug 28, 2024 01:48 AM",Shiva Shishodiya,"Aug 28, 2024 12:50 AM",1989000004521227,"Aug 27, 2024 10:48 PM",10800000,,1989000004764611
+Bruce Cao,Meeting and validation,"Aug 27, 2024 06:05 AM",Bruce Cao,"Aug 27, 2024 06:06 AM",1989000004521227,"Aug 27, 2024 05:05 AM",3600000,,1989000004765109
+Bruce Cao,Meeting and review,"Aug 27, 2024 07:05 AM",Bruce Cao,"Aug 28, 2024 06:05 AM",1989000004521227,"Aug 27, 2024 06:05 AM",3600000,,1989000004773846
+Shiva Shishodiya,"Flow Diagram Updated as per Abhishek's Instructions .
+Changes included in Dev&nbsp;
+A mapping of data shared","Sep 4, 2024 12:57 PM",Shiva Shishodiya,"Sep 6, 2024 05:01 AM",1989000004521227,"Sep 4, 2024 08:57 AM",14400000,,1989000004852175
+Shiva Shishodiya,,"Sep 2, 2024 02:24 PM",Shiva Shishodiya,"Oct 1, 2024 10:24 AM",1989000004521227,"Sep 2, 2024 10:24 AM",14400000,,1989000005022612
+Shiva Shishodiya,Deployment and Validation,"Oct 16, 2024 04:17 PM",Shiva Shishodiya,"Oct 17, 2024 06:18 AM",1989000004521227,"Oct 16, 2024 02:17 PM",7200000,,1989000005153181
+Shiva Shishodiya,"Latha's changes included in new version...
+https://app.powerbi.com/groups/f5245904-25fe-492d-88d8-0ee893d8209f/reports/90ec73d3-7eed-48b4-8475-ce974ac0ad38/ReportSection0c6da9f30ae3b8af2ff0?experience=power-bi","Jul 30, 2024 02:34 PM",Shiva Shishodiya,"Jul 31, 2024 07:35 AM",1989000004518015,"Jul 30, 2024 12:34 PM",7200000,,1989000004524953
+Shiva Shishodiya,Asked Changes Included and Submitted to Bruce for Review.,"Jul 31, 2024 12:14 PM",Shiva Shishodiya,"Aug 1, 2024 05:15 AM",1989000004518015,"Jul 31, 2024 10:14 AM",7200000,,1989000004547131
+Bruce Cao,,"Aug 5, 2024 06:33 PM",Bruce Cao,"Aug 14, 2024 12:34 PM",1989000004518015,"Aug 5, 2024 12:33 PM",21600000,,1989000004654759
+Bruce Cao,,"Aug 14, 2024 01:34 PM",Bruce Cao,"Aug 14, 2024 12:34 PM",1989000004518015,"Aug 14, 2024 11:34 AM",7200000,,1989000004654775
+Bruce Cao,,"Aug 9, 2024 09:29 PM",Bruce Cao,"Aug 21, 2024 07:29 PM",1989000004518015,"Aug 9, 2024 07:29 PM",7200000,,1989000004735801
+Bruce Cao,,"Jul 29, 2024 02:32 PM",Bruce Cao,"Jul 29, 2024 11:32 AM",1989000004513155,"Jul 29, 2024 10:52 AM",13200000,,1989000004513185
+Shiva Shishodiya,Freight loaded in Dev&nbsp;,"Jul 26, 2024 10:46 PM",Shiva Shishodiya,"Jul 26, 2024 10:47 PM",1989000004482653,"Jul 26, 2024 09:46 PM",3600000,,1989000004489339
+Shiva Shishodiya,Freight for July24 processed into PRD,"Jul 26, 2024 07:45 AM",Shiva Shishodiya,"Jul 27, 2024 01:15 PM",1989000004482653,"Jul 26, 2024 07:15 AM",1800000,,1989000004489530
+Bejoy Sivadas,assigned&nbsp;,"Jul 29, 2024 10:35 AM",Bejoy Sivadas,"Jul 29, 2024 10:35 AM",1989000004501335,"Jul 29, 2024 10:25 AM",600000,,1989000004510302
+Shiva Shishodiya,,"Aug 8, 2024 11:41 AM",Shiva Shishodiya,"Aug 15, 2024 02:42 AM",1989000004501335,"Aug 8, 2024 08:41 AM",10800000,,1989000004658037
+Bruce Cao,check in system,"Jul 29, 2024 10:38 AM",Bruce Cao,"Aug 22, 2024 09:39 AM",1989000004501335,"Jul 29, 2024 09:38 AM",3600000,,1989000004741269
+Shiva Shishodiya,Report Issue resolved after refresh.,"Jul 30, 2024 08:57 AM",Shiva Shishodiya,"Jul 30, 2024 08:28 AM",1989000004480249,"Jul 30, 2024 08:27 AM",1800000,,1989000004523177
+Bruce Cao,,"Jul 25, 2024 09:24 AM",Bruce Cao,"Aug 22, 2024 09:24 AM",1989000004480249,"Jul 25, 2024 09:14 AM",600000,,1989000004741123
+Bejoy Sivadas,-- assigned to&nbsp; BI team&nbsp; &nbsp;,"Jul 26, 2024 08:07 AM",Bejoy Sivadas,"Jul 26, 2024 08:07 AM",1989000004480081,"Jul 26, 2024 07:57 AM",600000,,1989000004484877
+Abhishek Chakraborty,Worked on the masterdata issue to resolve,"Jul 26, 2024 01:46 PM",Abhishek Chakraborty,"Jul 29, 2024 08:47 AM",1989000004480081,"Jul 26, 2024 05:30 AM",29760000,,1989000004502937
+Kishor Bhagwat Shinde,Identified the root cause of duplicate Customer data,"Jul 26, 2024 09:49 AM",Kishor Bhagwat Shinde,"Jul 29, 2024 08:49 AM",1989000004480081,"Jul 26, 2024 08:49 AM",3600000,,1989000004503393
+Bruce Cao,,"Jul 29, 2024 10:31 AM",Bruce Cao,"Jul 29, 2024 09:01 AM",1989000004480081,"Jul 29, 2024 05:01 AM",19800000,,1989000004508001
+Abhishek Chakraborty,"Analysed , Emailed business","Jul 25, 2024 10:30 AM",Abhishek Chakraborty,"Jul 25, 2024 01:52 PM",1989000004466841,"Jul 25, 2024 09:00 AM",5400000,,1989000004477039
+Bruce Cao,,"Jul 24, 2024 08:57 AM",Bruce Cao,"Jul 24, 2024 06:42 AM",1989000004458632,"Jul 24, 2024 05:57 AM",10800000,,1989000004458658
+Abhishek Chakraborty,"Performed the Testing:
+Ran Reports,
+Checked Data,
+Ran RDM Job","Jul 18, 2024 12:39 PM",Abhishek Chakraborty,"Jul 22, 2024 08:40 PM",1989000004451033,"Jul 18, 2024 10:39 AM",7200000,,1989000004449073
+Bruce Cao,,"Jul 17, 2024 07:53 AM",Bruce Cao,"Jul 17, 2024 06:23 AM",1989000004403882,"Jul 17, 2024 04:23 AM",12600000,,1989000004406569
+Jaspreet Panesar,"asked below from Shiva
+1. could you please put the direct Linfox SharePoint link instead of the mimecast embedded?
+2. do you have access to the Linfox Sharepoint ?
+3. given the linfox site is used, it could be very much certificate issues from their","Jul 25, 2024 10:07 AM",Jaspreet Panesar,"Jul 25, 2024 10:07 AM",1989000004443090,"Jul 25, 2024 09:57 AM",600000,,1989000004463678
+Jaspreet Panesar,"worked with the BI team to resolve the issuer but they are going to work in the power apps.
+
+assigning it to BI Team as they're working with the Linfox team","Sep 6, 2024 10:35 AM",Jaspreet Panesar,"Sep 6, 2024 10:40 AM",1989000004443090,"Sep 6, 2024 10:20 AM",900000,,1989000004859394
+Bruce Cao,,"Jul 18, 2024 10:26 AM",Bruce Cao,"Aug 22, 2024 05:27 AM",1989000004403746,"Jul 18, 2024 05:26 AM",18000000,,1989000004735943
+Bruce Cao,,"Jul 19, 2024 05:28 PM",Bruce Cao,"Aug 6, 2025 09:28 AM",1989000004403746,"Jul 19, 2024 09:28 AM",28800000,,1989000007206295
+Kishor Bhagwat Shinde,Investigated the issue,"Jul 17, 2024 11:30 AM",Kishor Bhagwat Shinde,"Jul 23, 2024 07:33 AM",1989000004403304,"Jul 17, 2024 09:30 AM",7200000,,1989000004447886
+Kishor Bhagwat Shinde,updated the Coles file to include both the values.,"Jul 17, 2024 12:03 PM",Kishor Bhagwat Shinde,"Jul 23, 2024 07:34 AM",1989000004403304,"Jul 17, 2024 10:33 AM",5400000,,1989000004447902
+Kishor Bhagwat Shinde,investigated the bug,"Jul 22, 2024 09:34 AM",Kishor Bhagwat Shinde,"Jul 23, 2024 07:35 AM",1989000004403304,"Jul 22, 2024 07:34 AM",7200000,,1989000004447918
+Kishor Bhagwat Shinde,Updated the Coles query to get data from RDM,"Jul 29, 2024 10:18 AM",Kishor Bhagwat Shinde,"Jul 30, 2024 07:19 AM",1989000004403304,"Jul 29, 2024 07:18 AM",10800000,,1989000004524071
+Bruce Cao,,"Jul 17, 2024 09:14 PM",Bruce Cao,"Aug 21, 2024 07:15 PM",1989000004403304,"Jul 17, 2024 07:14 PM",7200000,,1989000004735581
+Bruce Cao,review&nbsp;,"Jul 23, 2024 01:30 PM",Bruce Cao,"Aug 22, 2024 09:31 AM",1989000004403304,"Jul 23, 2024 09:30 AM",14400000,,1989000004741211
+Bruce Cao,,"Jul 18, 2024 05:20 AM",Bruce Cao,"Jul 18, 2024 05:06 AM",1989000004403258,"Jul 18, 2024 04:50 AM",1800000,,1989000004416255
+Bruce Cao,,"Jul 24, 2024 01:22 PM",Bruce Cao,"Aug 22, 2024 09:22 AM",1989000004403258,"Jul 24, 2024 09:22 AM",14400000,,1989000004741077
+Shiva Shishodiya,Have gone through the Ticket and Preparing a Doc for same.,"Jul 23, 2024 02:46 PM",Shiva Shishodiya,"Jul 24, 2024 06:47 AM",1989000004403081,"Jul 23, 2024 01:46 PM",3600000,,1989000004450708
+Shiva Shishodiya,List of SSRS Reports Created (See Notes),"Jul 29, 2024 09:48 AM",Shiva Shishodiya,"Jul 29, 2024 08:49 AM",1989000004403081,"Jul 29, 2024 07:48 AM",7200000,,1989000004502977
+Shiva Shishodiya,Worked on Migration Solution,"Aug 1, 2024 04:13 PM",Shiva Shishodiya,"Aug 2, 2024 03:14 AM",1989000004403081,"Aug 1, 2024 12:13 PM",14400000,,1989000004546652
+Shiva Shishodiya,Version V2 Created and updated&nbsp;&nbsp;SSRS Reports Migration_V2.xlsx,"Sep 9, 2024 12:14 PM",Shiva Shishodiya,"Sep 10, 2024 07:16 AM",1989000004403081,"Sep 9, 2024 10:14 AM",7200000,,1989000004882099
+Shiva Shishodiya,,"Sep 17, 2024 02:36 PM",Shiva Shishodiya,"Sep 18, 2024 02:37 PM",1989000004403081,"Sep 17, 2024 12:36 PM",7200000,,1989000004941231
+Shiva Shishodiya,Tested RDL tool to migrate Reports,"Sep 18, 2024 12:53 PM",Shiva Shishodiya,"Sep 19, 2024 05:54 AM",1989000004403081,"Sep 18, 2024 10:53 AM",7200000,,1989000004944799
+Shiva Shishodiya,,"Jul 15, 2024 01:45 PM",Abhishek Chakraborty,"Aug 30, 2024 11:46 AM",1989000004394175,"Jul 15, 2024 11:45 AM",7200000,,1989000004799035
+Abhishek Chakraborty,Checked and Responded to business,"Jul 17, 2024 11:21 AM",Abhishek Chakraborty,"Jul 17, 2024 10:22 AM",1989000004394717,"Jul 17, 2024 10:21 AM",3600000,,1989000004413052
+Shiva Shishodiya,"Gone through the existing Onboarding checklist and included some changes that needs to be the part of this list ... 
+initial draft is published in notes attached in the ticket.","Jul 17, 2024 12:17 PM",Shiva Shishodiya,"Jul 19, 2024 12:20 AM",1989000004401779,"Jul 17, 2024 10:17 AM",7200000,,1989000004419951
+Shiva Shishodiya,"New Onboarding Doc Version Created, will be sharing same soon&nbsp;for review after some minor changes ..
+
+here's the updated Onboarding Doc
+https://bulla.sharepoint.com/:x:/s/BITeam/EZ5hVIU0w_dLsn48dmBKtAsBg1ce3AhtmdjjYy6gEFwqpQ?e=uQKeSP","Jul 23, 2024 12:44 PM",Shiva Shishodiya,"Jul 24, 2024 06:46 AM",1989000004401779,"Jul 23, 2024 11:44 AM",3600000,,1989000004450690
+Shiva Shishodiya,"Newly Changes included ,&nbsp; and old flow and details removed ..","Jul 31, 2024 12:10 PM",Shiva Shishodiya,"Aug 2, 2024 07:12 AM",1989000004401779,"Jul 31, 2024 11:10 AM",3600000,,1989000004553064
+Bruce Cao,requirement analysis and initial solution design,"Jul 22, 2024 01:20 PM",Bruce Cao,"Aug 22, 2024 09:21 AM",1989000004394007,"Jul 22, 2024 09:20 AM",14400000,,1989000004741043
+Ram Addagarla,"[9:40 am] Joanne Delaney
+&nbsp;
+
+&nbsp;
+&nbsp;[9:40 am] Joanne Delaney
+I tried using Chrome and no change
+&nbsp;","Jul 15, 2024 05:16 AM",Ram Addagarla,"Jul 15, 2024 05:16 AM",1989000004383558,"Jul 15, 2024 05:11 AM",300000,,1989000004389562
+Abhishek Chakraborty,Explained business the rational and received closure,"Jul 16, 2024 10:19 AM",Abhishek Chakraborty,"Jul 18, 2024 07:19 AM",1989000004383558,"Jul 16, 2024 07:19 AM",10800000,,1989000004418117
+Bruce Cao,Ticket Analysis,"Jul 15, 2024 07:43 PM",Bruce Cao,"Aug 21, 2024 07:18 PM",1989000004383558,"Jul 15, 2024 07:18 PM",1500000,,1989000004735641
+Shiva Shishodiya,,"Jul 22, 2024 07:08 PM",Shiva Shishodiya,"Sep 11, 2024 08:38 AM",1989000004379676,"Jul 22, 2024 06:38 PM",1800000,,1989000004886708
+Balan Stephan,This issue is resolved. So we re closing this ticket,"Jul 2, 2024 08:08 AM",Balan Stephan,"Jul 11, 2024 07:39 AM",1989000004340615,"Jul 2, 2024 07:38 AM",1800000,,1989000004375045
+Bruce Cao,,"Jul 8, 2024 06:06 AM",Bruce Cao,"Aug 21, 2024 07:07 PM",1989000004340615,"Jul 8, 2024 05:46 AM",1200000,,1989000004735421
+Shiva Shishodiya,Checked from our end and seems like issue is related to user's excel version.,"Jul 12, 2024 11:20 AM",Shiva Shishodiya,"Jul 30, 2024 11:21 AM",1989000004354091,"Jul 12, 2024 10:20 AM",3600000,,1989000004524199
+Shiva Shishodiya,"user's report is not using any BI data Model, so the issue seems to be related to Excel.","Aug 12, 2024 01:00 PM",Shiva Shishodiya,"Aug 12, 2024 12:01 PM",1989000004354091,"Aug 12, 2024 11:00 AM",7200000,,1989000004626581
+Bruce Cao,ticket check,"Jul 12, 2024 09:36 AM",Bruce Cao,"Aug 22, 2024 09:36 AM",1989000004354091,"Jul 12, 2024 09:26 AM",600000,,1989000004741251
+Balan Stephan,"Find the issue.&nbsp;As per the current logic, the report only provides current(FY25) and onwards Fiscal Periods for forecast. Informed about this to bruce and bruce send a mail to user.","Jul 5, 2024 03:00 PM",Balan Stephan,"Jul 11, 2024 07:19 AM",1989000004317214,"Jul 5, 2024 07:00 AM",28800000,,1989000004375005
+Bruce Cao,,"Jul 5, 2024 05:33 AM",Bruce Cao,"Jul 5, 2024 05:33 AM",1989000004316570,"Jul 5, 2024 05:23 AM",600000,,1989000004316596
+Bruce Cao,,"Jul 3, 2024 02:48 PM",Bruce Cao,"Jul 3, 2024 10:48 AM",1989000004304603,"Jul 3, 2024 10:48 AM",14400000,,1989000004303195
+Bruce Cao,,"Jul 4, 2024 05:14 AM",Bruce Cao,"Jul 4, 2024 05:14 AM",1989000004304603,"Jul 4, 2024 05:09 AM",300000,,1989000004313297
+Ram Addagarla,"[2:03 pm] Ram Addagarla
+Just hit refresh may belike 1
+&nbsp;[2:03 pm] Matthew Kelton
+ill give it a go and let you know.
+&nbsp;[2:08 pm] Matthew Kelton
+no it has not updated the Coles forecast again
+&nbsp;[2:10 pm] Matthew Kelton
+it is not pulling in","Jul 4, 2024 11:33 AM",Ram Addagarla,"Jul 4, 2024 11:34 AM",1989000004311332,"Jul 4, 2024 11:18 AM",900000,,1989000004312818
+Kishor Bhagwat Shinde,Provided instruction about which version of the file to be used,"Jul 4, 2024 01:15 PM",Kishor Bhagwat Shinde,"Jul 4, 2024 01:17 PM",1989000004311332,"Jul 4, 2024 12:45 PM",1800000,,1989000004316360
+Bruce Cao,Ticket Analysis,"Jul 4, 2024 07:23 PM",Bruce Cao,"Aug 21, 2024 07:14 PM",1989000004311332,"Jul 4, 2024 07:13 PM",600000,,1989000004735563
+Bruce Cao,,"Jul 3, 2024 06:36 AM",Bruce Cao,"Jul 3, 2024 05:56 AM",1989000004304409,"Jul 3, 2024 05:36 AM",3600000,,1989000004306121
+Shiva Shishodiya,All Required Applications Has been installed to New AVD Set Up,"Jul 9, 2024 09:36 AM",Shiva Shishodiya,"Jul 9, 2024 09:06 AM",1989000004293604,"Jul 9, 2024 07:06 AM",9000000,,1989000004356189
+Kishor Bhagwat Shinde,Checked the BI jobs on Melbi4 server. And confirmed that there is no impact after the changes deployed by Brennan IT&nbsp;,"Jul 24, 2024 01:14 PM",Kishor Bhagwat Shinde,"Jul 30, 2024 11:14 AM",1989000004265854,"Jul 24, 2024 11:14 AM",7200000,,1989000004524135
+Shiva Shishodiya,Rescheduled the job to process User's report.,"Jul 8, 2024 09:52 AM",Shiva Shishodiya,"Jul 8, 2024 09:53 AM",1989000004258281,"Jul 8, 2024 06:52 AM",10800000,,1989000004344163
+Bruce Cao,Ticket Analysis,"Jul 8, 2024 07:46 PM",Bruce Cao,"Aug 21, 2024 07:17 PM",1989000004258281,"Jul 8, 2024 07:16 PM",1800000,,1989000004735619
+Shiva Shishodiya,June FRT two versions loaded and validated by Tim.&nbsp;,"Jun 27, 2024 12:07 PM",Shiva Shishodiya,"Jun 28, 2024 08:09 AM",1989000004244761,"Jun 27, 2024 10:07 AM",7200000,,1989000004265784
+Shiva Shishodiya,User's query resolved.,"Jun 28, 2024 03:55 PM",Shiva Shishodiya,"Jun 28, 2024 03:57 PM",1989000004258639,"Jun 28, 2024 02:55 PM",3600000,,1989000004279023
+Abhishek Chakraborty,"The issue was also tracked via&nbsp;92286.
+
+A HANA DB patch upgraded the Database version from SP 5 revision 59 to SP 7 revision 75 over the weekend 22nd-23rd June. Which caused the GET_CORRESPONDING_REF_POINTS_S_2_1 error while any time characterist","Jun 25, 2024 03:20 PM",Abhishek Chakraborty,"Jun 27, 2024 09:24 AM",1989000004240891,"Jun 24, 2024 09:17 AM",108180000,,1989000004265402
+Abhishek Chakraborty,Issue resolved via ticket 92286.,"Jun 25, 2024 03:33 PM",Abhishek Chakraborty,"Jun 27, 2024 09:34 AM",1989000004249593,"Jun 24, 2024 09:33 AM",108000000,,1989000004265526
+Balan Stephan,The user asked the general enquiry about the RDM report.&nbsp;,"Jun 26, 2024 04:52 AM",Balan Stephan,"Jun 28, 2024 06:50 AM",1989000004240587,"Jun 26, 2024 04:12 AM",2400000,,1989000004268861
+Shiva Shishodiya,User confirmed to close this ticket,"Jul 8, 2024 06:59 AM",Shiva Shishodiya,"Jul 8, 2024 07:00 AM",1989000004240755,"Jul 8, 2024 04:59 AM",7200000,,1989000004344063
+Shiva Shishodiya,ASHLEIGH EVERETT is added in AP Dashboard access list.,"Jun 24, 2024 02:02 PM",Shiva Shishodiya,"Jun 24, 2024 02:02 PM",1989000004220221,"Jun 24, 2024 01:52 PM",600000,,1989000004244355
+Balan Stephan,The issue is resolved.,"Jun 19, 2024 10:52 AM",Balan Stephan,"Jun 24, 2024 12:53 PM",1989000004204001,"Jun 19, 2024 07:00 AM",13920000,,1989000004244281
+Shiva Shishodiya,,"Jun 17, 2024 11:19 AM",Shiva Shishodiya,"Jun 18, 2024 05:20 PM",1989000004152832,"Jun 17, 2024 10:19 AM",3600000,,1989000004181409
+Shiva Shishodiya,Budget Load Version V15 Processed.,"Jun 18, 2024 05:21 PM",Shiva Shishodiya,"Jun 18, 2024 05:21 PM",1989000004180987,"Jun 18, 2024 04:21 PM",3600000,,1989000004181445
+Bruce Cao,,"Jun 24, 2024 05:03 AM",Bruce Cao,"Jun 24, 2024 04:43 AM",1989000004184189,"Jun 24, 2024 04:43 AM",1200000,,1989000004239073
+Kishor Bhagwat Shinde,COGS updated,"Jun 14, 2024 01:30 PM",Kishor Bhagwat Shinde,"Jun 21, 2024 12:30 PM",1989000004152706,"Jun 14, 2024 12:30 PM",3600000,,1989000004231323
+Shiva Shishodiya,Budget V12 Loaded.,"Jun 14, 2024 01:00 PM",Shiva Shishodiya,"Jun 18, 2024 06:58 AM",1989000004152770,"Jun 14, 2024 12:00 PM",3600000,,1989000004181197
+Shiva Shishodiya,Users issue resolved.,"Jul 1, 2024 07:37 AM",Shiva Shishodiya,"Jul 1, 2024 07:40 AM",1989000004143308,"Jul 1, 2024 05:37 AM",7200000,,1989000004283827
+Bruce Cao,Ticket Analysis,"Jul 1, 2024 07:45 PM",Bruce Cao,"Aug 21, 2024 07:15 PM",1989000004143308,"Jul 1, 2024 07:15 PM",1800000,,1989000004735599
+Shiva Shishodiya,Budget versions v9 &amp; V10 Loaded,"Jun 13, 2024 07:29 AM",Shiva Shishodiya,"Jun 13, 2024 07:30 AM",1989000004141239,"Jun 13, 2024 05:29 AM",7200000,,1989000004148099
+Shiva Shishodiya,Budget file&nbsp; Version v7 and V8 loaded,"Jun 12, 2024 01:36 PM",Shiva Shishodiya,"Jun 12, 2024 01:37 PM",1989000004135505,"Jun 12, 2024 11:36 AM",7200000,,1989000004140363
+Kishor Bhagwat Shinde,UniversalJournal and UniversalJournal_Sales Data for FY 2023 has been moved to PreviousFY table&nbsp;,"Jun 28, 2024 04:02 PM",Kishor Bhagwat Shinde,"Jun 28, 2024 04:02 PM",1989000004135487,"Jun 28, 2024 02:02 PM",7200000,,1989000004279048
+Kishor Bhagwat Shinde,StandatdCost values for FY24has been added in&nbsp;[Dim].[StandardCostArchive] tables,"Jun 30, 2024 10:00 PM",Kishor Bhagwat Shinde,"Jun 30, 2024 10:37 PM",1989000004135487,"Jun 30, 2024 09:00 PM",3600000,,1989000004284012
+Kishor Bhagwat Shinde,Updated powerbi dashboards with FY25 filters,"Jul 1, 2024 12:30 PM",Kishor Bhagwat Shinde,"Jul 2, 2024 07:46 AM",1989000004135487,"Jul 1, 2024 10:00 AM",9000000,,1989000004292347
+Bruce Cao,,"Aug 21, 2024 07:12 PM",Bruce Cao,"Aug 21, 2024 07:12 PM",1989000004135487,"Aug 21, 2024 06:42 PM",1800000,,1989000004735543
+Bruce Cao,,"Jun 12, 2024 04:38 AM",Bruce Cao,"Jun 12, 2024 04:38 AM",1989000004116461,"Jun 12, 2024 03:38 AM",3600000,,1989000004134134
+Bruce Cao,,"Jun 12, 2024 04:33 AM",Bruce Cao,"Jun 12, 2024 04:33 AM",1989000004135257,"Jun 12, 2024 04:23 AM",600000,,1989000004134082
+Shiva Shishodiya,,"Jun 7, 2024 12:15 PM",Shiva Shishodiya,"Jun 12, 2024 08:02 AM",1989000004102428,"Jun 7, 2024 11:15 AM",3600000,,1989000004129507
+Bruce Cao,,"Jun 6, 2024 09:26 AM",Bruce Cao,"Jun 6, 2024 09:26 AM",1989000004095384,"Jun 6, 2024 08:46 AM",2400000,,1989000004092539
+Balan Stephan,"The issue is resolved,","Jun 24, 2024 10:20 AM",Balan Stephan,"Jun 25, 2024 07:20 AM",1989000004084515,"Jun 24, 2024 07:20 AM",10800000,,1989000004244561
+Bruce Cao,"Issue analysis, maintained default production centre for greenfield lines","Jul 2, 2024 12:34 PM",Bruce Cao,"Jul 2, 2024 10:50 AM",1989000004095256,"Jul 2, 2024 09:49 AM",9900000,,1989000004292448
+Bruce Cao,,"Feb 24, 2025 05:31 AM",Bruce Cao,"Feb 24, 2025 05:31 AM",1989000004095256,"Feb 24, 2025 05:26 AM",300000,,1989000006058239
+Shiva Shishodiya,Budget different Versions Uploaded Successfully.,"Jun 5, 2024 11:27 AM",Shiva Shishodiya,"Jun 5, 2024 11:27 AM",1989000004084377,"Jun 5, 2024 09:27 AM",7200000,,1989000004091701
+Bruce Cao,,"Jun 24, 2024 07:07 AM",Bruce Cao,"Jun 24, 2024 07:07 AM",1989000004063689,"Jun 24, 2024 01:07 AM",21600000,,1989000004239159
+Shiva Shishodiya,Requested Budget is Loaded in RDM.,"May 31, 2024 02:28 PM",Shiva Shishodiya,"Jun 6, 2024 07:29 AM",1989000004063293,"May 31, 2024 12:28 PM",7200000,,1989000004093183
+Bruce Cao,,"Jun 3, 2024 05:33 AM",Bruce Cao,"Jun 3, 2024 05:33 AM",1989000004036167,"Jun 3, 2024 05:13 AM",1200000,,1989000004057617
+Shiva Shishodiya,Budget FIle Upload 24-May-2024,"May 24, 2024 05:17 PM",Shiva Shishodiya,"May 31, 2024 03:18 PM",1989000004005355,"May 24, 2024 03:17 PM",7200000,,1989000004057267
+Shiva Shishodiya,,"May 25, 2024 12:05 PM",Shiva Shishodiya,"May 27, 2024 09:07 AM",1989000004005903,"May 25, 2024 08:05 AM",14400000,,1989000004019193
+Abhishek Chakraborty,"As discussed with Pratyaya, Closing this ticket as it is no longer required","Jul 3, 2024 08:03 AM",Abhishek Chakraborty,"Jul 4, 2024 08:04 AM",1989000004018139,"Jul 3, 2024 07:03 AM",3600000,,1989000004312520
+Bruce Cao,,"May 23, 2024 09:26 AM",Bruce Cao,"May 23, 2024 09:26 AM",1989000003995528,"May 23, 2024 09:16 AM",600000,,1989000003992890
+Kishor Bhagwat Shinde,Discussed the plan to implement the change in Aria,"Sep 17, 2024 05:35 PM",Kishor Bhagwat Shinde,"Sep 18, 2024 07:36 AM",1989000003987372,"Sep 17, 2024 04:35 PM",3600000,,1989000004941175
+Kishor Bhagwat Shinde,Discussed dashboard creation steps,"Sep 24, 2024 02:07 PM",Kishor Bhagwat Shinde,"Sep 25, 2024 12:07 PM",1989000003987372,"Sep 24, 2024 12:07 PM",7200000,,1989000004969797
+Kishor Bhagwat Shinde,Trying to get all fields in worksheet,"Sep 25, 2024 08:56 AM",Kishor Bhagwat Shinde,"Sep 30, 2024 07:27 AM",1989000003987372,"Sep 25, 2024 07:26 AM",5400000,,1989000005018007
+Abhishek Chakraborty,Worked to create the worksheets,"Sep 18, 2024 02:34 PM",Abhishek Chakraborty,"Oct 1, 2024 10:35 AM",1989000003987372,"Sep 18, 2024 10:34 AM",14400000,,1989000005022726
+Abhishek Chakraborty,Analysis and Design,"Sep 17, 2024 01:35 PM",Abhishek Chakraborty,"Oct 1, 2024 10:36 AM",1989000003987372,"Sep 17, 2024 10:35 AM",10800000,,1989000005022740
+Abhishek Chakraborty,Analysis and Design,"Sep 16, 2024 11:36 AM",Abhishek Chakraborty,"Oct 1, 2024 10:36 AM",1989000003987372,"Sep 16, 2024 07:36 AM",14400000,,1989000005022754
+Kishor Bhagwat Shinde,Working on Dashboard,"Oct 1, 2024 03:00 PM",Kishor Bhagwat Shinde,"Oct 2, 2024 07:19 AM",1989000003987372,"Oct 1, 2024 12:00 PM",10800000,,1989000005033361
+Kishor Bhagwat Shinde,Working on dashboard,"Oct 2, 2024 09:40 AM",Kishor Bhagwat Shinde,"Oct 3, 2024 07:11 AM",1989000003987372,"Oct 2, 2024 07:10 AM",9000000,,1989000005040334
+Kishor Bhagwat Shinde,working on dashboard,"Oct 3, 2024 09:03 AM",Kishor Bhagwat Shinde,"Oct 4, 2024 07:33 AM",1989000003987372,"Oct 3, 2024 07:33 AM",5400000,,1989000005042408
+Kishor Bhagwat Shinde,Working on dashboard,"Oct 4, 2024 11:23 AM",Kishor Bhagwat Shinde,"Oct 18, 2024 08:24 AM",1989000003987372,"Oct 4, 2024 08:23 AM",10800000,,1989000005157313
+Abhishek Chakraborty,Worked on Consequence Management dashboard,"Oct 25, 2024 03:34 PM",Abhishek Chakraborty,"Oct 25, 2024 03:35 PM",1989000003987372,"Oct 25, 2024 07:34 AM",28800000,,1989000005216097
+Abhishek Chakraborty,Worked on Consequence Management,"Oct 24, 2024 03:35 PM",Abhishek Chakraborty,"Oct 25, 2024 03:36 PM",1989000003987372,"Oct 24, 2024 07:35 AM",28800000,,1989000005216111
+Abhishek Chakraborty,Defect Fix - Consequent Management&nbsp;,"Oct 23, 2024 03:36 PM",Abhishek Chakraborty,"Oct 25, 2024 03:36 PM",1989000003987372,"Oct 23, 2024 07:36 AM",28800000,,1989000005216125
+Abhishek Chakraborty,Defect Fix - Consequent Management&nbsp;,"Oct 22, 2024 03:37 PM",Abhishek Chakraborty,"Oct 25, 2024 03:37 PM",1989000003987372,"Oct 22, 2024 07:37 AM",28800000,,1989000005216139
+Abhishek Chakraborty,Defect Fix - Consequent Management&nbsp;,"Oct 21, 2024 03:37 PM",Abhishek Chakraborty,"Oct 25, 2024 03:37 PM",1989000003987372,"Oct 21, 2024 07:37 AM",28800000,,1989000005216153
+Abhishek Chakraborty,Defect Fix - Consequent Management&nbsp;,"Oct 18, 2024 03:37 PM",Abhishek Chakraborty,"Oct 25, 2024 03:38 PM",1989000003987372,"Oct 18, 2024 07:37 AM",28800000,,1989000005216167
+Abhishek Chakraborty,Defect Fix - Consequent Management&nbsp;,"Oct 17, 2024 03:38 PM",Abhishek Chakraborty,"Oct 25, 2024 03:38 PM",1989000003987372,"Oct 17, 2024 07:38 AM",28800000,,1989000005216181
+Abhishek Chakraborty,Defect Fix - Consequent Management&nbsp;,"Oct 16, 2024 03:39 PM",Abhishek Chakraborty,"Oct 25, 2024 03:39 PM",1989000003987372,"Oct 16, 2024 07:39 AM",28800000,,1989000005216195
+Abhishek Chakraborty,Defect Fix - Consequent Management&nbsp;,"Oct 15, 2024 03:39 PM",Abhishek Chakraborty,"Oct 25, 2024 03:39 PM",1989000003987372,"Oct 15, 2024 07:39 AM",28800000,,1989000005216209
+Abhishek Chakraborty,Development and Unit Test: Consequent Management,"Oct 14, 2024 03:40 PM",Abhishek Chakraborty,"Oct 25, 2024 03:40 PM",1989000003987372,"Oct 14, 2024 07:40 AM",28800000,,1989000005216223
+Abhishek Chakraborty,Development of Consequence Management dashboard,"Oct 11, 2024 10:49 AM",Abhishek Chakraborty,"Oct 25, 2024 03:50 PM",1989000003987372,"Oct 11, 2024 06:49 AM",14400000,,1989000005216321
+Abhishek Chakraborty,Development of Consequence Management dashboard,"Oct 10, 2024 11:51 AM",Abhishek Chakraborty,"Oct 25, 2024 03:51 PM",1989000003987372,"Oct 10, 2024 07:51 AM",14400000,,1989000005216337
+Abhishek Chakraborty,Development of Consequence Management dashboard,"Oct 9, 2024 02:52 PM",Abhishek Chakraborty,"Oct 25, 2024 03:52 PM",1989000003987372,"Oct 9, 2024 06:52 AM",28800000,,1989000005216351
+Abhishek Chakraborty,Development of Consequence Management dashboard,"Oct 8, 2024 02:52 PM",Abhishek Chakraborty,"Oct 25, 2024 03:52 PM",1989000003987372,"Oct 8, 2024 06:52 AM",28800000,,1989000005216365
+Abhishek Chakraborty,Development of Consequence Management dashboard,"Oct 7, 2024 03:52 PM",Abhishek Chakraborty,"Oct 25, 2024 03:53 PM",1989000003987372,"Oct 7, 2024 07:52 AM",28800000,,1989000005216379
+Abhishek Chakraborty,Worked on Consequence Management dashboard.,"Oct 4, 2024 11:54 AM",Abhishek Chakraborty,"Oct 25, 2024 03:54 PM",1989000003987372,"Oct 4, 2024 07:54 AM",14400000,,1989000005216419
+Abhishek Chakraborty,Development of Consequence Management dashboard,"Oct 3, 2024 03:55 PM",Abhishek Chakraborty,"Oct 25, 2024 03:55 PM",1989000003987372,"Oct 3, 2024 12:55 PM",10800000,,1989000005216445
+Abhishek Chakraborty,Development of Consequence Management dashboard,"Oct 2, 2024 10:55 AM",Abhishek Chakraborty,"Oct 25, 2024 03:56 PM",1989000003987372,"Oct 2, 2024 07:36 AM",11940000,,1989000005216459
+Abhishek Chakraborty,Development of Consequence Management dashboard,"Oct 1, 2024 10:56 AM",Abhishek Chakraborty,"Oct 25, 2024 03:57 PM",1989000003987372,"Oct 1, 2024 07:56 AM",10800000,,1989000005216473
+Abhishek Chakraborty,,"Oct 28, 2024 05:12 PM",Abhishek Chakraborty,"Nov 8, 2024 11:13 AM",1989000003987372,"Oct 28, 2024 09:12 AM",28800000,,1989000005304307
+Abhishek Chakraborty,UAT Support,"Oct 29, 2024 04:13 PM",Abhishek Chakraborty,"Nov 8, 2024 11:13 AM",1989000003987372,"Oct 29, 2024 08:13 AM",28800000,,1989000005304321
+Abhishek Chakraborty,UAT Sign off,"Nov 1, 2024 04:13 PM",Abhishek Chakraborty,"Nov 8, 2024 11:16 AM",1989000003987372,"Nov 1, 2024 08:13 AM",28800000,,1989000005304335
+Abhishek Chakraborty,UAT and new Modification,"Nov 4, 2024 04:16 PM",Abhishek Chakraborty,"Nov 8, 2024 11:17 AM",1989000003987372,"Nov 4, 2024 07:17 AM",32340000,,1989000005304349
+Jaspreet Panesar,asked Chrsitine for MAtthew&#39;s blueshift query,"May 23, 2024 06:40 AM",Jaspreet Panesar,"May 23, 2024 06:40 AM",1989000003989437,"May 23, 2024 06:35 AM",300000,,1989000003997686
+Shiva Shishodiya,,"Jun 21, 2024 07:30 AM",Shiva Shishodiya,"Jun 21, 2024 07:30 AM",1989000003989437,"Jun 21, 2024 03:30 AM",14400000,,1989000004218055
+Jaspreet Panesar,assigned to BI team,"May 23, 2024 06:04 AM",Jaspreet Panesar,"May 23, 2024 06:04 AM",1989000003989173,"May 23, 2024 05:59 AM",300000,,1989000003997097
+Shiva Shishodiya,,"May 24, 2024 07:05 AM",Shiva Shishodiya,"May 24, 2024 07:05 AM",1989000003989173,"May 24, 2024 05:05 AM",7200000,,1989000004003575
+Bruce Cao,,"May 21, 2024 10:13 AM",Bruce Cao,"May 21, 2024 10:13 AM",1989000003979709,"May 21, 2024 09:58 AM",900000,,1989000003984101
+Jaspreet Panesar,assigned to BI,"May 23, 2024 05:22 AM",Jaspreet Panesar,"May 23, 2024 05:22 AM",1989000003989053,"May 23, 2024 05:17 AM",300000,,1989000003991516
+Bruce Cao,,"May 24, 2024 12:33 PM",Bruce Cao,"May 28, 2024 12:34 PM",1989000003989053,"May 23, 2024 12:33 PM",86400000,,1989000004033641
+Bruce Cao,,"May 27, 2024 08:01 AM",Bruce Cao,"May 27, 2024 08:01 AM",1989000003979317,"May 27, 2024 07:01 AM",3600000,,1989000004023015
+Balan Stephan,This freight is completed in both DEV and PROD.,"May 20, 2024 03:30 PM",Balan Stephan,"May 23, 2024 06:57 AM",1989000003971377,"May 20, 2024 12:30 PM",10800000,,1989000003998042
+Abhishek Chakraborty,Investigated and sent email to Jorja,"May 20, 2024 07:52 PM",Abhishek Chakraborty,"May 20, 2024 07:53 PM",1989000003957881,"May 20, 2024 12:53 PM",25140000,,1989000003973029
+Bruce Cao,,"May 17, 2024 08:21 AM",Bruce Cao,"May 21, 2024 06:21 AM",1989000003957511,"May 17, 2024 02:21 AM",21600000,,1989000003978235
+Bruce Cao,,"May 21, 2024 07:09 AM",Bruce Cao,"May 21, 2024 06:59 AM",1989000003957291,"May 21, 2024 06:59 AM",600000,,1989000003978588
+Bruce Cao,,"May 16, 2024 07:10 AM",Bruce Cao,"May 16, 2024 07:10 AM",1989000003948149,"May 16, 2024 06:50 AM",1200000,,1989000003948171
+Bruce Cao,,"May 17, 2024 07:24 AM",Bruce Cao,"May 17, 2024 07:24 AM",1989000003947137,"May 17, 2024 06:24 AM",3600000,,1989000003948972
+Abhishek Chakraborty,"This was a bug from the Blueshift development , where date was considered as a time. Modified the logic. Validated with Matthew , it is closed now.&nbsp;","May 16, 2024 02:10 PM",Abhishek Chakraborty,"May 17, 2024 07:10 AM",1989000003940817,"May 16, 2024 07:10 AM",25200000,,1989000003950472
+Bruce Cao,,"May 17, 2024 07:20 AM",Bruce Cao,"May 17, 2024 07:20 AM",1989000003917284,"May 17, 2024 05:20 AM",7200000,,1989000003948910
+Bruce Cao,,"May 17, 2024 08:25 AM",Bruce Cao,"May 17, 2024 07:25 AM",1989000003940487,"May 17, 2024 06:25 AM",7200000,,1989000003960010
+Abhishek Chakraborty,This is part of the SAC FRT change now. So closing this ticket.,"Sep 12, 2024 09:30 AM",Abhishek Chakraborty,"Sep 13, 2024 07:31 AM",1989000003905992,"Sep 12, 2024 07:31 AM",7140000,,1989000004904569
+Bruce Cao,,"May 10, 2024 05:00 AM",Bruce Cao,"May 10, 2024 04:41 AM",1989000003903553,"May 10, 2024 04:40 AM",1200000,,1989000003903575
+Bruce Cao,,"May 17, 2024 08:28 AM",Bruce Cao,"May 17, 2024 07:28 AM",1989000003899863,"May 17, 2024 07:28 AM",3600000,,1989000003960054
+Shrey Patel,"-Changed request type to Change
+-Assigned to BI team
+-Emailed Anna ","Jun 27, 2023 08:59 AM",Shrey Patel,"Jun 27, 2023 08:59 AM",1989000003899379,"Jun 27, 2023 08:54 AM",300000,,1989000000531994
+Sean Davies,,"Jul 4, 2024 09:43 AM",Sean Davies,"Jul 4, 2024 09:43 AM",1989000003899379,"Jul 4, 2024 09:42 AM",60000,,1989000004316220
+Bruce Cao,,"Jun 2, 2025 03:36 PM",Bruce Cao,"Jun 5, 2025 07:37 AM",1989000003899379,"Jun 2, 2025 07:36 AM",28800000,,1989000006770609
+Bruce Cao,,"Jun 3, 2025 03:37 PM",Bruce Cao,"Jun 5, 2025 07:37 AM",1989000003899379,"Jun 3, 2025 07:37 AM",28800000,,1989000006770627
+Bruce Cao,,"Jun 4, 2025 03:37 PM",Bruce Cao,"Jun 5, 2025 07:37 AM",1989000003899379,"Jun 4, 2025 07:37 AM",28800000,,1989000006770645
+Bruce Cao,,"Jun 5, 2025 09:15 AM",Bruce Cao,"Jul 1, 2025 05:16 AM",1989000003899379,"Jun 5, 2025 05:15 AM",14400000,,1989000006950338
+Bruce Cao,,"Jun 6, 2025 09:16 AM",Bruce Cao,"Jul 1, 2025 05:16 AM",1989000003899379,"Jun 6, 2025 05:16 AM",14400000,,1989000006950354
+Bruce Cao,,"Jun 9, 2025 10:16 AM",Bruce Cao,"Jul 1, 2025 05:17 AM",1989000003899379,"Jun 9, 2025 05:17 AM",17940000,,1989000006950370
+Bruce Cao,,"Jun 10, 2025 09:17 AM",Bruce Cao,"Jul 1, 2025 05:17 AM",1989000003899379,"Jun 10, 2025 05:17 AM",14400000,,1989000006950386
+Bruce Cao,,"Jun 11, 2025 09:17 AM",Bruce Cao,"Jul 1, 2025 05:17 AM",1989000003899379,"Jun 11, 2025 05:17 AM",14400000,,1989000006950402
+Bruce Cao,,"Jun 12, 2025 09:18 AM",Bruce Cao,"Jul 1, 2025 05:18 AM",1989000003899379,"Jun 12, 2025 05:18 AM",14400000,,1989000006950418
+Bruce Cao,,"Jun 13, 2025 09:18 AM",Bruce Cao,"Jul 1, 2025 05:18 AM",1989000003899379,"Jun 13, 2025 05:18 AM",14400000,,1989000006950434
+Bruce Cao,,"Jun 16, 2025 09:18 AM",Bruce Cao,"Jul 1, 2025 05:19 AM",1989000003899379,"Jun 16, 2025 05:18 AM",14400000,,1989000006950450
+Bruce Cao,Development,"Jun 17, 2025 09:22 AM",Bruce Cao,"Jul 1, 2025 05:22 AM",1989000003899379,"Jun 17, 2025 05:22 AM",14400000,,1989000006951624
+Bruce Cao,Development,"Jun 18, 2025 09:23 AM",Bruce Cao,"Jul 1, 2025 05:23 AM",1989000003899379,"Jun 18, 2025 05:23 AM",14400000,,1989000006951642
+Bruce Cao,Development,"Jun 19, 2025 09:23 AM",Bruce Cao,"Jul 1, 2025 05:23 AM",1989000003899379,"Jun 19, 2025 05:23 AM",14400000,,1989000006951660
+Bruce Cao,Development,"Jun 20, 2025 09:23 AM",Bruce Cao,"Jul 1, 2025 05:23 AM",1989000003899379,"Jun 20, 2025 05:23 AM",14400000,,1989000006951678
+Bruce Cao,Testing,"Jun 23, 2025 09:23 AM",Bruce Cao,"Jul 1, 2025 05:24 AM",1989000003899379,"Jun 23, 2025 05:23 AM",14400000,,1989000006951696
+Bruce Cao,Testing,"Jun 24, 2025 09:24 AM",Bruce Cao,"Jul 1, 2025 05:24 AM",1989000003899379,"Jun 24, 2025 05:24 AM",14400000,,1989000006951714
+Bruce Cao,Testing,"Jun 25, 2025 09:24 AM",Bruce Cao,"Jul 1, 2025 05:24 AM",1989000003899379,"Jun 25, 2025 05:24 AM",14400000,,1989000006951732
+Bruce Cao,Testing,"Jun 26, 2025 09:24 AM",Bruce Cao,"Jul 1, 2025 05:24 AM",1989000003899379,"Jun 26, 2025 05:24 AM",14400000,,1989000006951750
+Bruce Cao,Testing,"Jun 27, 2025 09:25 AM",Bruce Cao,"Jul 1, 2025 05:25 AM",1989000003899379,"Jun 27, 2025 05:25 AM",14400000,,1989000006951768
+Bruce Cao,Testing,"Jun 30, 2025 09:25 AM",Bruce Cao,"Jul 1, 2025 05:25 AM",1989000003899379,"Jun 30, 2025 05:25 AM",14400000,,1989000006951786
+Bruce Cao,,"May 1, 2023 10:32 AM",Bruce Cao,"Jul 8, 2025 06:33 AM",1989000003899379,"May 1, 2023 06:32 AM",14400000,,1989000007005273
+Bruce Cao,,"May 2, 2025 10:33 AM",Bruce Cao,"Jul 8, 2025 06:33 AM",1989000003899379,"May 2, 2025 06:33 AM",14400000,,1989000007005291
+Bruce Cao,,"May 5, 2025 11:33 AM",Bruce Cao,"Jul 8, 2025 06:34 AM",1989000003899379,"May 5, 2025 06:34 AM",17940000,,1989000007005309
+Bruce Cao,,"May 6, 2025 08:34 AM",Bruce Cao,"Jul 8, 2025 06:34 AM",1989000003899379,"May 6, 2025 06:34 AM",7200000,,1989000007005327
+Bruce Cao,,"May 7, 2025 11:34 AM",Bruce Cao,"Jul 8, 2025 06:35 AM",1989000003899379,"May 7, 2025 06:35 AM",17940000,,1989000007005345
+Bruce Cao,,"May 8, 2025 10:35 AM",Bruce Cao,"Jul 8, 2025 06:35 AM",1989000003899379,"May 8, 2025 06:35 AM",14400000,,1989000007005363
+Bruce Cao,,"May 9, 2025 10:35 AM",Bruce Cao,"Jul 8, 2025 06:35 AM",1989000003899379,"May 9, 2025 06:35 AM",14400000,,1989000007005381
+Bruce Cao,,"May 12, 2025 10:35 AM",Bruce Cao,"Jul 8, 2025 06:35 AM",1989000003899379,"May 12, 2025 06:35 AM",14400000,,1989000007005399
+Bruce Cao,,"May 13, 2025 10:35 AM",Bruce Cao,"Jul 8, 2025 06:35 AM",1989000003899379,"May 13, 2025 06:35 AM",14400000,,1989000007005417
+Bruce Cao,,"May 14, 2025 10:35 AM",Bruce Cao,"Jul 8, 2025 06:35 AM",1989000003899379,"May 14, 2025 06:35 AM",14400000,,1989000007005435
+Bruce Cao,,"May 15, 2025 10:35 AM",Bruce Cao,"Jul 8, 2025 06:36 AM",1989000003899379,"May 15, 2025 06:35 AM",14400000,,1989000007005453
+Bruce Cao,,"May 16, 2025 10:36 AM",Bruce Cao,"Jul 8, 2025 06:36 AM",1989000003899379,"May 16, 2025 06:36 AM",14400000,,1989000007005471
+Bruce Cao,,"May 19, 2025 10:36 AM",Bruce Cao,"Jul 8, 2025 06:36 AM",1989000003899379,"May 19, 2025 06:36 AM",14400000,,1989000007005489
+Bruce Cao,,"May 20, 2025 10:36 AM",Bruce Cao,"Jul 8, 2025 06:36 AM",1989000003899379,"May 20, 2025 06:36 AM",14400000,,1989000007005507
+Bruce Cao,,"May 21, 2025 10:36 AM",Bruce Cao,"Jul 8, 2025 06:36 AM",1989000003899379,"May 21, 2025 06:36 AM",14400000,,1989000007005525
+Bruce Cao,,"May 22, 2025 10:36 AM",Bruce Cao,"Jul 8, 2025 06:36 AM",1989000003899379,"May 22, 2025 06:36 AM",14400000,,1989000007005543
+Bruce Cao,,"May 23, 2025 10:36 AM",Bruce Cao,"Jul 8, 2025 06:37 AM",1989000003899379,"May 23, 2025 06:36 AM",14400000,,1989000007005561
+Bruce Cao,,"May 26, 2025 10:37 AM",Bruce Cao,"Jul 8, 2025 06:37 AM",1989000003899379,"May 26, 2025 06:37 AM",14400000,,1989000007005579
+Bruce Cao,,"May 27, 2025 10:37 AM",Bruce Cao,"Jul 8, 2025 06:37 AM",1989000003899379,"May 27, 2025 06:37 AM",14400000,,1989000007005597
+Bruce Cao,,"May 28, 2025 10:37 AM",Bruce Cao,"Jul 8, 2025 06:37 AM",1989000003899379,"May 28, 2025 06:37 AM",14400000,,1989000007005615
+Bruce Cao,,"May 29, 2025 10:37 AM",Bruce Cao,"Jul 8, 2025 06:37 AM",1989000003899379,"May 29, 2025 06:37 AM",14400000,,1989000007005633
+Bruce Cao,,"Apr 1, 2025 08:38 AM",Bruce Cao,"Jul 8, 2025 06:38 AM",1989000003899379,"Apr 1, 2025 05:38 AM",10800000,,1989000007005651
+Bruce Cao,,"Apr 2, 2025 08:38 AM",Bruce Cao,"Jul 8, 2025 06:39 AM",1989000003899379,"Apr 2, 2025 05:38 AM",10800000,,1989000007005669
+Bruce Cao,,"Apr 4, 2025 09:39 AM",Bruce Cao,"Jul 8, 2025 06:39 AM",1989000003899379,"Apr 4, 2025 05:39 AM",14400000,,1989000007005687
+Bruce Cao,,"Apr 7, 2025 09:39 AM",Bruce Cao,"Jul 8, 2025 06:39 AM",1989000003899379,"Apr 7, 2025 06:39 AM",10800000,,1989000007005705
+Bruce Cao,,"Apr 8, 2025 10:39 AM",Bruce Cao,"Jul 8, 2025 06:39 AM",1989000003899379,"Apr 8, 2025 06:39 AM",14400000,,1989000007005723
+Bruce Cao,,"Apr 9, 2025 09:39 AM",Bruce Cao,"Jul 8, 2025 06:39 AM",1989000003899379,"Apr 9, 2025 06:39 AM",10800000,,1989000007005741
+Bruce Cao,,"Apr 10, 2025 08:39 AM",Bruce Cao,"Jul 8, 2025 06:39 AM",1989000003899379,"Apr 10, 2025 06:39 AM",7200000,,1989000007005759
+Bruce Cao,,"Apr 14, 2025 08:40 AM",Bruce Cao,"Jul 8, 2025 06:40 AM",1989000003899379,"Apr 14, 2025 06:40 AM",7200000,,1989000007005777
+Bruce Cao,,"Apr 15, 2025 08:40 AM",Bruce Cao,"Jul 8, 2025 06:40 AM",1989000003899379,"Apr 15, 2025 06:40 AM",7200000,,1989000007005795
+Bruce Cao,,"Apr 16, 2025 10:40 AM",Bruce Cao,"Jul 8, 2025 06:40 AM",1989000003899379,"Apr 16, 2025 06:40 AM",14400000,,1989000007005813
+Bruce Cao,,"Apr 17, 2025 10:40 AM",Bruce Cao,"Jul 8, 2025 06:40 AM",1989000003899379,"Apr 17, 2025 06:40 AM",14400000,,1989000007005831
+Bruce Cao,,"Apr 28, 2025 10:40 AM",Bruce Cao,"Jul 8, 2025 06:41 AM",1989000003899379,"Apr 28, 2025 06:40 AM",14400000,,1989000007005849
+Bruce Cao,,"Apr 29, 2025 10:41 AM",Bruce Cao,"Jul 8, 2025 06:41 AM",1989000003899379,"Apr 29, 2025 06:41 AM",14400000,,1989000007005867
+Bruce Cao,,"Apr 30, 2025 10:41 AM",Bruce Cao,"Jul 8, 2025 06:41 AM",1989000003899379,"Apr 30, 2025 06:41 AM",14400000,,1989000007005885
+Bruce Cao,"job schedule, data validation","Jul 7, 2025 10:47 AM",Bruce Cao,"Jul 8, 2025 06:47 AM",1989000003899379,"Jul 7, 2025 06:47 AM",14400000,,1989000007005903
+Pratyaya Bhattacharjee,BI BAU Monitoring&nbsp;,"May 1, 2024 08:11 AM",Pratyaya Bhattacharjee,"May 9, 2024 11:12 AM",1989000003903257,"May 1, 2024 07:11 AM",3600000,,1989000003903285
+Balan Stephan,BI BAU Monitoring,"May 7, 2024 12:00 AM",Balan Stephan,"May 10, 2024 09:04 AM",1989000003903257,"May 6, 2024 11:00 PM",3600000,,1989000003904629
+Balan Stephan,BI BAU Monitoring,"May 8, 2024 12:00 AM",Balan Stephan,"May 10, 2024 09:04 AM",1989000003903257,"May 7, 2024 11:00 PM",3600000,,1989000003904645
+Balan Stephan,BI BAU Monitoring,"May 9, 2024 12:00 AM",Balan Stephan,"May 10, 2024 09:05 AM",1989000003903257,"May 8, 2024 11:00 PM",3600000,,1989000003904661
+Balan Stephan,BI BAU Monitoring,"May 10, 2024 12:00 AM",Balan Stephan,"May 10, 2024 09:05 AM",1989000003903257,"May 9, 2024 11:00 PM",3600000,,1989000003904677
+Balan Stephan,BI BAU Monitoring,"May 11, 2024 12:00 AM",Balan Stephan,"May 13, 2024 06:56 AM",1989000003903257,"May 10, 2024 11:00 PM",3600000,,1989000003910956
+Balan Stephan,BI BAU Monitoring,"May 12, 2024 12:00 AM",Balan Stephan,"May 13, 2024 06:57 AM",1989000003903257,"May 11, 2024 11:00 PM",3600000,,1989000003910972
+Balan Stephan,BI BAU Monitoring,"May 13, 2024 12:00 AM",Balan Stephan,"May 13, 2024 06:58 AM",1989000003903257,"May 12, 2024 11:00 PM",3600000,,1989000003918012
+Shiva Shishodiya,BI BAU Monitoring.,"May 13, 2024 08:54 AM",Shiva Shishodiya,"May 13, 2024 08:54 AM",1989000003903257,"May 13, 2024 07:54 AM",3600000,,1989000003920057
+Shiva Shishodiya,BI BAU Monitoring.,"May 13, 2024 11:27 PM",Shiva Shishodiya,"May 13, 2024 11:27 PM",1989000003903257,"May 13, 2024 10:27 PM",3600000,,1989000003930501
+Shiva Shishodiya,BI BAU Monitoring.,"May 14, 2024 08:10 AM",Shiva Shishodiya,"May 14, 2024 08:10 AM",1989000003903257,"May 14, 2024 07:10 AM",3600000,,1989000003934067
+Shiva Shishodiya,BI BAU Monitoring - 1st,"May 15, 2024 11:42 PM",Shiva Shishodiya,"May 16, 2024 08:12 AM",1989000003903257,"May 15, 2024 10:42 PM",3600000,,1989000003939708
+Shiva Shishodiya,BI BAU Monitoring - 2nd,"May 16, 2024 08:12 AM",Shiva Shishodiya,"May 16, 2024 08:13 AM",1989000003903257,"May 16, 2024 07:12 AM",3600000,,1989000003939724
+Shiva Shishodiya,BI BAU Monitoring,"May 7, 2024 08:00 AM",Jay Manglani,"May 16, 2024 09:58 AM",1989000003903257,"May 7, 2024 07:00 AM",3600000,,1989000003939772
+Shiva Shishodiya,BI BAU Monitoring.,"May 8, 2024 08:10 AM",Jay Manglani,"May 16, 2024 09:59 AM",1989000003903257,"May 8, 2024 07:10 AM",3600000,,1989000003939788
+Shiva Shishodiya,BI BAU Monitoring,"May 9, 2024 08:15 AM",Jay Manglani,"May 16, 2024 10:00 AM",1989000003903257,"May 9, 2024 07:15 AM",3600000,,1989000003939804
+Shiva Shishodiya,BI BAU Monitoring,"May 10, 2024 08:03 AM",Jay Manglani,"May 16, 2024 10:04 AM",1989000003903257,"May 10, 2024 07:03 AM",3600000,,1989000003939852
+Shiva Shishodiya,BI BAU Monitoring,"May 11, 2024 08:04 AM",Jay Manglani,"May 16, 2024 10:04 AM",1989000003903257,"May 11, 2024 07:04 AM",3600000,,1989000003939868
+Shiva Shishodiya,BI BAU Monitoring,"May 12, 2024 08:15 AM",Jay Manglani,"May 16, 2024 10:05 AM",1989000003903257,"May 12, 2024 07:15 AM",3600000,,1989000003939884
+Shiva Shishodiya,BI BAU Monitoring,"May 1, 2024 12:00 AM",Shiva Shishodiya,"May 16, 2024 10:36 AM",1989000003903257,"Apr 30, 2024 11:00 PM",3600000,,1989000003939948
+Shiva Shishodiya,"BI BAU Monitoring.
+
+Everything is fine in First status check in BAU.","May 14, 2024 11:40 PM",Shiva Shishodiya,"May 15, 2024 08:12 AM",1989000003903257,"May 14, 2024 10:40 PM",3600000,,1989000003942397
+Shiva Shishodiya,BI BAU Monitoring.,"May 15, 2024 08:13 AM",Shiva Shishodiya,"May 15, 2024 08:16 AM",1989000003903257,"May 15, 2024 07:13 AM",3600000,,1989000003942413
+Shiva Shishodiya,BI BAU Monitoring,"May 6, 2024 12:00 AM",Balan Stephan,"May 16, 2024 10:48 AM",1989000003903257,"May 5, 2024 11:00 PM",3600000,,1989000003949026
+Shiva Shishodiya,BI BAU Monitoring,"May 6, 2024 08:00 AM",Jay Manglani,"May 16, 2024 10:51 AM",1989000003903257,"May 6, 2024 07:00 AM",3600000,,1989000003949052
+Shiva Shishodiya,BI BAU Monitoring,"May 2, 2024 12:00 AM",Shiva Shishodiya,"May 16, 2024 10:54 AM",1989000003903257,"May 1, 2024 11:00 PM",3600000,,1989000003949078
+Shiva Shishodiya,BI BAU Monitoring,"May 2, 2024 08:10 AM",Shiva Shishodiya,"May 16, 2024 10:55 AM",1989000003903257,"May 2, 2024 07:10 AM",3600000,,1989000003949094
+Shiva Shishodiya,BI BAU Monitoring,"May 2, 2024 11:50 PM",Shiva Shishodiya,"May 16, 2024 10:56 AM",1989000003903257,"May 2, 2024 10:50 PM",3600000,,1989000003949110
+Shiva Shishodiya,BI BAU Monitoring,"May 3, 2024 08:00 AM",Shiva Shishodiya,"May 16, 2024 10:57 AM",1989000003903257,"May 3, 2024 07:00 AM",3600000,,1989000003949126
+Shiva Shishodiya,BI BAU Monitoring,"May 3, 2024 11:30 PM",Shiva Shishodiya,"May 16, 2024 10:58 AM",1989000003903257,"May 3, 2024 10:30 PM",3600000,,1989000003949142
+Shiva Shishodiya,BI BAU Monitoring,"May 4, 2024 08:10 AM",Shiva Shishodiya,"May 16, 2024 10:58 AM",1989000003903257,"May 4, 2024 07:10 AM",3600000,,1989000003949158
+Shiva Shishodiya,BI BAU Monitoring,"May 4, 2024 11:50 PM",Shiva Shishodiya,"May 16, 2024 11:00 AM",1989000003903257,"May 4, 2024 10:50 PM",3600000,,1989000003949174
+Shiva Shishodiya,BI BAU Monitoring,"May 5, 2024 08:15 AM",Shiva Shishodiya,"May 16, 2024 11:00 AM",1989000003903257,"May 5, 2024 07:15 AM",3600000,,1989000003949190
+Shiva Shishodiya,BI BAU Monitoring - 2nd,"May 17, 2024 08:30 AM",Shiva Shishodiya,"May 17, 2024 09:05 AM",1989000003903257,"May 17, 2024 07:30 AM",3600000,,1989000003950592
+Shiva Shishodiya,BI BAU Monitoring - 1st,"May 17, 2024 12:03 AM",Shiva Shishodiya,"May 17, 2024 12:04 AM",1989000003903257,"May 16, 2024 11:03 PM",3600000,,1989000003955719
+Shiva Shishodiya,BI BAU Monitoring - 2nd,"May 18, 2024 08:15 AM",Shiva Shishodiya,"May 18, 2024 08:52 AM",1989000003903257,"May 18, 2024 07:15 AM",3600000,,1989000003962538
+Shiva Shishodiya,BI BAU Monitoring - 1st,"May 18, 2024 11:55 PM",Shiva Shishodiya,"May 19, 2024 12:56 AM",1989000003903257,"May 18, 2024 10:55 PM",3600000,,1989000003962558
+Shiva Shishodiya,BI BAU Monitoring - 2nd,"May 19, 2024 08:26 AM",Shiva Shishodiya,"May 19, 2024 09:27 AM",1989000003903257,"May 19, 2024 07:26 AM",3600000,,1989000003962578
+Shiva Shishodiya,BI BAU Monitoring - 1st,"May 17, 2024 11:46 PM",Shiva Shishodiya,"May 17, 2024 11:46 PM",1989000003903257,"May 17, 2024 10:46 PM",3600000,,1989000003964108
+Balan Stephan,BI BAU Monitoring,"May 20, 2024 09:00 AM",Balan Stephan,"May 21, 2024 09:17 AM",1989000003903257,"May 20, 2024 08:00 AM",3600000,,1989000003977935
+Balan Stephan,BI BAU Monitoring,"May 21, 2024 12:00 AM",Balan Stephan,"May 21, 2024 09:18 AM",1989000003903257,"May 20, 2024 11:00 PM",3600000,,1989000003977953
+Balan Stephan,BI BAU Monitoring,"May 21, 2024 09:00 AM",Balan Stephan,"May 21, 2024 09:21 AM",1989000003903257,"May 21, 2024 08:00 AM",3600000,,1989000003977969
+Jay Manglani,BI BAU Monitoring. - 2nd,"May 24, 2024 09:46 AM",Jay Manglani,"May 24, 2024 08:47 AM",1989000003903257,"May 24, 2024 08:46 AM",3600000,,1989000004007090
+Shiva Shishodiya,BI BAU Monitoring - 1st,"May 26, 2024 12:00 AM",Shiva Shishodiya,"May 26, 2024 12:23 AM",1989000003903257,"May 25, 2024 11:00 PM",3600000,,1989000004017037
+Shiva Shishodiya,BI BAU Monitoring - 1st,"May 25, 2024 12:00 AM",Shiva Shishodiya,"May 26, 2024 12:24 AM",1989000003903257,"May 24, 2024 11:00 PM",3600000,,1989000004017053
+Jay Manglani,BI BAU Monitoring - 2nd,"May 27, 2024 09:50 AM",Jay Manglani,"May 27, 2024 08:50 AM",1989000003903257,"May 27, 2024 08:50 AM",3600000,,1989000004019175
+Jay Manglani,BI BAU Monitoring - 1st,"May 30, 2024 08:49 AM",Jay Manglani,"May 30, 2024 07:50 AM",1989000003903257,"May 30, 2024 07:49 AM",3600000,,1989000004034117
+Jay Manglani,BI BAU Monitoring - 2nd,"May 30, 2024 08:50 AM",Jay Manglani,"May 30, 2024 07:51 AM",1989000003903257,"May 30, 2024 07:50 AM",3600000,,1989000004034133
+Jay Manglani,BI BAU Monitoring - 1st,"May 27, 2024 07:51 AM",Jay Manglani,"May 29, 2024 06:52 AM",1989000003903257,"May 27, 2024 06:51 AM",3600000,,1989000004037443
+Jay Manglani,BI BAU Monitoring - 2nd,"May 28, 2024 07:53 AM",Jay Manglani,"May 29, 2024 06:53 AM",1989000003903257,"May 28, 2024 06:53 AM",3600000,,1989000004037459
+Jay Manglani,BI BAU Monitoring - 1st,"May 28, 2024 07:53 AM",Jay Manglani,"May 29, 2024 06:53 AM",1989000003903257,"May 28, 2024 06:53 AM",3600000,,1989000004037475
+Jay Manglani,BI BAU Monitoring - 1st,"May 29, 2024 07:54 AM",Jay Manglani,"May 29, 2024 06:54 AM",1989000003903257,"May 29, 2024 06:54 AM",3600000,,1989000004037491
+Jay Manglani,BI BAU Monitoring - 2nd,"May 29, 2024 07:54 AM",Jay Manglani,"May 29, 2024 06:54 AM",1989000003903257,"May 29, 2024 06:54 AM",3600000,,1989000004037507
+Jay Manglani,BI BAU Monitoring - 2nd,"May 31, 2024 12:19 PM",Jay Manglani,"May 31, 2024 11:20 AM",1989000003903257,"May 31, 2024 11:19 AM",3600000,,1989000004058869
+Jay Manglani,BI BAU Monitoring - 1st,"May 31, 2024 12:20 PM",Jay Manglani,"May 31, 2024 11:20 AM",1989000003903257,"May 31, 2024 11:20 AM",3600000,,1989000004058885
+Shiva Shishodiya,BI BAU Monitoring - 3-June-24,"Jun 3, 2024 08:22 AM",Shiva Shishodiya,"Jun 3, 2024 08:23 AM",1989000003903257,"Jun 3, 2024 07:22 AM",3600000,,1989000004072365
+Shiva Shishodiya,"BI BAU Monitoring - (5th -June -2024) - 2nd
+
+Everything looks Fine in&nbsp; Second Status Check.","Jun 5, 2024 08:05 AM",Shiva Shishodiya,"Jun 5, 2024 11:59 AM",1989000003903257,"Jun 5, 2024 07:05 AM",3600000,,1989000004082947
+Shiva Shishodiya,"BI BAU Monitoring (6 -June -2024) - 1st
+
+No delay or job failure.","Jun 5, 2024 11:45 PM",Shiva Shishodiya,"Jun 5, 2024 11:46 PM",1989000003903257,"Jun 5, 2024 10:45 PM",3600000,,1989000004082973
+Shiva Shishodiya,"BI BAU Monitoring - (5th -June -2024) - 1st
+
+Everything is Fine in First Status Check.","Jun 4, 2024 11:40 PM",Shiva Shishodiya,"Jun 5, 2024 11:32 AM",1989000003903257,"Jun 4, 2024 10:40 PM",3600000,,1989000004091747
+Shiva Shishodiya,"BI BAU MOnitoring (7th -june -2024) -1st
+
+No delay or Job Failure in First Status Check.","Jun 6, 2024 11:37 PM",Shiva Shishodiya,"Jun 7, 2024 07:38 AM",1989000003903257,"Jun 6, 2024 10:37 PM",3600000,,1989000004094684
+Shiva Shishodiya,BI BAU Monitoring (7th -June -2024) -2nd,"Jun 7, 2024 08:09 AM",Shiva Shishodiya,"Jun 7, 2024 11:11 AM",1989000003903257,"Jun 7, 2024 07:09 AM",3600000,,1989000004094884
+Jay Manglani,BI BAU Monitoring (2nd) - 11th June,"Jun 11, 2024 09:07 AM",Jay Manglani,"Jun 11, 2024 08:07 AM",1989000003903257,"Jun 11, 2024 08:07 AM",3600000,,1989000004115719
+Jay Manglani,BI BAU Monitoring (1st) - 11th June,"Jun 11, 2024 09:08 AM",Jay Manglani,"Jun 11, 2024 08:08 AM",1989000003903257,"Jun 11, 2024 08:08 AM",3600000,,1989000004115735
+Jay Manglani,BI BAU Monitoring (2nd) - 10th June,"Jun 10, 2024 08:57 AM",Jay Manglani,"Jun 10, 2024 07:57 AM",1989000003903257,"Jun 10, 2024 07:57 AM",3600000,,1989000004119017
+Jay Manglani,BI BAU Monitoring (1st) - 12th June,"Jun 12, 2024 09:02 AM",Jay Manglani,"Jun 18, 2024 08:03 AM",1989000003903257,"Jun 12, 2024 08:02 AM",3600000,,1989000004177737
+Jay Manglani,BI BAU Monitoring (2nd) - 12th June,"Jun 12, 2024 09:03 AM",Jay Manglani,"Jun 18, 2024 08:03 AM",1989000003903257,"Jun 12, 2024 08:03 AM",3600000,,1989000004177753
+Jay Manglani,BI BAU Monitoring (2nd) - 13th June,"Jun 13, 2024 09:03 AM",Jay Manglani,"Jun 18, 2024 08:03 AM",1989000003903257,"Jun 13, 2024 08:03 AM",3600000,,1989000004177769
+Jay Manglani,BI BAU Monitoring (1st) - 13th June,"Jun 13, 2024 09:04 AM",Jay Manglani,"Jun 18, 2024 08:04 AM",1989000003903257,"Jun 13, 2024 08:04 AM",3600000,,1989000004177785
+Jay Manglani,BI BAU Monitoring (1st) - 14th June,"Jun 14, 2024 09:04 AM",Jay Manglani,"Jun 18, 2024 08:04 AM",1989000003903257,"Jun 14, 2024 08:04 AM",3600000,,1989000004177801
+Jay Manglani,BI BAU Monitoring (2nd) - 14th June,"Jun 14, 2024 09:04 AM",Jay Manglani,"Jun 18, 2024 08:05 AM",1989000003903257,"Jun 14, 2024 08:04 AM",3600000,,1989000004177817
+Jay Manglani,BI BAU Monitoring (1st) - 15th June,"Jun 15, 2024 09:05 AM",Jay Manglani,"Jun 18, 2024 08:05 AM",1989000003903257,"Jun 15, 2024 08:05 AM",3600000,,1989000004177833
+Jay Manglani,BI BAU Monitoring (2nd) - 15th June,"Jun 15, 2024 09:05 AM",Jay Manglani,"Jun 18, 2024 08:06 AM",1989000003903257,"Jun 15, 2024 08:05 AM",3600000,,1989000004177849
+Jay Manglani,BI BAU Monitoring (1st) - 16th June,"Jun 16, 2024 09:06 AM",Jay Manglani,"Jun 18, 2024 08:06 AM",1989000003903257,"Jun 16, 2024 08:06 AM",3600000,,1989000004177865
+Jay Manglani,BI BAU Monitoring (2nd) - 16th June,"Jun 16, 2024 09:06 AM",Jay Manglani,"Jun 18, 2024 08:06 AM",1989000003903257,"Jun 16, 2024 08:06 AM",3600000,,1989000004177881
+Balan Stephan,,"Jul 1, 2024 09:00 AM",Balan Stephan,"Jul 9, 2024 06:52 AM",1989000003903257,"Jul 1, 2024 08:00 AM",3600000,,1989000004356007
+Balan Stephan,,"Jul 2, 2024 12:00 AM",Balan Stephan,"Jul 9, 2024 06:52 AM",1989000003903257,"Jul 1, 2024 11:00 PM",3600000,,1989000004356025
+Balan Stephan,,"Jul 2, 2024 09:00 AM",Balan Stephan,"Jul 9, 2024 06:54 AM",1989000003903257,"Jul 2, 2024 08:00 AM",3600000,,1989000004356049
+Balan Stephan,BAU Monitoring,"Jul 3, 2024 12:00 AM",Balan Stephan,"Jul 9, 2024 06:55 AM",1989000003903257,"Jul 2, 2024 11:00 PM",3600000,,1989000004356065
+Balan Stephan,BAU Monitoring,"Jul 3, 2024 09:00 AM",Balan Stephan,"Jul 9, 2024 06:55 AM",1989000003903257,"Jul 3, 2024 08:00 AM",3600000,,1989000004356081
+Balan Stephan,BAU Monitoring,"Jul 4, 2024 12:00 AM",Balan Stephan,"Jul 9, 2024 06:56 AM",1989000003903257,"Jul 3, 2024 11:00 PM",3600000,,1989000004356097
+Shiva Shishodiya,BI BAU Monitoring-1st-(11th-july-2024),"Jul 11, 2024 12:05 AM",Shiva Shishodiya,"Jul 11, 2024 12:06 AM",1989000003903257,"Jul 10, 2024 11:05 PM",3600000,,1989000004367009
+Shiva Shishodiya,BI BAU Monitoring -(10th-July-2024)-1st,"Jul 10, 2024 12:06 AM",Shiva Shishodiya,"Jul 11, 2024 12:07 AM",1989000003903257,"Jul 9, 2024 11:06 PM",3600000,,1989000004367025
+Shiva Shishodiya,BI BAU Monitoring - (10th-July-2024) - 2nd,"Jul 10, 2024 08:08 AM",Shiva Shishodiya,"Jul 11, 2024 12:09 AM",1989000003903257,"Jul 10, 2024 07:08 AM",3600000,,1989000004367041
+Shiva Shishodiya,BI BAU Monitoring - (9th-July-2024) - 1st,"Jul 9, 2024 12:10 AM",Shiva Shishodiya,"Jul 11, 2024 12:10 AM",1989000003903257,"Jul 8, 2024 11:10 PM",3600000,,1989000004367057
+Shiva Shishodiya,BI BAU Monitoring - (9th-July-2024) - 2nd,"Jul 9, 2024 08:10 AM",Shiva Shishodiya,"Jul 11, 2024 12:11 AM",1989000003903257,"Jul 9, 2024 07:10 AM",3600000,,1989000004367073
+Shiva Shishodiya,BI BAU Monitoring - (8th-July-2024) - 1st,"Jul 8, 2024 12:11 AM",Shiva Shishodiya,"Jul 11, 2024 12:12 AM",1989000003903257,"Jul 7, 2024 11:11 PM",3600000,,1989000004367089
+Shiva Shishodiya,BI BAU Monitoring - (8th-July-2024) - 2nd,"Jul 8, 2024 08:12 AM",Shiva Shishodiya,"Jul 11, 2024 12:13 AM",1989000003903257,"Jul 8, 2024 07:12 AM",3600000,,1989000004367105
+Shiva Shishodiya,BI BAU Monitoring - (24th-June-2024) - 2nd,"Jun 24, 2024 08:13 AM",Shiva Shishodiya,"Jul 11, 2024 12:15 AM",1989000003903257,"Jun 24, 2024 07:13 AM",3600000,,1989000004367121
+Shiva Shishodiya,BI BAU Monitoring - (25th-June-2024) - 1st,"Jun 25, 2024 12:15 AM",Shiva Shishodiya,"Jul 11, 2024 12:15 AM",1989000003903257,"Jun 24, 2024 11:15 PM",3600000,,1989000004367137
+Shiva Shishodiya,BI BAU Monitoring - (25th-June-2024) - 2nd,"Jun 25, 2024 08:16 AM",Shiva Shishodiya,"Jul 11, 2024 12:16 AM",1989000003903257,"Jun 25, 2024 07:16 AM",3600000,,1989000004367153
+Shiva Shishodiya,BI BAU Monitoring - (26th-June-2024) - 1st,"Jun 26, 2024 12:00 AM",Shiva Shishodiya,"Jul 11, 2024 12:17 AM",1989000003903257,"Jun 25, 2024 11:00 PM",3600000,,1989000004367169
+Shiva Shishodiya,BI BAU Monitoring - (26th-June-2024) - 2nd,"Jun 26, 2024 08:17 AM",Shiva Shishodiya,"Jul 11, 2024 12:18 AM",1989000003903257,"Jun 26, 2024 07:17 AM",3600000,,1989000004367185
+Shiva Shishodiya,BI BAU Monitoring - (27th-June-2024) - 1st,"Jun 27, 2024 12:10 AM",Shiva Shishodiya,"Jul 11, 2024 12:18 AM",1989000003903257,"Jun 26, 2024 11:10 PM",3600000,,1989000004367201
+Shiva Shishodiya,BI BAU Monitoring - (27th-June-2024) - 2nd,"Jun 27, 2024 08:08 AM",Shiva Shishodiya,"Jul 11, 2024 12:19 AM",1989000003903257,"Jun 27, 2024 07:08 AM",3600000,,1989000004367217
+Shiva Shishodiya,BI BAU Monitoring - (28th-June-2024) - 1st,"Jun 28, 2024 12:05 AM",Shiva Shishodiya,"Jul 11, 2024 12:19 AM",1989000003903257,"Jun 27, 2024 11:05 PM",3600000,,1989000004367233
+Shiva Shishodiya,BI BAU Monitoring - (28th-June-2024) - 2nd,"Jun 28, 2024 08:19 AM",Shiva Shishodiya,"Jul 11, 2024 12:20 AM",1989000003903257,"Jun 28, 2024 07:19 AM",3600000,,1989000004367249
+Shiva Shishodiya,BI BAU Monitoring - (29th-June-2024) - 1st,"Jun 29, 2024 12:10 AM",Shiva Shishodiya,"Jul 11, 2024 12:21 AM",1989000003903257,"Jun 28, 2024 11:10 PM",3600000,,1989000004367265
+Shiva Shishodiya,BI BAU Monitoring - (29th-June-2024) - 2nd,"Jun 29, 2024 08:15 AM",Shiva Shishodiya,"Jul 11, 2024 12:21 AM",1989000003903257,"Jun 29, 2024 07:15 AM",3600000,,1989000004367281
+Shiva Shishodiya,BI BAU Monitoring - (30th-June-2024) - 1st,"Jun 30, 2024 12:05 AM",Shiva Shishodiya,"Jul 11, 2024 12:22 AM",1989000003903257,"Jun 29, 2024 11:05 PM",3600000,,1989000004367297
+Shiva Shishodiya,BI BAU Monitoring - (30th-June-2024) - 2nd,"Jun 30, 2024 08:22 AM",Shiva Shishodiya,"Jul 11, 2024 12:23 AM",1989000003903257,"Jun 30, 2024 07:22 AM",3600000,,1989000004367313
+Shiva Shishodiya,BI BAU Monitoring - (1st -July- 2024) - 1st,"Jul 1, 2024 12:10 AM",Shiva Shishodiya,"Jul 11, 2024 12:24 AM",1989000003903257,"Jun 30, 2024 11:10 PM",3600000,,1989000004367329
+Balan Stephan,"The user asked change is completed. So, we are closing the ticket.","May 14, 2024 01:04 PM",Balan Stephan,"May 14, 2024 10:05 AM",1989000003859094,"May 14, 2024 08:04 AM",18000000,,1989000003934347
+Bruce Cao,,"May 3, 2024 07:15 AM",Bruce Cao,"May 3, 2024 07:15 AM",1989000003855406,"May 3, 2024 07:05 AM",600000,,1989000003855432
+Balan Stephan,"we made the changes, deployed in PROD","May 14, 2024 01:46 PM",Balan Stephan,"May 14, 2024 12:46 PM",1989000003899125,"May 14, 2024 09:46 AM",14400000,,1989000003934705
+Balan Stephan,Document creation completed. So I'm closing the ticket.,"May 13, 2024 03:30 PM",Balan Stephan,"Jun 25, 2024 07:19 AM",1989000003890361,"May 13, 2024 07:30 AM",28800000,,1989000004244519
+Balan Stephan,Started analysis the requirements and creating a document,"May 10, 2024 04:31 PM",Balan Stephan,"Jul 12, 2024 08:31 AM",1989000003890361,"May 10, 2024 08:31 AM",28800000,,1989000004385125
+Balan Stephan,The Issue is resolved,"May 6, 2024 07:25 AM",Balan Stephan,"May 6, 2024 07:25 AM",1989000003847766,"May 6, 2024 03:25 AM",14400000,,1989000003882508
+Jayasudha Anand,Had initial meeting with Bruce to understand the requirements.,"Nov 6, 2024 01:34 PM",Jayasudha Anand,"Nov 7, 2024 12:35 PM",1989000003847341,"Nov 6, 2024 12:34 PM",3600000,,1989000005299003
+Jayasudha Anand,Analysis on the required data to fetch from Aurion and WFR system,"Nov 22, 2024 12:13 PM",Jayasudha Anand,"Nov 22, 2024 12:14 PM",1989000003847341,"Nov 22, 2024 10:13 AM",7200000,,1989000005401686
+Jayasudha Anand,,"Nov 25, 2024 04:13 PM",Jayasudha Anand,"Nov 26, 2024 01:13 PM",1989000003847341,"Nov 25, 2024 01:13 PM",10800000,,1989000005422335
+Jayasudha Anand,,"Dec 2, 2024 10:18 PM",Jayasudha Anand,"Dec 2, 2024 04:19 PM",1989000003847341,"Dec 2, 2024 04:18 PM",21600000,,1989000005465577
+Jayasudha Anand,,"Feb 4, 2025 12:48 AM",Jayasudha Anand,"Feb 5, 2025 04:48 PM",1989000003847341,"Feb 3, 2025 04:48 PM",28800000,,1989000005905245
+Jayasudha Anand,,"Feb 5, 2025 12:48 AM",Jayasudha Anand,"Feb 5, 2025 04:49 PM",1989000003847341,"Feb 4, 2025 04:48 PM",28800000,,1989000005905259
+Jayasudha Anand,,"Feb 5, 2025 06:49 PM",Jayasudha Anand,"Feb 5, 2025 04:49 PM",1989000003847341,"Feb 5, 2025 04:49 PM",7200000,,1989000005905273
+Kishor Bhagwat Shinde,Followed up with Foxy for the WFR data,"May 7, 2025 01:40 PM",Kishor Bhagwat Shinde,"May 9, 2025 12:41 PM",1989000003847341,"May 7, 2025 12:40 PM",3600000,,1989000006585417
+Kishor Bhagwat Shinde,Made the changes in excel report,"May 1, 2025 08:41 PM",Kishor Bhagwat Shinde,"May 9, 2025 12:42 PM",1989000003847341,"May 1, 2025 12:41 PM",28800000,,1989000006585435
+Kishor Bhagwat Shinde,Followed up with Foxy for the WFR data,"May 12, 2025 08:38 AM",Kishor Bhagwat Shinde,"May 23, 2025 07:38 AM",1989000003847341,"May 12, 2025 07:38 AM",3600000,,1989000006678157
+Kishor Bhagwat Shinde,Followed up with Foxy for the WFR data,"May 21, 2025 08:38 AM",Kishor Bhagwat Shinde,"May 23, 2025 07:38 AM",1989000003847341,"May 21, 2025 07:38 AM",3600000,,1989000006678175
+Kishor Bhagwat Shinde,Created updated model with SAP data,"Jun 17, 2025 11:13 AM",Kishor Bhagwat Shinde,"Jun 20, 2025 07:14 AM",1989000003847341,"Jun 17, 2025 07:13 AM",14400000,,1989000006860047
+Kishor Bhagwat Shinde,Created updated model with SAP data,"Jun 23, 2025 09:25 AM",Kishor Bhagwat Shinde,"Jun 27, 2025 07:25 AM",1989000003847341,"Jun 23, 2025 07:25 AM",7200000,,1989000006920335
+Kishor Bhagwat Shinde,tested and reconciled the data,"Jun 24, 2025 11:25 AM",Kishor Bhagwat Shinde,"Jun 27, 2025 07:26 AM",1989000003847341,"Jun 24, 2025 07:25 AM",14400000,,1989000006920367
+Kishor Bhagwat Shinde,updated the model and sent it for UAT,"Jun 26, 2025 11:26 AM",Kishor Bhagwat Shinde,"Jun 27, 2025 07:26 AM",1989000003847341,"Jun 26, 2025 07:26 AM",14400000,,1989000006920385
+Bruce Cao,,"Jun 23, 2025 09:26 AM",Bruce Cao,"Jul 1, 2025 05:27 AM",1989000003847341,"Jun 23, 2025 05:26 AM",14400000,,1989000006950474
+Bruce Cao,,"Jun 24, 2025 07:27 AM",Bruce Cao,"Jul 1, 2025 05:27 AM",1989000003847341,"Jun 24, 2025 05:27 AM",7200000,,1989000006950492
+Bruce Cao,,"Jun 25, 2025 07:27 AM",Bruce Cao,"Jul 1, 2025 05:27 AM",1989000003847341,"Jun 25, 2025 05:27 AM",7200000,,1989000006950510
+Bruce Cao,review,"Aug 22, 2025 11:35 AM",Bruce Cao,"Aug 22, 2025 11:36 AM",1989000003847341,"Aug 22, 2025 10:35 AM",3600000,,1989000007309653
+Balan Stephan,The Issue is resolved,"May 6, 2024 10:20 AM",Balan Stephan,"May 6, 2024 07:20 AM",1989000003847289,"May 6, 2024 06:20 AM",14400000,,1989000003882424
+Abhishek Chakraborty,Investigated and sent email to User. As it is&nbsp; a user knowledge issue,"May 2, 2024 09:10 AM",Abhishek Chakraborty,"May 2, 2024 09:12 AM",1989000003847239,"May 2, 2024 07:11 AM",7140000,,1989000003849656
+Abhishek Chakraborty,"Investigated , Needs modification in the filter, Sent email to Business","May 7, 2024 10:44 AM",Abhishek Chakraborty,"May 7, 2024 10:46 AM",1989000003847209,"May 7, 2024 08:44 AM",7200000,,1989000003887165
+Bruce Cao,,"May 2, 2024 06:09 AM",Bruce Cao,"May 2, 2024 05:40 AM",1989000003847035,"May 2, 2024 04:39 AM",5400000,,1989000003850080
+Bruce Cao,Report was re-checked and issue was resolved.,"Apr 29, 2024 08:48 AM",Bruce Cao,"Apr 29, 2024 08:18 AM",1989000003822102,"Apr 29, 2024 08:18 AM",1800000,,1989000003822130
+Shiva Shishodiya,PROD load and data was completed and updated in RDM,"Apr 29, 2024 07:02 AM",Shiva Shishodiya,"Apr 29, 2024 07:02 AM",1989000003815035,"Apr 29, 2024 05:02 AM",7200000,,1989000003816434
+Abhishek Chakraborty,Replied to User explaining the details,"May 9, 2024 10:31 AM",Abhishek Chakraborty,"May 20, 2024 10:32 AM",1989000003804843,"May 8, 2024 10:31 AM",86400000,,1989000003970643
+Bruce Cao,"ALEXANDRA PIAIA
+was added to AP Parked Reports.","Apr 30, 2024 06:04 AM",Bruce Cao,"Apr 30, 2024 05:44 AM",1989000003822686,"Apr 30, 2024 05:44 AM",1200000,,1989000003822712
+Shiva Shishodiya,File Download Issue on BI Report Server is Resolved.,"May 14, 2024 07:20 AM",Shiva Shishodiya,"May 14, 2024 07:22 AM",1989000003804001,"May 14, 2024 06:20 AM",3600000,,1989000003930951
+Bruce Cao,,"Jun 4, 2024 09:49 AM",Bruce Cao,"Jul 4, 2024 09:49 AM",1989000003797583,"Jun 3, 2024 01:49 AM",115200000,,1989000004313479
+Bruce Cao,"updated the source template,
+redirect the path to G drive so users can maintain the CSV by them self
+setup the power BI gateway
+setup the power BI daily refresh job","Jul 4, 2024 01:20 PM",Bruce Cao,"Jul 4, 2024 09:51 AM",1989000003797583,"Jul 4, 2024 08:50 AM",16200000,,1989000004313509
+Abhishek Chakraborty,Prepared Flyers,"Oct 16, 2024 08:30 AM",Abhishek Chakraborty,"Oct 17, 2024 07:30 AM",1989000003797583,"Oct 16, 2024 07:30 AM",3600000,,1989000005148197
+Abhishek Chakraborty,Raised this ticket to move transports. CLosing the same.,"Jul 10, 2024 05:15 PM",Abhishek Chakraborty,"Jul 15, 2024 05:17 PM",1989000003797425,"May 1, 2024 05:17 PM",6047880000,,1989000004399173
+Pratyaya Bhattacharjee,Bulla BI Data type synchronized with Blueshift interface&nbsp;,"Apr 22, 2024 03:06 PM",Pratyaya Bhattacharjee,"Apr 24, 2024 06:07 AM",1989000003780937,"Apr 22, 2024 06:07 AM",32340000,,1989000003803099
+Shiva Shishodiya,,"Apr 30, 2024 08:06 AM",Shiva Shishodiya,"Apr 30, 2024 08:06 AM",1989000003785549,"Apr 30, 2024 04:06 AM",14400000,,1989000003833057
+Bruce Cao,,"Jun 25, 2024 07:17 AM",Bruce Cao,"Jun 25, 2024 07:17 AM",1989000003767519,"Jun 24, 2024 11:17 PM",28800000,,1989000004251130
+Ishan Dua,Assigning to Rahul.,"Apr 15, 2024 06:06 AM",Ishan Dua,"Apr 15, 2024 06:07 AM",1989000003757077,"Apr 15, 2024 06:01 AM",300000,,1989000003761161
+Abhishek Chakraborty,"Performed QAS testin alongside the Inventory dashboard issue.&nbsp;
+
+Closing the ticket now","Jun 27, 2024 09:28 AM",Abhishek Chakraborty,"Jun 27, 2024 09:29 AM",1989000003721161,"Jun 24, 2024 09:28 AM",259200000,,1989000004265470
+Bruce Cao,,"Apr 11, 2024 06:58 AM",Bruce Cao,"Apr 11, 2024 06:58 AM",1989000003735209,"Apr 11, 2024 05:58 AM",3600000,,1989000003733396
+Bruce Cao,Data reconciliated and discrepancies have been removed.,"Apr 11, 2024 06:46 AM",Bruce Cao,"Apr 11, 2024 06:46 AM",1989000003726243,"Apr 11, 2024 04:46 AM",7200000,,1989000003733304
+Ishan Dua,published the VPCM - FRT in BI portal.,"Apr 9, 2024 01:05 PM",Ishan Dua,"Apr 9, 2024 05:11 AM",1989000003718219,"Apr 9, 2024 05:05 AM",28800000,,1989000003722545
+Shiva Shishodiya,Data reconciliation has been performed and table refreshed.,"Apr 12, 2024 09:38 AM",Shiva Shishodiya,"Apr 12, 2024 09:39 AM",1989000003708911,"Apr 12, 2024 05:38 AM",14400000,,1989000003747492
+Bruce Cao,,"May 12, 2025 11:04 AM",Bruce Cao,"May 12, 2025 11:05 AM",1989000003708703,"May 12, 2025 10:04 AM",3600000,,1989000006605209
+Bruce Cao,,"May 13, 2025 08:33 AM",Bruce Cao,"Jul 1, 2025 05:33 AM",1989000003708703,"May 13, 2025 05:33 AM",10800000,,1989000006951808
+Bruce Cao,,"May 14, 2025 07:33 AM",Bruce Cao,"Jul 1, 2025 05:33 AM",1989000003708703,"May 14, 2025 05:33 AM",7200000,,1989000006951826
+Shiva Shishodiya,Initial Draft Crated to ask some questions&nbsp; to user related to some KPI's,"Jul 23, 2024 02:29 PM",Shiva Shishodiya,"Jul 24, 2024 06:40 AM",1989000003708667,"Jul 23, 2024 10:29 AM",14400000,,1989000004450642
+Bruce Cao,,"Aug 5, 2024 04:29 PM",Bruce Cao,"Aug 14, 2024 12:30 PM",1989000003708667,"Aug 5, 2024 12:29 PM",14400000,,1989000004654657
+Bruce Cao,,"Aug 6, 2024 04:30 PM",Bruce Cao,"Aug 14, 2024 12:30 PM",1989000003708667,"Aug 6, 2024 12:30 PM",14400000,,1989000004654673
+Bruce Cao,,"Aug 9, 2024 03:30 PM",Bruce Cao,"Aug 14, 2024 12:31 PM",1989000003708667,"Aug 9, 2024 12:30 PM",10800000,,1989000004654689
+Bruce Cao,,"Aug 12, 2024 05:31 PM",Bruce Cao,"Aug 14, 2024 12:31 PM",1989000003708667,"Aug 12, 2024 12:31 PM",18000000,,1989000004654705
+Bruce Cao,,"Aug 14, 2024 01:31 PM",Bruce Cao,"Aug 14, 2024 12:31 PM",1989000003708667,"Aug 14, 2024 12:31 PM",3600000,,1989000004654721
+Pratyaya Bhattacharjee,,"Apr 9, 2024 01:58 PM",Pratyaya Bhattacharjee,"Apr 9, 2024 01:58 PM",1989000003698501,"Apr 9, 2024 01:48 PM",600000,,1989000003721185
+Shiva Shishodiya,,"May 8, 2024 10:50 AM",Shiva Shishodiya,"May 8, 2024 10:50 AM",1989000003693085,"May 8, 2024 06:50 AM",14400000,,1989000003887701
+Bruce Cao,Required files and updated and SBI_Types are re-checked.,"Apr 2, 2024 04:08 PM",Bruce Cao,"Apr 5, 2024 06:09 AM",1989000003657869,"Apr 2, 2024 06:08 AM",36000000,,1989000003702861
+Bruce Cao,,"Mar 27, 2024 06:14 AM",Bruce Cao,"Mar 27, 2024 05:44 AM",1989000003662033,"Mar 27, 2024 05:44 AM",1800000,,1989000003655243
+Abhishek Chakraborty,Investigated and emailed users.,"Apr 19, 2024 09:13 AM",Abhishek Chakraborty,"May 2, 2024 09:14 AM",1989000003662033,"Apr 16, 2024 09:13 AM",259200000,,1989000003849684
+Bruce Cao,,"Apr 2, 2024 03:06 PM",Bruce Cao,"Apr 19, 2024 08:06 AM",1989000003675269,"Apr 2, 2024 07:06 AM",28800000,,1989000003780743
+Bruce Cao,,"Mar 27, 2024 05:28 AM",Bruce Cao,"Mar 27, 2024 05:28 AM",1989000003657515,"Mar 27, 2024 03:28 AM",7200000,,1989000003655139
+Abhishek Chakraborty,Performed analysis and sent recommendation. Awaiting response from Christine/Tim,"Apr 11, 2024 09:19 AM",Abhishek Chakraborty,"May 2, 2024 09:19 AM",1989000003657515,"Apr 8, 2024 09:19 AM",259200000,,1989000003849730
+Balan Stephan,FRT for Feb has been Loaded and validated.,"Apr 2, 2024 07:39 AM",Balan Stephan,"Apr 2, 2024 07:39 AM",1989000003652216,"Apr 2, 2024 04:39 AM",10800000,,1989000003674621
+Bruce Cao,Data items have been unmarked and remarked.,"Mar 27, 2024 07:42 AM",Bruce Cao,"Mar 27, 2024 07:42 AM",1989000003623760,"Mar 27, 2024 05:42 AM",7200000,,1989000003655305
+Shiva Shishodiya,"Intital Draft - Completed
+Testing Design with SDP Dump - In progress
+Final Design - Aiming to complete by 28th","Mar 27, 2024 02:16 AM",Shiva Shishodiya,"Mar 27, 2024 02:19 AM",1989000003645421,"Mar 27, 2024 12:16 AM",7200000,,1989000003656141
+Shiva Shishodiya,"Intital Draft - Completed
+Testing Design with SDP Dump - Almost complete&nbsp;
+Final Design - Aiming to complete by Today
+
+See Demo Dashboard here -&nbsp;https://app.powerbi.com/groups/me/reports/da9bcd58-5145-4c85-8888-e7e29ea2f376?experience=power","Mar 28, 2024 06:33 AM",Shiva Shishodiya,"Mar 28, 2024 06:33 AM",1989000003645421,"Mar 28, 2024 04:33 AM",7200000,,1989000003665739
+Shiva Shishodiya,"Today&#39;s (2nd-April-24) Target -
+&nbsp;Pull / Select &nbsp;the required Table from SDP&nbsp; - Completed
+&nbsp;Modelling&nbsp; &nbsp;- Completed
+Overview Dashboard - Completed","Apr 2, 2024 11:26 AM",Shiva Shishodiya,"Apr 2, 2024 11:27 AM",1989000003645421,"Apr 2, 2024 10:26 AM",3600000,,1989000003680367
+Ram Addagarla,"Tried to run in safe mode
+check error code
+and user confirmed there is a attribute change in the file","Mar 26, 2024 08:26 AM",Ram Addagarla,"Mar 26, 2024 08:06 AM",1989000003612133,"Mar 26, 2024 08:06 AM",1200000,,1989000003645960
+Kishor Bhagwat Shinde,"Compare the current file structure with old files
+Analysed the column numbers which needs to exclude from report
+Got the confirmation about the Legacy product numbers which needs to exclude from calculation","Mar 27, 2024 11:49 AM",Kishor Bhagwat Shinde,"Mar 27, 2024 11:50 AM",1989000003612133,"Mar 27, 2024 07:50 AM",14340000,,1989000003655591
+Bruce Cao,Run the original cost component comparison report from BI portal and found the result is matching SAP.,"Mar 19, 2024 10:54 AM",Bruce Cao,"Mar 19, 2024 10:25 AM",1989000003601231,"Mar 19, 2024 10:24 AM",1800000,,1989000003602319
+Shiva Shishodiya,Deployed Changes in Prod,"Aug 21, 2024 08:28 AM",Shiva Shishodiya,"Aug 22, 2024 05:59 AM",1989000003575743,"Aug 21, 2024 05:58 AM",9000000,,1989000004735971
+Abhishek Chakraborty,Deployment support for Change,"Aug 19, 2024 01:15 PM",Abhishek Chakraborty,"Aug 23, 2024 11:55 AM",1989000003575743,"Aug 19, 2024 11:45 AM",5400000,,1989000004751313
+Abhishek Chakraborty,Deployment support for change,"Aug 20, 2024 12:55 PM",Abhishek Chakraborty,"Aug 23, 2024 11:55 AM",1989000003575743,"Aug 20, 2024 11:55 AM",3600000,,1989000004751329
+Shiva Shishodiya,PROD Deployment testing and Preparation,"Aug 20, 2024 11:59 AM",Shiva Shishodiya,"Aug 23, 2024 10:00 AM",1989000003575743,"Aug 20, 2024 07:59 AM",14400000,,1989000004752132
+Shiva Shishodiya,"Tested few solutions to pick latest Aria file as due to file naming format , need to select the right logic..","Jul 3, 2024 11:33 AM",Shiva Shishodiya,"Aug 23, 2024 11:34 AM",1989000003575743,"Jul 3, 2024 06:33 AM",18000000,,1989000004752472
+Shiva Shishodiya,Created Package and Tested E2E.,"Jul 4, 2024 11:34 AM",Shiva Shishodiya,"Aug 23, 2024 11:35 AM",1989000003575743,"Jul 4, 2024 09:34 AM",7200000,,1989000004752488
+Shiva Shishodiya,Job created and deployed in Dev and intial Draft of report Created and deployed on Reporting server.,"Jul 5, 2024 11:35 AM",Shiva Shishodiya,"Aug 23, 2024 11:36 AM",1989000003575743,"Jul 5, 2024 08:35 AM",10800000,,1989000004752504
+Ishan Dua,- Assigning to Bruce for further action.,"Mar 8, 2024 05:14 AM",Ishan Dua,"Mar 8, 2024 05:14 AM",1989000003530635,"Mar 8, 2024 05:09 AM",300000,,1989000003540139
+Bruce Cao,Query has been resolved by checking the VCPM.,"Mar 13, 2024 12:33 PM",Bruce Cao,"Mar 13, 2024 09:33 AM",1989000003552185,"Mar 13, 2024 09:33 AM",10800000,,1989000003566277
+Ishan Dua,"- Assigning to BI team.
+&nbsp;refreshed the data now&nbsp;last day of Z2:2027 is&nbsp;&nbsp;04.07.2027&nbsp;in QH1","Mar 8, 2024 06:05 AM",Ishan Dua,"Mar 8, 2024 06:05 AM",1989000003539291,"Mar 8, 2024 06:00 AM",300000,,1989000003540531
+Bruce Cao,,"Jun 24, 2024 07:09 AM",Bruce Cao,"Jun 24, 2024 07:09 AM",1989000003530409,"Jun 23, 2024 11:09 PM",28800000,,1989000004239195
+Abhishek Chakraborty,One time issue. We will open a new ticket if we see the issue again.,"Mar 12, 2024 12:16 AM",Abhishek Chakraborty,"Apr 2, 2024 12:18 AM",1989000003530159,"Mar 8, 2024 12:16 AM",345600000,,1989000003677003
+Shiva Shishodiya,Material and Pricing Detail Added as per Discussion,"Jul 9, 2024 02:09 PM",Shiva Shishodiya,"Jul 10, 2024 11:50 PM",1989000003513881,"Jul 9, 2024 12:09 PM",7200000,,1989000004368013
+Shiva Shishodiya,Supplier Details &amp; Material quantity details included in PIR Report and Refreshed,"Jul 5, 2024 09:38 AM",Shiva Shishodiya,"Jul 11, 2024 12:40 AM",1989000003513881,"Jul 5, 2024 06:38 AM",10800000,,1989000004368029
+Shiva Shishodiya,"Model View&nbsp; Created at melbi1
+&nbsp;SSAS Package Created and Deployed at Melbi2\tabular&nbsp;
+Initial Report Version Created and Deployed to Reporting Server.","Jul 1, 2024 12:41 PM",Shiva Shishodiya,"Jul 11, 2024 12:45 AM",1989000003513881,"Jul 1, 2024 08:41 AM",14400000,,1989000004368057
+Shiva Shishodiya,Requested Refresh is Completed.,"Mar 1, 2024 11:46 AM",Shiva Shishodiya,"Mar 1, 2024 11:47 AM",1989000003478933,"Mar 1, 2024 11:16 AM",1800000,,1989000003493778
+Bruce Cao,Requested Refresh is Completed.,"Mar 1, 2024 05:18 AM",Bruce Cao,"Mar 1, 2024 04:49 AM",1989000003478627,"Mar 1, 2024 04:48 AM",1800000,,1989000003486405
+Kishor Bhagwat Shinde,Changed the color coding of one column in demand review dashboard,"Feb 28, 2024 08:00 AM",Kishor Bhagwat Shinde,"Feb 29, 2024 07:53 AM",1989000003467461,"Feb 28, 2024 07:00 AM",3600000,,1989000003474811
+Sean Davies,,"Oct 7, 2024 03:51 AM",Sean Davies,"Oct 7, 2024 03:51 AM",1989000003467051,"Oct 7, 2024 03:50 AM",60000,,1989000005059249
+Bruce Cao,,"Mar 15, 2024 05:54 AM",Bruce Cao,"Mar 15, 2024 05:54 AM",1989000003451565,"Mar 14, 2024 09:54 PM",28800000,,1989000003575342
+Ishan Dua,"- Assigning to Bruce.
+- Budget files have been uploaded to PROD successfully.","Feb 26, 2024 06:55 AM",Ishan Dua,"Feb 26, 2024 06:55 AM",1989000003451081,"Feb 26, 2024 06:50 AM",300000,,1989000003450769
+Shiva Shishodiya,FRT Files have been updated after Load.,"Feb 27, 2024 07:05 AM",Shiva Shishodiya,"Feb 27, 2024 07:05 AM",1989000003443835,"Feb 27, 2024 05:05 AM",7200000,,1989000003453723
+Abhishek Chakraborty,"Followed up with business. No response , hence we are closing it","Feb 13, 2024 07:13 AM",Abhishek Chakraborty,"May 17, 2024 07:13 AM",1989000003443813,"Feb 12, 2024 07:13 AM",86400000,,1989000003950502
+Balan Stephan,"Checked the issue and found we tried to process manually it is working fine. But when this process using job. 
+It's throwing some unknown error. So, we checked same thing in Prod it already working fine. 
+So, we mapped same as prod.&nbsp;","Mar 26, 2024 11:49 PM",Balan Stephan,"Mar 26, 2024 02:50 PM",1989000003442175,"Mar 26, 2024 02:49 PM",32400000,,1989000003655005
+Shiva Shishodiya,The&nbsp;colour coding has updated in the Dashboard.,"Feb 22, 2024 07:36 AM",Shiva Shishodiya,"Feb 22, 2024 07:36 AM",1989000003432153,"Feb 22, 2024 06:36 AM",3600000,,1989000003436266
+Shiva Shishodiya,&nbsp;Access has been provided to&nbsp;@Ray Barrow,"Feb 23, 2024 07:22 AM",Shiva Shishodiya,"Feb 23, 2024 07:13 AM",1989000003426197,"Feb 23, 2024 07:12 AM",600000,,1989000003442096
+Bruce Cao,Data has been refreshed successfully.,"Feb 19, 2024 06:19 AM",Bruce Cao,"Feb 19, 2024 06:09 AM",1989000003416253,"Feb 19, 2024 06:09 AM",600000,,1989000003417593
+Shiva Shishodiya,The data has been updated in Data Governer.,"Feb 16, 2024 08:39 AM",Shiva Shishodiya,"Feb 16, 2024 08:39 AM",1989000003408177,"Feb 16, 2024 08:09 AM",1800000,,1989000003411333
+Shiva Shishodiya,"1) Archived 25/02 Snapshot data - Completed
+&nbsp;2) Deleted 18/02 snapshot data from Fact table - Completed
+&nbsp;  Delete from fact.[ProductionPlanItemSnapshot]
+
+  where snapshotdate =&#39;2024-02-18 00:00:00.000&#39;
+
+&nbsp;3) Changed the snapshot","Feb 20, 2024 03:32 PM",Shiva Shishodiya,"Feb 20, 2024 03:33 PM",1989000003408833,"Feb 20, 2024 01:32 PM",7200000,,1989000003409769
+Balan Stephan,"Please find
+below the steps for deploying the DIFOT report in the production environment:
+&nbsp;
+1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Backup the Current View:
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;a.&nbsp;&nbsp","May 30, 2024 05:03 PM",Balan Stephan,"May 30, 2024 08:03 AM",1989000003401699,"May 30, 2024 08:03 AM",32400000,,1989000004044428
+Balan Stephan,"1) Abaris Printing &amp; Publishing Co supplier have two or more Order Quantity for some of the purchase order and item No with different PurchaseOrderItem. 
+
+2) From this view (STG.PurchaseHistorySAP) only we got two entries for this supplier.
+
+3) M","Feb 20, 2024 01:21 PM",Balan Stephan,"Jul 12, 2024 11:22 AM",1989000003401699,"Feb 20, 2024 07:21 AM",21600000,,1989000004387079
+Balan Stephan,"1) I have created a new model for purchasehistory to test in DEV.
+2) I'm started the changes 70% completed
+3) I will complete my changes and testing tomorrow 1st half.","Feb 21, 2024 01:24 PM",Balan Stephan,"Jul 12, 2024 11:24 AM",1989000003401699,"Feb 21, 2024 07:24 AM",21600000,,1989000004387095
+Balan Stephan,"I wanted to inform you that the changes have been successfully deployed in the production environment. We have verified the changes on our side. 
+
+Could you please verify the changes on your end as well?
+
+Attached, you will find snapshots of the befo","Jun 6, 2024 02:25 PM",Balan Stephan,"Jul 12, 2024 11:25 AM",1989000003401699,"Jun 6, 2024 07:25 AM",25200000,,1989000004387113
+Shiva Shishodiya,Data Governor Jobs have been run successfully.,"Feb 16, 2024 05:44 AM",Shiva Shishodiya,"Feb 16, 2024 05:44 AM",1989000003401717,"Feb 16, 2024 05:14 AM",1800000,,1989000003411051
+Shiva Shishodiya,Loome jobs were disabled,"Apr 30, 2024 08:15 AM",Shiva Shishodiya,"Apr 30, 2024 08:15 AM",1989000003403441,"Apr 30, 2024 04:15 AM",14400000,,1989000003833141
+Ishan Dua,- Assigning to BI Team,"Feb 15, 2024 07:10 AM",Ishan Dua,"Feb 15, 2024 07:10 AM",1989000003401347,"Feb 15, 2024 07:05 AM",300000,,1989000003405113
+Bruce Cao,"Data reconciliated and Data Governor jobs are run successfully,","Feb 15, 2024 03:57 AM",Bruce Cao,"Feb 15, 2024 03:58 AM",1989000003401111,"Feb 14, 2024 05:57 PM",36000000,,1989000003400093
+Shiva Shishodiya,Error has been resolved and user updated.,"Feb 14, 2024 10:40 AM",Shiva Shishodiya,"Feb 14, 2024 10:40 AM",1989000003392519,"Feb 14, 2024 09:40 AM",3600000,,1989000003395403
+Shrey Patel,"-Reached out to team&nbsp;
+-Reached out to Sankar&nbsp;","Nov 14, 2023 09:41 AM",Shrey Patel,"Nov 14, 2023 09:41 AM",1989000003392471,"Nov 14, 2023 09:36 AM",300000,,1989000002873393
+Shiva Shishodiya,,"Feb 14, 2024 10:45 AM",Shiva Shishodiya,"Feb 14, 2024 10:45 AM",1989000003392471,"Feb 14, 2024 10:15 AM",1800000,,1989000003395449
+Kiran Kumar,The requested refresh is completed.,"Feb 12, 2024 12:16 PM",Kiran Kumar,"Feb 12, 2024 11:17 AM",1989000003381417,"Feb 12, 2024 11:16 AM",3600000,,1989000003374644
+Ishan Dua,- Assigning to Joe.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;,"Feb 9, 2024 05:23 AM",Ishan Dua,"Feb 9, 2024 05:25 AM",1989000003372470,"Feb 9, 2024 05:18 AM",300000,,1989000003372655
+Kishor Bhagwat Shinde,Added the requested changed in Dev dashboard,"Feb 26, 2024 04:35 PM",Kishor Bhagwat Shinde,"Feb 29, 2024 11:35 AM",1989000003372470,"Feb 26, 2024 09:35 AM",25200000,,1989000003482123
+Shiva Shishodiya,All BAU training videos are completed.,"Feb 9, 2024 09:38 PM",BI Team,"Feb 23, 2024 11:39 AM",1989000003369075,"Feb 9, 2024 11:38 AM",36000000,,1989000003442221
+Pratyaya Bhattacharjee,Duplicate ticket,"Feb 8, 2024 05:02 AM",Pratyaya Bhattacharjee,"Feb 9, 2024 04:02 AM",1989000003365049,"Feb 8, 2024 04:02 AM",3600000,,1989000003374003
+Pratyaya Bhattacharjee,Aria data log refresh completed.,"Feb 8, 2024 05:04 AM",Pratyaya Bhattacharjee,"Feb 9, 2024 04:04 AM",1989000003351537,"Feb 8, 2024 04:04 AM",3600000,,1989000003374037
+Shiva Shishodiya,Data Governor jobs are run.&nbsp;The refresh is completed.,"Feb 7, 2024 11:55 AM",Shiva Shishodiya,"Feb 7, 2024 11:56 AM",1989000003336815,"Feb 7, 2024 11:25 AM",1800000,,1989000003354250
+Shiva Shishodiya,Report update issue has been resolved and normal flow has been restored.,"Feb 9, 2024 12:50 PM",Shiva Shishodiya,"Feb 9, 2024 12:50 PM",1989000003336645,"Feb 9, 2024 10:50 AM",7200000,,1989000003369595
+Bruce Cao,"excluded closed PurReq from the report.
+EBAN-EBAKZ &lt;&gt;&#39;X&#39;","Feb 13, 2024 05:43 PM",Bruce Cao,"Feb 13, 2024 09:44 AM",1989000003329507,"Feb 13, 2024 09:43 AM",28800000,,1989000003388019
+Shiva Shishodiya,Problem resolved in FS&amp;Q reports after dicsussion.,"Feb 7, 2024 12:05 PM",Shiva Shishodiya,"Feb 7, 2024 12:07 PM",1989000003336387,"Feb 7, 2024 11:55 AM",600000,,1989000003354290
+Kishor Bhagwat Shinde,SSIS job for Lotus Notes has been enabled and added to Masterdata-Sched1 job,"Feb 5, 2024 12:00 PM",Kishor Bhagwat Shinde,"Feb 14, 2024 07:51 AM",1989000003311811,"Feb 5, 2024 07:00 AM",18000000,,1989000003391516
+Abhishek Chakraborty,Working as per design,"Jan 30, 2024 09:02 AM",Abhishek Chakraborty,"Feb 16, 2024 09:03 AM",1989000003311529,"Jan 24, 2024 09:02 AM",518400000,,1989000003411405
+Shiva Shishodiya,Issue resolved from user end.,"Feb 13, 2024 06:55 AM",Shiva Shishodiya,"Feb 13, 2024 06:55 AM",1989000003311401,"Feb 13, 2024 04:55 AM",7200000,,1989000003382692
+Bruce Cao,Data reconciliation performed and warnings were explained to user.,"Feb 2, 2024 08:56 AM",Bruce Cao,"Feb 8, 2024 07:56 AM",1989000003311355,"Feb 2, 2024 07:56 AM",3600000,,1989000003358421
+Shiva Shishodiya,,"Feb 8, 2024 04:32 PM",Shiva Shishodiya,"Feb 8, 2024 04:32 PM",1989000003311247,"Feb 8, 2024 04:02 PM",1800000,,1989000003364233
+Bruce Cao,Issue was resolved in user's system.,"Jan 31, 2022 08:57 AM",Bruce Cao,"Feb 8, 2024 07:57 AM",1989000003303789,"Jan 31, 2022 07:57 AM",3600000,,1989000003358455
+Abhishek Chakraborty,"Made the changes, cutover done","May 16, 2024 06:11 PM",Abhishek Chakraborty,"May 24, 2024 06:12 PM",1989000003303687,"May 1, 2024 06:11 PM",1296000000,,1989000004010390
+Kishor Bhagwat Shinde,deleted old trace files from Melbi5,"Jan 29, 2024 10:15 AM",Kishor Bhagwat Shinde,"Jan 30, 2024 10:15 AM",1989000003296453,"Jan 29, 2024 09:15 AM",3600000,,1989000003290439
+Shiva Shishodiya,Updated staging layer to bring the following tables from SAP.,"Jan 30, 2024 09:39 PM",Shiva Shishodiya,"Jan 30, 2024 07:41 PM",1989000003299207,"Jan 30, 2024 07:37 PM",7320000,,1989000003301552
+Shiva Shishodiya,"Action items and their status for Bom.
+Initial Draft &nbsp;- Completed.
+
+Modify logic and Validate. - In Progress ( Validating whether the Correct hierarchy is formed or not.)&nbsp; ETA - 08 - Mar
+
+Include Flag Columns (Assemble, Phantom, etc). - In","Mar 7, 2024 04:00 PM",Shiva Shishodiya,"Mar 8, 2024 01:16 PM",1989000003296267,"Mar 7, 2024 12:00 PM",14400000,,1989000003547143
+Shiva Shishodiya,"Initial Design discussed and Created.
+See the below Link for Reference.
+
+BOM Design.png","Mar 8, 2024 01:25 PM",Shiva Shishodiya,"Mar 8, 2024 01:29 PM",1989000003296267,"Mar 8, 2024 11:25 AM",7200000,,1989000003547175
+Shiva Shishodiya,"Initial Draft &nbsp;- Completed.
+Modify logic and Validate. - Completed&nbsp;( Validating whether the Correct hierarchy is formed or not.)&nbsp; ETA - 08 - Mar
+Include Flag Columns (Assemble, Phantom, etc). - Completed&nbsp;(Columns included, logic n","Mar 12, 2024 05:50 AM",Shiva Shishodiya,"Mar 12, 2024 05:52 AM",1989000003296267,"Mar 12, 2024 01:50 AM",14400000,,1989000003549795
+Bruce Cao,,"Apr 3, 2024 06:28 PM",Bruce Cao,"May 1, 2024 07:29 AM",1989000003296267,"Apr 1, 2024 06:28 AM",216000000,,1989000003839300
+Bruce Cao,,"Apr 23, 2024 11:30 PM",Bruce Cao,"May 1, 2024 07:30 AM",1989000003296267,"Apr 22, 2024 07:30 AM",144000000,,1989000003839314
+Kishor Bhagwat Shinde,Uploaded FRT data in Dev as well as in Prod after Tim&#39;s confirmation,"Jan 25, 2024 10:30 AM",Kishor Bhagwat Shinde,"Jan 29, 2024 07:42 AM",1989000003273885,"Jan 25, 2024 07:00 AM",12600000,,1989000003293350
+Shiva Shishodiya,Please review the same at your end and let us know in case of any issues.,"Jan 23, 2024 07:38 AM",Shiva Shishodiya,"Jan 23, 2024 07:38 AM",1989000003262249,"Jan 23, 2024 07:08 AM",1800000,,1989000003267123
+Nirav Khatri,"Checked user account - ok
+ping melbi5 server - ok","Jan 29, 2024 04:52 AM",Nirav Khatri,"Jan 29, 2024 04:52 AM",1989000003288275,"Jan 29, 2024 04:47 AM",300000,,1989000003289205
+Shiva Shishodiya,,"Feb 8, 2024 04:27 PM",Shiva Shishodiya,"Feb 8, 2024 04:27 PM",1989000003288045,"Feb 8, 2024 04:17 PM",600000,,1989000003364191
+Kishor Bhagwat Shinde,Data in source file has been rectified,"Jan 24, 2024 09:00 AM",Kishor Bhagwat Shinde,"Jan 30, 2024 10:18 AM",1989000003262159,"Jan 24, 2024 07:00 AM",7200000,,1989000003290477
+Shiva Shishodiya,Requested refresh is completed and data has been reconciliated.,"Jan 19, 2024 02:00 PM",Shiva Shishodiya,"Jan 22, 2024 02:00 PM",1989000003249005,"Jan 19, 2024 01:00 PM",3600000,,1989000003258511
+Shiva Shishodiya,Data governor job was run and discrepancies were resolved.,"Feb 1, 2024 08:54 AM",Shiva Shishodiya,"Feb 1, 2024 08:56 AM",1989000003231425,"Feb 1, 2024 08:49 AM",300000,,1989000003310775
+Shiva Shishodiya,,"Jan 19, 2024 05:10 PM",Shiva Shishodiya,"Feb 1, 2024 09:25 AM",1989000003231425,"Jan 19, 2024 05:00 PM",600000,,1989000003310795
+Abhishek Chakraborty,"1. Added Refresh Time
+2. Implemented change to include POs and removing deliveries already delivered.","Jan 24, 2024 10:39 AM",Abhishek Chakraborty,"Jan 24, 2024 10:40 AM",1989000003223223,"Jan 18, 2024 10:39 AM",518400000,,1989000003276958
+Shiva Shishodiya,,"May 17, 2024 09:59 AM",Shiva Shishodiya,"May 17, 2024 09:59 AM",1989000003232654,"May 16, 2024 11:59 PM",36000000,,1989000003950632
+Shiva Shishodiya,Ticket has been created and team has been updated.,"Jan 17, 2024 08:27 AM",Shiva Shishodiya,"Jan 17, 2024 08:28 AM",1989000003217505,"Jan 17, 2024 07:27 AM",3600000,,1989000003226729
+Bruce Cao,"Meeting preparation
+PPT creation","Aug 29, 2024 10:52 AM",Bruce Cao,"Aug 29, 2024 10:53 AM",1989000003206499,"Aug 29, 2024 07:52 AM",10800000,,1989000004790117
+Bruce Cao,Meeting and solution design,"Sep 3, 2024 03:46 PM",Bruce Cao,"Sep 4, 2024 10:46 AM",1989000003206499,"Sep 3, 2024 10:46 AM",18000000,,1989000004839460
+Bruce Cao,Prototype,"Sep 5, 2024 11:05 AM",Bruce Cao,"Sep 6, 2024 06:05 AM",1989000003206499,"Sep 5, 2024 06:05 AM",18000000,,1989000004855329
+Bruce Cao,Design,"Sep 10, 2024 09:45 AM",Bruce Cao,"Sep 11, 2024 04:45 AM",1989000003206499,"Sep 10, 2024 04:45 AM",18000000,,1989000004886280
+Bruce Cao,Design,"Sep 6, 2024 08:46 AM",Bruce Cao,"Sep 11, 2024 04:46 AM",1989000003206499,"Sep 6, 2024 04:46 AM",14400000,,1989000004886298
+Bruce Cao,,"Sep 11, 2024 12:09 PM",Bruce Cao,"Sep 11, 2024 12:09 PM",1989000003206499,"Sep 11, 2024 10:09 AM",7200000,,1989000004886764
+Jayasudha Anand,Analysis,"Sep 20, 2024 04:20 PM",Jayasudha Anand,"Sep 20, 2024 04:20 PM",1989000003206499,"Sep 20, 2024 08:20 AM",28800000,,1989000004966059
+Jayasudha Anand,analysis,"Sep 20, 2024 04:20 PM",Jayasudha Anand,"Sep 20, 2024 04:21 PM",1989000003206499,"Sep 20, 2024 12:20 PM",14400000,,1989000004966073
+Bruce Cao,,"Sep 20, 2024 11:50 AM",Bruce Cao,"Sep 23, 2024 05:50 AM",1989000003206499,"Sep 20, 2024 05:50 AM",21600000,,1989000004966246
+Jayasudha Anand,,"Sep 26, 2024 03:21 PM",Jayasudha Anand,"Sep 26, 2024 03:21 PM",1989000003206499,"Sep 26, 2024 09:21 AM",21600000,,1989000005001733
+Jayasudha Anand,,"Sep 23, 2024 03:21 PM",Jayasudha Anand,"Sep 26, 2024 03:21 PM",1989000003206499,"Sep 23, 2024 09:21 AM",21600000,,1989000005001745
+Jayasudha Anand,,"Sep 26, 2024 03:22 PM",Jayasudha Anand,"Sep 26, 2024 03:22 PM",1989000003206499,"Sep 26, 2024 09:22 AM",21600000,,1989000005001757
+Jayasudha Anand,,"Sep 26, 2024 03:22 PM",Jayasudha Anand,"Sep 26, 2024 03:22 PM",1989000003206499,"Sep 26, 2024 09:22 AM",21600000,,1989000005001769
+Jayasudha Anand,,"Oct 1, 2024 08:18 PM",Jayasudha Anand,"Oct 4, 2024 08:18 PM",1989000003206499,"Oct 1, 2024 12:18 PM",28800000,,1989000005051055
+Jayasudha Anand,,"Oct 1, 2024 04:18 AM",Jayasudha Anand,"Oct 4, 2024 08:18 PM",1989000003206499,"Sep 30, 2024 08:18 PM",28800000,,1989000005051067
+Jayasudha Anand,,"Oct 25, 2024 01:20 AM",Jayasudha Anand,"Oct 25, 2024 05:21 PM",1989000003206499,"Oct 24, 2024 05:20 PM",28800000,,1989000005220001
+Jayasudha Anand,,"Oct 25, 2024 06:21 PM",Jayasudha Anand,"Oct 25, 2024 05:21 PM",1989000003206499,"Oct 25, 2024 10:21 AM",28800000,,1989000005220013
+Jayasudha Anand,,"Oct 28, 2024 09:08 PM",Jayasudha Anand,"Oct 30, 2024 01:09 PM",1989000003206499,"Oct 28, 2024 01:08 PM",28800000,,1989000005245987
+Jayasudha Anand,,"Oct 29, 2024 07:09 PM",Jayasudha Anand,"Oct 30, 2024 01:09 PM",1989000003206499,"Oct 29, 2024 01:09 PM",21600000,,1989000005245999
+Jayasudha Anand,,"Oct 30, 2024 07:09 PM",Jayasudha Anand,"Oct 30, 2024 01:10 PM",1989000003206499,"Oct 30, 2024 01:09 PM",21600000,,1989000005250011
+Jayasudha Anand,,"Nov 4, 2024 04:02 PM",Jayasudha Anand,"Nov 11, 2024 08:02 AM",1989000003206499,"Nov 4, 2024 08:02 AM",28800000,,1989000005307828
+Jayasudha Anand,,"Nov 6, 2024 04:02 PM",Jayasudha Anand,"Nov 11, 2024 08:02 AM",1989000003206499,"Nov 6, 2024 08:02 AM",28800000,,1989000005307840
+Jayasudha Anand,,"Nov 7, 2024 04:02 PM",Jayasudha Anand,"Nov 11, 2024 08:03 AM",1989000003206499,"Nov 7, 2024 08:02 AM",28800000,,1989000005307852
+Jayasudha Anand,,"Nov 8, 2024 04:03 PM",Jayasudha Anand,"Nov 11, 2024 08:03 AM",1989000003206499,"Nov 8, 2024 08:03 AM",28800000,,1989000005307864
+Jayasudha Anand,,"Nov 11, 2024 09:24 PM",Jayasudha Anand,"Nov 26, 2024 01:24 PM",1989000003206499,"Nov 11, 2024 01:24 PM",28800000,,1989000005422435
+Jayasudha Anand,,"Nov 12, 2024 09:25 PM",Jayasudha Anand,"Nov 26, 2024 01:25 PM",1989000003206499,"Nov 12, 2024 01:25 PM",28800000,,1989000005422447
+Jayasudha Anand,,"Dec 16, 2024 08:32 PM",Jayasudha Anand,"Dec 20, 2024 12:33 PM",1989000003206499,"Dec 16, 2024 12:32 PM",28800000,,1989000005593653
+Jayasudha Anand,,"Dec 17, 2024 08:33 PM",Jayasudha Anand,"Dec 20, 2024 12:34 PM",1989000003206499,"Dec 17, 2024 12:33 PM",28800000,,1989000005593665
+Jayasudha Anand,,"Dec 19, 2024 08:37 PM",Jayasudha Anand,"Dec 20, 2024 12:37 PM",1989000003206499,"Dec 19, 2024 12:37 PM",28800000,,1989000005593677
+Jayasudha Anand,,"Dec 20, 2024 02:38 PM",Jayasudha Anand,"Dec 20, 2024 12:38 PM",1989000003206499,"Dec 20, 2024 06:38 AM",28800000,,1989000005593689
+Jayasudha Anand,,"Dec 12, 2024 08:46 PM",Jayasudha Anand,"Dec 20, 2024 12:46 PM",1989000003206499,"Dec 12, 2024 12:46 PM",28800000,,1989000005593801
+Jayasudha Anand,,"Dec 13, 2024 08:46 PM",Jayasudha Anand,"Dec 20, 2024 12:46 PM",1989000003206499,"Dec 13, 2024 12:46 PM",28800000,,1989000005593813
+Bruce Cao,,"Mar 31, 2025 11:30 AM",Bruce Cao,"Apr 10, 2025 07:15 AM",1989000003206499,"Mar 31, 2025 03:30 AM",28800000,,1989000006388287
+Bruce Cao,,"Apr 1, 2025 02:15 PM",Bruce Cao,"Apr 10, 2025 07:15 AM",1989000003206499,"Apr 1, 2025 06:15 AM",28800000,,1989000006388301
+Bruce Cao,,"Apr 2, 2025 02:15 PM",Bruce Cao,"Apr 10, 2025 07:15 AM",1989000003206499,"Apr 2, 2025 06:15 AM",28800000,,1989000006388315
+Bruce Cao,,"Apr 3, 2025 02:15 PM",Bruce Cao,"Apr 10, 2025 07:16 AM",1989000003206499,"Apr 3, 2025 06:15 AM",28800000,,1989000006388329
+Bruce Cao,,"Apr 4, 2025 09:16 AM",Bruce Cao,"Apr 10, 2025 07:16 AM",1989000003206499,"Apr 4, 2025 06:16 AM",10800000,,1989000006388343
+Bruce Cao,,"Apr 7, 2025 12:16 PM",Bruce Cao,"Apr 10, 2025 07:16 AM",1989000003206499,"Apr 7, 2025 07:16 AM",18000000,,1989000006388357
+Bruce Cao,,"Apr 8, 2025 12:16 PM",Bruce Cao,"Apr 10, 2025 07:16 AM",1989000003206499,"Apr 8, 2025 07:16 AM",18000000,,1989000006388371
+Bruce Cao,,"Apr 9, 2025 12:17 PM",Bruce Cao,"Apr 10, 2025 07:17 AM",1989000003206499,"Apr 9, 2025 07:17 AM",18000000,,1989000006388385
+Bruce Cao,,"Apr 10, 2025 01:59 PM",Bruce Cao,"Jul 1, 2025 05:59 AM",1989000003206499,"Apr 10, 2025 05:59 AM",28800000,,1989000006955097
+Bruce Cao,,"Apr 14, 2025 11:59 AM",Bruce Cao,"Jul 1, 2025 05:59 AM",1989000003206499,"Apr 14, 2025 05:59 AM",21600000,,1989000006955115
+Bruce Cao,,"Apr 15, 2025 12:59 PM",Bruce Cao,"Jul 1, 2025 06:00 AM",1989000003206499,"Apr 15, 2025 06:00 AM",25140000,,1989000006955133
+Bruce Cao,,"Apr 16, 2025 10:00 AM",Bruce Cao,"Jul 1, 2025 06:00 AM",1989000003206499,"Apr 16, 2025 06:00 AM",14400000,,1989000006955151
+Bruce Cao,,"Apr 17, 2025 10:01 AM",Bruce Cao,"Jul 1, 2025 06:01 AM",1989000003206499,"Apr 17, 2025 06:01 AM",14400000,,1989000006955228
+Bruce Cao,,"Apr 18, 2025 10:01 AM",Bruce Cao,"Jul 1, 2025 06:02 AM",1989000003206499,"Apr 18, 2025 06:01 AM",14400000,,1989000006955264
+Bruce Cao,"i.e. Sales order
+230436 was issued on 02.01.2024, but it was invoiced on 08.01.2024, as a
+result, same order falls in two different week.","Jan 17, 2024 10:43 AM",Bruce Cao,"Feb 1, 2024 07:44 AM",1989000003192385,"Jan 17, 2024 07:43 AM",10800000,,1989000003299719
+Nirav Khatri,"Uninstalled and re-installed new version of SAP and restart but same issue.
+User didn&#39;t have access before as well, Jas checked and he doesn&#39;t have role assigned.
+Need Manager&#39;s approval send for it...","Jan 16, 2024 05:52 AM",Nirav Khatri,"Jan 16, 2024 05:54 AM",1989000003206861,"Jan 16, 2024 05:32 AM",1200000,,1989000003211963
+Nirav Khatri,Installed Temple 9.7 for Excel tried to run the report but got error about connection.,"Jan 18, 2024 05:09 AM",Nirav Khatri,"Jan 18, 2024 05:10 AM",1989000003206861,"Jan 18, 2024 04:49 AM",1200000,,1989000003229413
+Kishor Bhagwat Shinde,Rectified calendar table,"Jan 11, 2024 10:00 AM",Kishor Bhagwat Shinde,"Jan 12, 2024 08:50 AM",1989000003185007,"Jan 11, 2024 09:00 AM",3600000,,1989000003195581
+Kishor Bhagwat Shinde,Edit access has been provided to user,"Jan 19, 2024 11:30 AM",Kishor Bhagwat Shinde,"Jan 30, 2024 10:14 AM",1989000003165057,"Jan 19, 2024 10:00 AM",5400000,,1989000003290393
+Bruce Cao,Cost component is updated.,"Jan 10, 2024 08:58 AM",Bruce Cao,"Feb 8, 2024 07:58 AM",1989000003160895,"Jan 10, 2024 07:58 AM",3600000,,1989000003358483
+Shiva Shishodiya,Done and validated in the Dev Environment.,"Feb 5, 2024 05:30 AM",Shiva Shishodiya,"Feb 5, 2024 05:31 AM",1989000003160467,"Feb 5, 2024 01:30 AM",14400000,,1989000003331269

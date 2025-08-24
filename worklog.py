@@ -1,91 +1,176 @@
 import requests
-import pandas as pd
-from datetime import datetime
+import concurrent.futures
+import csv
+import json
 
-ACCESS_TOKEN = "YOUR_ACCESS_TOKEN"  # must include SDPOnDemand.tasks.READ and SDPOnDemand.worklogs.READ
-BASE = "https://servicedesk.regalcream.com.au/app/itdesk/api/v3"
-HEADERS = {"Authorization": f"Zoho-oauthtoken {ACCESS_TOKEN}",
-           "Accept": "application/vnd.manageengine.v3+json"}
+# Replace with your actual Zoho OAuth access token
+access_token = "1000.4e8e1e2dc207bedb803f387ef1142e05.4037e4c1ec77fc5380ba60badfd71dfd"
+REQUEST_IDS_FILE = 'sdp_requests_latest.csv'   # Input file containing request IDs
+OUTPUT_FILE = 'worklogs.csv'                   # Final output
 
-src_csv = "sdp_requests_latest.csv"
-df = pd.read_csv(src_csv)
+BASE_URL = "https://servicedeskplus.net.au/app/itdesk/api/v3/requests"
 
-# Detect column names
-task_col = "task_id" if "task_id" in df.columns else ("TaskID" if "TaskID" in df.columns else None)
-req_col  = "request_id" if "request_id" in df.columns else ("RequestID" if "RequestID" in df.columns else None)
-if not task_col:
-    raise ValueError("CSV must contain a 'task_id' or 'TaskID' column.")
+def read_request_ids_from_csv(filename):
+    """ Reads request IDs from CSV (assumed first column). """
+    request_ids = []
+    try:
+        with open(filename, mode='r', newline='', encoding='utf-8') as csvfile:
+            reader = csv.reader(csvfile)
+            next(reader, None)  # skip header
+            for row in reader:
+                if row and row[0].isdigit():
+                    request_ids.append(int(row[0]))
+    except FileNotFoundError:
+        print(f"Error: The file '{filename}' was not found.")
+    except Exception as e:
+        print(f"CSV read error: {e}")
+    return request_ids
 
-# Map task -> request (for fallback)
-task_to_req = {}
-if req_col:
-    for _, r in df[[task_col, req_col]].iterrows():
-        t = r.get(task_col)
-        q = r.get(req_col)
-        if pd.notna(t):
-            task_to_req[str(int(t))] = str(int(q)) if pd.notna(q) else None
 
-unique_tasks = sorted({str(int(t)) for t in df[task_col].dropna()})
-
-rows = []
-for t in unique_tasks:
-    # 1) Try task-only endpoint
-    url = f"{BASE}/tasks/{t}/worklogs"
-    resp = requests.get(url, headers=HEADERS)
-
-    # 2) Fallback to request+task if non-200 and we have request_id
-    if resp.status_code != 200 and req_col:
-        req_id = task_to_req.get(t)
-        if req_id:
-            url = f"{BASE}/requests/{req_id}/tasks/{t}/worklogs"
-            resp = requests.get(url, headers=HEADERS)
-
-    if resp.status_code != 200:
-        print(f"skip task {t}: {resp.status_code}")
-        continue
-
-    data = resp.json()
-    worklogs = data.get("worklogs", [])
-    for wl in worklogs:
-        # time_spent can be dict or "HH:MM"
-        ts = wl.get("time_spent")
-        hrs = mins = None
-        ts_str = None
-        if isinstance(ts, dict):
-            hrs = ts.get("hours")
-            mins = ts.get("minutes")
-            ts_str = f"{hrs}:{int(mins):02d}" if hrs is not None and mins is not None else None
-        elif isinstance(ts, str) and ":" in ts:
-            hh, mm = ts.split(":", 1)
-            ts_str = ts
-            hrs = int(hh) if hh.isdigit() else None
-            mins = int(mm) if mm.isdigit() else None
-        else:
-            ts_str = ts  # leave as-is
-
-        row = {
-            "TaskID": t,
-            "WorklogID": wl.get("id"),
-            "WorklogType": wl.get("worklog_type", {}).get("name") if isinstance(wl.get("worklog_type"), dict) else wl.get("worklog_type"),
-            "StartTime": wl.get("start_time"),
-            "EndTime": wl.get("end_time"),
-            "TimeSpent": ts_str,
-            "Description": wl.get("description"),
-            "IncludeNonOperationalHours": wl.get("include_non_operational_hours", wl.get("include_nonoperational_hours")),
-            "OtherCharges": wl.get("other_charges", wl.get("additional_cost")),
-            "CreatedBy": wl.get("created_by", {}).get("name") if isinstance(wl.get("created_by"), dict) else wl.get("created_by"),
-            "Owner": wl.get("owner", {}).get("name") if isinstance(wl.get("owner"), dict) else wl.get("owner"),
-            "LoadDateTime": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            "time_spent_hours": hrs,
-            "time_spent_minutes": mins
+def fetch_and_process_worklogs(request_id):
+    try:
+        url = f"{BASE_URL}/{request_id}/worklogs"
+        headers = {
+            "Accept": "application/vnd.manageengine.sdp.v3+json",
+            "Authorization": f"Zoho-oauthtoken {access_token}",
+            "Content-Type": "application/x-www-form-urlencoded"
         }
-        rows.append(row)
+        params = {
+            "input_data": json.dumps({
+                "list_info": {
+                    "row_count": "100",
+                    "start_index": "1",
+                    "sort_field": "created_time",
+                    "sort_order": "desc"
+                }
+            })
+        }
 
-# Save
-out_cols = [
-    "TaskID","WorklogID","WorklogType","StartTime","EndTime","TimeSpent",
-    "Description","IncludeNonOperationalHours","OtherCharges","CreatedBy",
-    "Owner","LoadDateTime","time_spent_hours","time_spent_minutes"
-]
-pd.DataFrame(rows, columns=out_cols).to_csv("sdp_task_worklogs.csv", index=False, encoding="utf-8-sig")
-print(f"Saved {len(rows)} worklogs -> sdp_task_worklogs.csv")
+        response = requests.get(url, headers=headers, params=params)
+        response.raise_for_status()
+        data = response.json()
+
+        # Debug: print the structure of response for strange cases
+        if not isinstance(data, dict):
+            print(f"API for request {request_id} did not return a dict: {type(data)}, value:\n{data}")
+            return []
+
+        worklogs = data.get("worklogs", [])
+        if not isinstance(worklogs, list):
+            print(f"Worklogs for {request_id} is not a list: {type(worklogs)}\n{worklogs}")
+            return []
+
+        processed = []
+        for wl in worklogs:
+            if not isinstance(wl, dict):
+                print(f"Worklog for request {request_id} is not a dict:\n{wl}")
+                continue
+            flat = {
+                "request_id": request_id,
+                "worklog_id": wl.get("id"),
+                "description": wl.get("description"),
+                "owner_name": wl.get("owner", {}).get("name"),
+                "start_time": wl.get("start_time", {}).get("display_value"),
+                "end_time": wl.get("end_time", {}).get("display_value"),
+                "time_spent": wl.get("time_spent", {}).get("value"),
+                "total_charge": wl.get("total_charge", {}).get("value"),
+                "created_by": wl.get("created_by", {}).get("name"),
+                "recorded_time": wl.get("recorded_time", {}).get("display_value"),
+            }
+            processed.append(flat)
+
+        print(f"✓ Worklogs fetched for request {request_id}: {len(processed)} records")
+        return processed
+
+    except requests.exceptions.HTTPError as e:
+        print(f"❌ HTTP error for {request_id}: {e.response.status_code} - {e.response.text}")
+    except Exception as ex:
+        print(f"❌ Unexpected error for {request_id}: {ex}")
+    return []
+
+    """ Fetch worklogs for a single request ID. """
+    try:
+        url = f"{BASE_URL}/{request_id}/worklogs"
+        headers = {
+            "Accept": "application/vnd.manageengine.sdp.v3+json",
+            "Authorization": f"Zoho-oauthtoken {access_token}",
+            "Content-Type": "application/x-www-form-urlencoded"
+        }
+        params = {
+            "input_data": json.dumps({
+                "list_info": {
+                    "row_count": "100",  # up to 100 per call
+                    "start_index": "1",  # API pagination starts at 1
+                    "sort_field": "created_time",
+                    "sort_order": "desc"
+                }
+            })
+        }
+
+        response = requests.get(url, headers=headers, params=params)
+        response.raise_for_status()
+        data = response.json()
+
+        if data.get("response_status", {}).get("status") != "success":
+            print(f"API returned error for request {request_id}: {data}")
+            return []
+
+        worklogs = data.get("worklogs", [])
+        
+        processed = []
+        for wl in worklogs:
+            flat = {
+                "request_id": request_id,
+                "worklog_id": wl.get("id"),
+                "description": wl.get("description"),
+                "owner_name": wl.get("owner", {}).get("name"),
+                "start_time": wl.get("start_time", {}).get("display_value"),
+                "end_time": wl.get("end_time", {}).get("display_value"),
+                "time_spent": wl.get("time_spent", {}).get("value"),
+                "total_charge": wl.get("total_charge", {}).get("value"),
+                "created_by": wl.get("created_by", {}).get("name"),
+                "recorded_time": wl.get("recorded_time", {}).get("display_value"),
+            }
+            processed.append(flat)
+
+        print(f"✓ Worklogs fetched for request {request_id}: {len(processed)} records")
+        return processed
+
+    except requests.exceptions.HTTPError as e:
+        print(f"❌ HTTP error for {request_id}: {e.response.status_code} - {e.response.text}")
+    except Exception as ex:
+        print(f"❌ Unexpected error for {request_id}: {ex}")
+    return []
+
+
+def write_to_csv(data, filename):
+    """ Write JSON list[dict] to CSV flat file. """
+    if not data:
+        print("⚠ No worklog data to write.")
+        return
+
+    headers = sorted({key for d in data for key in d.keys()})
+
+    with open(filename, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=headers)
+        writer.writeheader()
+        writer.writerows(data)
+
+    print(f"✅ Wrote {len(data)} worklogs into {filename}")
+
+
+if __name__ == "__main__":
+    request_ids = read_request_ids_from_csv(REQUEST_IDS_FILE)
+
+    if not request_ids:
+        print("No request IDs found to fetch. Exiting.")
+    else:
+        all_worklogs = []
+        with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+            futures = [executor.submit(fetch_and_process_worklogs, rid) for rid in request_ids]
+            for future in concurrent.futures.as_completed(futures):
+                result = future.result()
+                if result:
+                    all_worklogs.extend(result)
+
+        write_to_csv(all_worklogs, OUTPUT_FILE)
